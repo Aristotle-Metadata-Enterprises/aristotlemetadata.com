@@ -1,0 +1,50 @@
+permalink: blog/:categories/:year/:month/:slug.html
+gems:
+  - jekyll-sitemap
+
+
+navigation:
+  - title: Pricing
+    url: /cloud.html
+  - title: Case Studies
+    url: /case_studies
+  - title: Features
+    url: /features
+#    submenu:
+#      - title: Features
+#        url: /features
+#      - title: Enterprise Community
+#        url: /enterprise
+#      - title: Cloud Hosting
+#        url: /cloud
+#      - title: Consulting
+#        url: /contact
+#      - title: Customer portal
+#        url: /portal/login.html
+#   - title: Community
+#     url: /community
+  - title: Blog
+    url: /blog/
+  - title: About
+    url: /about
+
+
+authors:
+  sam:
+    display_name: Sam Spencer
+    short_name: Sam
+    headshot: /aristotle/images/people/legostormtroopr.md.png
+    email: sam@aristotlemetadata.com
+    web: http://www.kidstrythisathome.com/
+    twitter: legostormtroopr
+    github: legostormtroopr
+    short_about: >
+        Lead developer and community manager, Sam is the lead architect behind Aristotle.
+  larrn:
+    display_name: Lauren Eickhorst
+    short_name: Lauren
+    headshot: /aristotle/images/people/larrn.md.png
+    email: lauren@aristotlemetadata.com
+    github: larrn
+    short_about: >
+        Sales and communications coordinator.

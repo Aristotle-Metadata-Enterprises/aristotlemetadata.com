@@ -1,0 +1,36 @@
+#cloud-pricing tfoot td {
+  text-align:center;
+  font-weight:bold;
+}
+
+#cloud-pricing .fa.fa-times {
+  color: #999;
+}
+
+#cloud-pricing thead  th {
+  text-align:center;
+}
+#cloud-pricing thead tr:nth-child(2) td {
+  border-top: none;
+}
+
+#cloud-pricing *[colspan='2'],
+#cloud-pricing td:nth-child(3),
+#cloud-pricing th:nth-child(3)
+{
+  border-right:1px solid #ddd;
+}
+
+#cloud-pricing tr *[colspan='3'] {
+  border-right:none;
+}
+
+.disclaimer {
+  padding-top:15px;
+  color:#999;
+}
+
+.faq h2.title.askbelow {
+  padding-top:30px;
+  margin-bottom:0px;
+}

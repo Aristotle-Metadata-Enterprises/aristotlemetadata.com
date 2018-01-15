@@ -1,0 +1,18 @@
+{% include html_head.html %}
+
+<body class="{% if page.body_class.empty %}home-page{% else %}{{page.body_class}}{% endif %}">
+    {% include header.html %}
+
+    {{ content }} 
+    
+    {% include footer.html %}
+    {% include footer_scripts.html %}
+
+    {{ page.footer_scripts }}
+    <script type="text/javascript" src="/assets/js/main.js"></script>
+    {% include vimeo.html %}
+
+    {% include ga.html %}
+
+</body>
+</html>

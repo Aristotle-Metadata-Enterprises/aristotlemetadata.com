@@ -1,0 +1,102 @@
+---
+layout: basic
+title: Our community
+footer_scripts: >
+    <!-- contact page specific js starts -->
+    <script type="text/javascript" src="assets/plugins/jquery.validate.min.js"></script>       
+    <script type="text/javascript" src="//maps.google.com/maps/api/js?key=AIzaSyDHgaPukK9uqRKBiFJTtDXLWLCWZQq2ZPg"></script> 
+    <script type="text/javascript" src="assets/plugins/gmaps/gmaps.js"></script> 
+    <script type="text/javascript" src="assets/js/contact.js"></script>  
+    <script type="text/javascript" src="assets/js/map.js"></script>
+    <!-- contact page specific js ends-->  
+
+---
+
+    <div class="headline-bg community-headline-bg">
+    </div><!--//headline-bg-->
+
+    
+    <!-- ******Contact Section****** --> 
+    <section class="contact-section section section-on-bg">
+        <div class="container">
+            <h2 class="title text-center">Our community</h2>
+            <p class="intro text-center">a.k.a. our greatest feature!</p>
+            <div class="contact-form">
+                <div class="row text-center">
+                    <div class="contact-form-inner col-md-8 col-sm-12 col-xs-12 col-md-offset-2 col-sm-offset-0 xs-offset-0">
+                        <div class="row">
+                            <p>
+                            One of the stand out features of the Aristotle Metadata Registry is that we are building a growing community of 
+                            developers, translators, writers and quality assurers all who love and support 
+                            open source software and are passionate about building systems that <em>make data make sense</em>.
+                            </p>
+                            <h3>And we want you to join us!</h3>
+                            <p>
+                            We've gone out of our way to make sure that Aristotle is free, open
+                            <sup><a href="#we-are-so-open-you-can-fork-this-site">&Dagger;</a></sup>
+                            and easy to use, install and develop because
+                            we believe that to make a system that truly supports an open standard requires an open source solution.
+                            </p>
+                        </div><!--//row -->
+                    </div>
+                </div><!--//row-->
+                <div id="form-messages"></div>
+            </div><!--//contact-form-->
+        </div><!--//container-->
+    </section><!--//contact-section-->
+    
+    <!-- ******Other Contact Section****** --> 
+    <section class="contact-other-section section">
+        <div class="container text-center">
+            <h2 class="title">Join in and help make history!</h2>
+            <p class="intro">
+                <a href="http://github.com/aristotle-mdr/aristotle-metadata-registry">All our code is hosted on Github</a>
+                and we've done everything we can to make it easy to start developing new extensions,
+                adding new translations or reviewing documentation.
+                Just like the parable of stone soup, every little bit counts, so it doesn't matter if you are a veteran in your field,
+                starting out or somewhere in between you are welcome to join us!
+                As an added incentive, we frequently 
+                <a href="https://github.com/aristotle-mdr/aristotle-metadata-registry/wiki/Get-a-shirt-program">
+                    reward new developers who help us tackle especially tricky or interesting features and bugs
+                </a>!
+            </p>
+            <p>
+                If you get stuck or want to find out what we are talking about find us online using any of the ways listed below.
+            </p>
+            <div class="row">
+                <ul class="other-info list-unstyled col-md-6 col-sm-10 col-xs-12 col-md-offset-3 col-sm-offset-1 xs-offset-0" >
+                    <li><span><i class="fa fa-envelope-o"></i></span><a href="#">hello@aristotlemetadata.com</a></li>
+                    <li><span><i class="fa fa-twitter"></i></span><a href="https://twitter.com/aristotlemdr" target="_blank">@aristotlemdr</a></li>
+                    <li><span><i class="fa fa-github"></i></span><a href="https://github.com/aristotle-mdr/aristotle-metadata-registry">Join us on GitHub</a></li>
+                    <li><span><i class="fa fa-linkedin"></i></span><a href="https://www.linkedin.com/company/aristotle-metadata-registry">LinkedIn</a></li>
+                </ul>
+            </div><!--//row-->
+        </div><!--//container-->
+    </section><!--//contact-other-section-->
+    
+    <!-- ******Map Section****** --> 
+    <section class="map-section section" id="where-we-are">
+        <div class="container text-center">
+            <h2 class="title">Where are we?</h2>
+            <p class="intro">
+                Our core team is based in Australia, but people from all over the globe have contributed to the development of the Aristotle Metadata Registry.
+                Below is just a small selection of contributions that have helped us build something great!
+            </p>
+            <div class="gmap-wrapper">
+                <div class="gmap" id="map"></div><!--//map-->
+            </div><!--//gmap-wrapper-->
+            <p class="intro"><small>
+                <b id="we-are-so-open-you-can-fork-this-site">&Dagger;</b> We are so committed to open-source, that even <a href="https://github.com/aristotle-mdr/aristotle-mdr.github.io">the source for this site is on Github</a>,
+                so if you do notice and issue pop over and let us know, or even better fork the code and submit a pull request for us to review!
+            </small></p>
+        </div><!--//container-->
+    </section><!--//map-section-->
+    
+    <!-- ******CTA Section****** -->
+    <section id="cta-section" class="section cta-section text-center contact-cta-section">
+        <div class="container">
+           <h2 class="title">Want to join the growing community building a world-class product?</h2>
+           <p class="intro">We're eager to hear from developers, domain experts, and translators to help make our vision of an open and easy-to-use metadata registry accessible to everyone.</p>
+           <p><a class="btn btn-cta btn-cta-primary" href="https://github.com/aristotle-mdr/aristotle-metadata-registry" target="_blank">Join us on Github!</a></p>
+        </div><!--//container-->
+    </section><!--//cta-section-->
