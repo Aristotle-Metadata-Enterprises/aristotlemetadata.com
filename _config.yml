@@ -1,6 +1,6 @@
 permalink: blog/:categories/:year/:month/:slug.html
-gems:
-  - jekyll-sitemap
+# plugins:
+#   - jekyll-sitemap
 
 
 navigation:
