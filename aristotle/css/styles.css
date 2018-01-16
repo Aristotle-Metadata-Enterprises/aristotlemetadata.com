@@ -23,6 +23,7 @@
 
 .promo .title {
   font-size:40px;
+  font-size:30px;
 }
 .promo.section .intro {
   max-width:800px;
@@ -175,4 +176,11 @@ a.btn .fa {
 
 .case-studies-page .sections .why {
   padding-top:0px;
+}
+
+@media (min-width: 992px) {
+.promo.section {
+    padding-top: 150px;
+    height: 420px;
+}
 }
