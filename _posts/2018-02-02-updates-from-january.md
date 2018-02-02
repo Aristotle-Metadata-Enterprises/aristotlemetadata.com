@@ -28,10 +28,9 @@ of what features we are going to be implementing and changing during the year. W
 going to keep on pushing updates and changing things for the better. We’re always taking on feedback about Aristotle, 
 and if you have any feedback please feel free to contact us.
 
-A PDF of the 2018 roadmap is available below.
+[A PDF of the 2018 roadmap is available online now](/aristotle/images/blog/2018_aristotle_roadmap.pdf)
 
 2018 is already gearing up to be a BIG year for Aristotle. 
 
 With all the great things that happened in January, we are looking forward to what the rest of the year brings. 
 Stay tuned for more blog posts, and a monthly update each month. 
-
