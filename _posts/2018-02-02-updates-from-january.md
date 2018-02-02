@@ -2,8 +2,8 @@
 layout: post
 title: January Updates - One month into 2018
 author: larrn
-img: aristotle/images/blog/january_2018.jpg
-thumbnail: 
+img: /aristotle/images/blog/january_2018.jpg
+thumbnail: /aristotle/images/blog/january_2018.jpg
 ---
 
 The first month in 2018 was a big one for us, there were so many new and exciting things that happened for Aristotle.
