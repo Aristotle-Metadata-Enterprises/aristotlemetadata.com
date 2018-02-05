@@ -20,7 +20,7 @@ people how to use our product, and we got positive feedback out of the experienc
 teach them about how to record their metadata within the registry, that we’re going to be publishing to help all of our users.
 
 In other exciting news, we officially have a new team member. 
-Harry moved all the way from Perth to Canberra to help build up our start-up. He just graduated from the University, 
+Harry moved all the way from Perth to Canberra to help build up our start-up. He just graduated from University, 
 and has already made amazing contributions to the user-interfaces for how users manage code lists within Aristotle. 
 
 Because of our new customers and the others interested on getting on board, we have decided to put out a 2018 roadmap 
