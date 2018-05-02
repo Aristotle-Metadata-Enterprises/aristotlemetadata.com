@@ -23,7 +23,7 @@ All of this is to make sure the newest version of Aristotle is faster and more r
 
 We have also been working on other Quarters of the roadmap, with users now able to customise their header/footer and add 
 custom logos, meaning that you can now replace the Aristotle logo in the header with your very own. We've also added a 
-Graphql API query language into the existing API, this version can query any metadata item in the system.
+[GraphQL API](https://graphql.org/) query language into the existing API, this version can query any metadata item in the system.
 
 We have also added some new features that aren't listed on the roadmap, including being able to delete items that are in 
 your "sandbox." This means that you can play around with creating metadata items, and then delete them afterwards so they 
