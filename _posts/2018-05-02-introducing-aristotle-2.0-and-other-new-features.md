@@ -25,12 +25,16 @@ We have also been working on other Quarters of the roadmap, with users now able 
 custom logos, meaning that you can now replace the Aristotle logo in the header with your very own. We've also added a 
 [GraphQL API](https://graphql.org/) query language into the existing API, this version can query any metadata item in the system.
 
+![](/aristotle/images/blog/graphql.png)
+
 We have also added some new features that aren't listed on the roadmap, including being able to delete items that are in 
 your "sandbox." This means that you can play around with creating metadata items, and then delete them afterwards so they 
 don't just sit in your sandbox. We have also introduced a "results per page" option when you are searching for content, you 
 can now have as many search results per page as you want. Another feature introduced to the registry is the ability to review 
 your metadata items individually when you are performing a bulk "state change" to multiple items. You will now be able to see 
 a list of the items you are about to change the state of, and can identify if an item's state is going to be downgraded. 
+
+![](/aristotle/images/blog/2_0_new_status_changes.png)
 
 The Aristotle team is always working on improving the functionality of the Aristotle Metadata Registry, if you have any 
 suggestions or comments please feel free to contact us. 
