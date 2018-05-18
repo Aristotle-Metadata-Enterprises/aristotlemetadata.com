@@ -4,8 +4,6 @@ title: Code management changes to the Aristotle Metadata Registry in version 2.0
 author: sam
 ---
 
-# Code management changes to the Aristotle Metadata Registry in version 2.0
-
 The largest change to Aristotle MDR in version 2.0 is moving to a [mono-repo](https://developer.atlassian.com/blog/2015/10/monorepos-in-git/) to manage both the core Aristotle MDR code and all related extensions in a single managed Git repository. This change makes it easier for us to version extensions and set dependencies of related code. By managing the Aristotle ecosystem as a single repository, we can clearly communicate to ourselves and to our developer community which extensions are compatible with the main Aristotle MDR system.
 
 Open-source developers are still free to create community managed extensions, and declare which versions of Aristotle they are compatible with, and this change make it easier for those dependencies to be manged especially if they rely on multiple Aristotle components.
@@ -14,7 +12,11 @@ For example, if a developer extended the Aristotle API they can set their depend
 
 
 ## How are Aristotle and its extensions installed now?
-The biggest change for developers and system administrator is that `pip install aristotle-metadata-registry` now installs not just the `aristotle_mdr` python library, but every other Aristotle extension as well, including Dataset and Indicator extensions, download types and APIs. This is a change to previous versions of Aristotle where the core code and its components were listed as separate requirements.
+The biggest change for developers and system administrator is that
+
+    pip install aristotle-metadata-registry
+
+now installs not just the `aristotle_mdr` python library, but every other Aristotle extension as well, including Dataset and Indicator extensions, download types and APIs. This is a change to previous versions of Aristotle where the core code and its components were listed as separate requirements.
 
 Its important to note that these extensions aren't all required when setting which Django are installed for a deployment of the Aristotle Metadata Registry, and a settings file used to deploy a system using Aristotle 1.6 should work with Aristotle 2.0 with few or any changes. They are all available on the system when installed using pip, which means Aristotle 2.0 will take up a little more space than earlier versions.
 
