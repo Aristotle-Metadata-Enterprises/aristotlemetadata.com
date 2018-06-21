@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Aristotle community updates - DDI and the DTA Marketplace
+title: Community updates - DDI and the DTA Marketplace
 author: sam
 ---
 
