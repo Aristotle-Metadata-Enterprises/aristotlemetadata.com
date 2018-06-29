@@ -14,7 +14,7 @@ This membership provides us with connections with a large number of internationa
 and data archives.
 
 Aristotle Cloud Services has representation on the Scientific Board and the Controlled Vocabularies Committee, 
-and in the coming months we are looking to join the DDI Marketing and Outreach Committtee to bring our experience with the 
+and in the coming months we are looking to join the DDI Marketing and Outreach Committee to bring our experience with the 
 [5 Minute Metadata](https://www.youtube.com/playlist?list=PLBVCDZHCxQETFyJsPTOpGNauPpss7WNjC) video series to support the
 DDI Alliance in their goals.
 
