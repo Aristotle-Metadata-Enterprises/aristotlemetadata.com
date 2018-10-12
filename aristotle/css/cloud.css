@@ -14,9 +14,9 @@
   border-top: none;
 }
 
-#cloud-pricing *[colspan='2'],
-#cloud-pricing td:nth-child(3),
-#cloud-pricing th:nth-child(3)
+#cloud-pricing *[colspan='1'],
+#cloud-pricing td:nth-child(2),
+#cloud-pricing th:nth-child(2)
 {
   border-right:1px solid #ddd;
 }
