@@ -9,7 +9,7 @@ thumbnail: /aristotle/images/blog/facs-aristotle-banner.jpg
 <!--Family and Community Services NSW signs up with Aristotle Cloud Services!-->
 <!----------------------------------------------------------------------------->
 
-**Aristotle Cloud Services is proud to announce that the Department of Familiy and Community Services (FACS) for New South Wales has signed a contract in our new Australian Private Cloud.**
+**Aristotle Cloud Services is proud to announce that the Department of Family and Community Services (FACS) for New South Wales has signed a contract in our new Australian Private Cloud.**
 
 [Family and Community Services](https://www.facs.nsw.gov.au) are the first clients on our new [Australian Private Cloud](/cloud). This partnership represents a huge new endevour for both FACS and Aristotle Cloud Services! This new Private Cloud gives Aristotle clients, such as FACS, the option to access Aristotle services in local Australian data centres, providing faster and more secure access to services within [IRAP certified Sydney data centres](https://aws.amazon.com/compliance/irap/) provided by [Amazon Web Services](https://aws.amazon.com/).
 
