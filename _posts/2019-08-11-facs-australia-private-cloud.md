@@ -15,6 +15,6 @@ thumbnail: /aristotle/images/blog/facs-aristotle-banner.jpg
 
 Recently, trainers from Aristotle Cloud Services were invited to the Ashfield offices of the [*Family and Community Services Insights, Analysis and Research* (FACSIAR)](https://www.facs.nsw.gov.au/resources/research/FACSIAR) team to introduce 15 new users to the Aristotle platform and provide training on metadata best practices, information governance and system administration. This new team of Aristotle Metadata Analysts from FACSIAR will be the first of many at Family and Community Service who will describe metadata resources for data collections and performance indicators within Aristotle. These newly captured definitions will assist with data visualisation, data discovery and data validation, and ultimately will improve service delivery for thousands of their clients all across New South Wales.
 
-Thanks again to Mel Taylor and Anna Lewis (pictured centre and right below) for helping set up this amazing new program.
+Thanks again to Mel Taylor and Anna Lewis (pictured below, centre and right) for helping set up this amazing new program.
 
 ![](/aristotle/images/blog/facs-aristotle-hi-res.png)
