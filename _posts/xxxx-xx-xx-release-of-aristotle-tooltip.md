@@ -11,7 +11,7 @@ Tooltips are designed to have a consistent, appealing look and feel, regardless 
 good and be accessible at all screen sizes. Security was prioritized during design so that Aristotle Tooltip users can feel 
 confident they're keeping their clients safe as well as informed. 
 
-We've leveraged the jsDelivr CDN, which has more than 750 points of presence worldwide to ensure that anyone can access
+We've leveraged the [jsDelivr CDN](https://https://www.jsdelivr.com/), which has more than 750 points of presence worldwide to ensure that anyone can access
 the Aristotle Tooltip rapidly and reliably. Additionally, we've been ruthless in reducing the size of the library (20kB gzipped;
  130 times smaller than the average mobile camera picture) while still maintaining legacy browser support (IE11+ compatible) to
  ensure that every user never has to wait to view valuable contextual information.
@@ -19,6 +19,8 @@ the Aristotle Tooltip rapidly and reliably. Additionally, we've been ruthless in
 As a testament to our confidence in the usefulness of Aristotle Tooltip, we use it in all of our production Aristotle
 Cloud deployments to assist our clients in better organising their metadata. Perhaps you've even seen one of the characteristic
 popovers already?
+
+![Aristotle tooltip example](/aristotle/images/blog/tooltip-example.jpg "Tooltip example")
 
 ## Quick Start
 So you're already convinced, and can't wait to get started? 
@@ -51,7 +53,7 @@ A <a href="#" data-aristotle-id="498427">person</a> is known by the company they
 ```
 ### Setup
 Aristotle Tooltip is exposed as a global variable, so all you need to do to add all tooltips to a particular page
-is pass in a couple of options and add `aristotleTooltip.addAristotle(options);` to your Javascript. For a more comprehensive
+is pass in a couple of options and add `aristotleTooltip(options);` to your Javascript. For a more comprehensive
 explanation of all the options (and Aristotle Tooltip supports configuration), our [NPM library](https://www.npmjs.com/package/@aristotle-metadata-enterprises/aristotle_tooltip)
 has a complete list of options.
  
@@ -61,7 +63,7 @@ let options = {
   'definitionWords': 50,
   'longDefinitionWords': 75,
 };
-aristotleTooltip.addAristotle(options);
+aristotleTooltip(options);
 
 ```
 
