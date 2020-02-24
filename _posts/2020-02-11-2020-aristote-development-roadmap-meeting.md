@@ -16,7 +16,7 @@ While client-to-vendor interatcions are valuable, focus on **client-to-client co
 
 The value of these interatctions on the day, was that on the data users were able to brainstorm on each others ideas from these unqiue perspective and provide feedback that improves Aristotle for all users.
 
-The end results of the meeting is the now fully endorsed [2020 Aristotle Development Roadmap](2020 Aristotle Roadmap - Final endorsed.pdf) now available for review.
+The end results of the meeting is the now fully endorsed [2020 Aristotle Development Roadmap](/aristotle/images/blog/2020 Aristotle Roadmap - Final endorsed.pdf) now available for review.
 
 Thanks again to representatives from:
 * [Australian Bureau of Statistics](https://www.abs.gov.au),
