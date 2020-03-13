@@ -6,7 +6,7 @@ img: /aristotle/images/blog/Roadmap-thin.jpg
 thumbnail: /aristotle/images/blog/Roadmap-thin.jpg
 ---
 
-On February 18th 2020, Aristotle Cloud Services clients and key invited technical experts met at the Aristotle Canberra offices to participate in the 2020 Aristotle Roadmap Committee meeting.
+On February 21st 2020, Aristotle Cloud Services clients and key invited technical experts met at the Aristotle Canberra offices to participate in the 2020 Aristotle Roadmap Committee meeting.
 
 The goal of this meeting was for our clients to work with us to prioritise feature development for the upcoming year. By openly working with our clients we provide clients with more influence over the direction of the product and provide accountability.
 
