@@ -14,7 +14,7 @@ As a small business providing cloud services to a diverse range of clients, we h
  
 Where feasible we will be transitioning meetings to be online or via telephone to ensure the safety of our clients and the community. However, where this is not possible we will be taking meetings on-site with clients, in consideration of social distancing measures recommended by the Australian Government.
 
-What we are doing to support you?
+**What we are doing to support you?**
 
 In the 2020 Aristotle Product Roadmap, we announced we would be promoting and supporting an online community of metadata experts to improve information sharing of metadata experiences across sectors.
 As Australia adjusts to new remote working and work from home arrangements, our commitment to our community remains a high priority, now more than ever. In the coming weeks we will be emailing those who have already registered interests in joining this community. I also encourage you to make your colleagues aware of this online metadata community and sharing details about this with your staff https://mailchi.mp/36adf0cc42dc/aristotle-community-preview
