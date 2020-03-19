@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Announcement from Aristotle Cloud Services Australia about our response to COVID-19
+title: Announcement from Aristotle Cloud Services about our response to COVID-19
 author: sam
 ---
 
