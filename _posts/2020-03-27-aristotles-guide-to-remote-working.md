@@ -51,7 +51,7 @@ We've also produced a [complete guide to remote remote working using Aristotle](
 	work together, but if you are sharing Word documents via email, use track changes and
 	comments to help others know what’s been changed.
 
-6. Have fun and keep it light
+6. Bonus tip - Have fun and keep it light!
 
 	One of the biggest shifts to working remotely is the lack of informal communication. Many
 	guides to professional communication encourage dry writing styles which works for emails
