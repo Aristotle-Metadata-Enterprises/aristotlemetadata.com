@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Aristotle's guide to remote working
-author: sam
+author: larrn
 ---
 
 The digital economy has created new ways for people to work and engage with staff, however these
