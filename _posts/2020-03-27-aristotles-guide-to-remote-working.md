@@ -12,7 +12,7 @@ wherever they may be.
 We’ve selected our top 5 tips for remote working we use at Aristotle Cloud Services Australia and
 look at how the Aristotle Metadata Registry helps you implement these tips in your business.
 
-We've also produced a [complete guide to remote remote working using Aristotle](/aristotle/images/blog/2020 Remote working at Aristotle.pdf), that includes key advice on how to implement all of these tips within the Aristotle Metadata Registry.
+**You can also [download the complete guide to remote remote working using Aristotle](/aristotle/images/blog/2020 Remote working at Aristotle.pdf)**, which includes advice on how to implement all of these tips within the Aristotle Metadata Registry.
 
 1. Communicate clearly and often
 
