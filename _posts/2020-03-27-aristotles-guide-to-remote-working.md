@@ -12,7 +12,7 @@ wherever they may be.
 We’ve selected our top 5 tips for remote working we use at Aristotle Cloud Services Australia and
 look at how the Aristotle Metadata Registry helps you implement these tips in your business.
 
-**You can also [download the complete guide to remote remote working using Aristotle](/aristotle/images/blog/2020 Remote working at Aristotle.pdf)**, which includes advice on how to implement all of these tips within the Aristotle Metadata Registry.
+**You can also [download the complete guide to remote remote working using Aristotle](/aristotle/images/blog/Remote working at Aristotle.pdf)**, which includes advice on how to implement all of these tips within the Aristotle Metadata Registry.
 
 1. Communicate clearly and often
 
@@ -73,4 +73,3 @@ styles into their organisation.
 * [Nonverbal Communication by Lifesize](https://www.lifesize.com/en/video-conferencing-blog/speaking-without-words)
 * [How to embrace remote work by Atlassian](https://info.trello.com/hubfs/How_To_Embrace_Remote_Work_Trello_Ultimate_Guide.pdf)
 * [15 Questions About Remote Work, Answered by Harvard Business Review](https://hbr.org/2020/03/15-questions-about-remote-work-answered)
-
