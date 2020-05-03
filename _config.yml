@@ -39,7 +39,7 @@ authors:
     twitter: legostormtroopr
     github: legostormtroopr
     short_about: >
-        Lead developer and community manager, Sam is the lead architect behind Aristotle.
+        CEO and technical co-founder, Sam is the lead architect behind the Aristotle Metadata Registry
   larrn:
     display_name: Lauren Eickhorst
     short_name: Lauren
@@ -48,3 +48,9 @@ authors:
     github: larrn
     short_about: >
         Sales and communications coordinator.
+  dylan:
+    display_name: Dylan Silke
+    short_name: Dylan
+    # headshot: /aristotle/images/people/dylan.md.png
+    short_about: >
+        Aristotle Metadata Registry Developer.

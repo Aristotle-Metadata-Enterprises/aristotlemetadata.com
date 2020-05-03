@@ -1838,7 +1838,7 @@ textarea {
   font-size: 42px;
 }
 .blog-entry-wrapper .blog-entry .blog-entry-heading .meta {
-  font-size: 18px;
+  /*font-size: 18px;*/
   -webkit-opacity: 0.8;
   -moz-opacity: 0.8;
   opacity: 0.8;
@@ -1874,7 +1874,7 @@ textarea {
   opacity: 1;
 }
 .blog-entry-wrapper .blog-entry .blog-entry-content {
-  font-size: 18px;
+  /*font-size: 18px;*/
   line-height: 1.6;
   color: #666;
 }
@@ -2077,7 +2077,7 @@ textarea {
   clear: left;
   display: block;
   padding-top: 5px;
-  font-size: 18px;
+  /*font-size: 18px;*/
   font-family: 'open sans', arial, sans-serif;
   font-weight: 500;
   color: #253340;

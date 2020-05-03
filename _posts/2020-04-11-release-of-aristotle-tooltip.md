@@ -20,7 +20,7 @@ As a testament to our confidence in the usefulness of Aristotle Tooltip, we use 
 Cloud deployments to assist our clients in better organising their metadata. Perhaps you've even seen one of the characteristic
 popovers already?
 
-![Aristotle tooltip example](/aristotle/images/blog/tooltip-example.jpg "Tooltip example")
+![Aristotle tooltip example](/aristotle/images/blog/tooltip-example-animated.gif "Tooltip example")
 
 ## Quick Start
 So you're already convinced, and can't wait to get started? 
