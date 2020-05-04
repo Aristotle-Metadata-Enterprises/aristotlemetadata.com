@@ -51,6 +51,6 @@ authors:
   dylan:
     display_name: Dylan Silke
     short_name: Dylan
-    # headshot: /aristotle/images/people/dylan.md.png
+    headshot: /aristotle/images/people/dylan.md.jpg
     short_about: >
         Aristotle Metadata Registry Developer.
