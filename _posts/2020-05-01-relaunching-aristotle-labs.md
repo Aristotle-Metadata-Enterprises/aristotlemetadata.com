@@ -21,7 +21,7 @@ Like many data dashboards, ours presents data about the current 2020 COVID-19 pa
 
 We examined [World Health Organisation Situation Reports and case collection forms](https://www.who.int/emergencies/diseases/novel-coronavirus-2019/situation-reports) to gather details on how data about COVID-19 was collected and aggregated by the [World Health Organisation](https://who.int) before the data was published and entered this information into an Aristotle Metadata Registry to make the information available online in a central location.
 
-The dashboard also includes a **data lineage display** that shows how data was collected by the World Health Organisation and how it was transformed before being made available. This diagram is dynamically updated based on the selected data and gives users of the data better context about where it came from and how it was collected. By making this data lineage information available in an interactive way we show how metadata plays an important role in data literacy.
+The dashboard also includes a **data lineage display** that shows how data was collected by the World Health Organisation and how it was transformed before being made available. This diagram is dynamically updated based on the selected data and gives users of the data better context about where it came from and how it was collected. By making this data lineage information available in an interactive way we can show how metadata plays an important role in data literacy.
 
 ![Aristotle Labs preview](/aristotle/images/blog/labs-dashboard-example-subway.png "Tooltip example")
 
