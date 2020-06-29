@@ -17,7 +17,7 @@ Along with the launch of Aristotle Labs, we've released our first new labs proje
 The [Aristotle COVID-19 Dashboard](https://labs.aristotlemetadata.com/#/covid/graph) provides an interactive display of data about the 2020 COVID-19 pandemic using data published by the European Centre for Disease Control. 
 Like many data dashboards, ours presents data about the current 2020 COVID-19 pandemic as either a graph or a [map](https://labs.aristotlemetadata.com/#/covid/map). **However, our data dashboard also includes a number of metadata-based enancements** from our [demonstration Aristotle Metadata Registry](https://registry.aristotlemetadata.com) to give more context to the data. This includes metadata-driven generation of the interface and data selectors and automated discovery of the data files needed for the dashboard.
 
-[![Aristotle Labs preview](/aristotle/images/blog/labs-dashboard-graph.png "Labs graph example")](https://labs.aristotlemetadata.com/#/covid/draph)
+[![Aristotle Labs preview](/aristotle/images/blog/labs-dashboard-graph.png "Labs graph example")](https://labs.aristotlemetadata.com/#/covid/graph)
 
 We examined [World Health Organisation Situation Reports and case collection forms](https://www.who.int/emergencies/diseases/novel-coronavirus-2019/situation-reports) to gather details on how data about COVID-19 was collected and aggregated by the [World Health Organisation](https://who.int) before the data was published and entered this information into an Aristotle Metadata Registry to make the information available online in a central location.
 
