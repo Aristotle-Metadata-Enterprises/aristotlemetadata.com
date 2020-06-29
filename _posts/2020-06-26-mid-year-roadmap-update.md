@@ -11,9 +11,9 @@ In February this year, our community came together to endorse the [2020 Aristotl
 During the first half of 2020 we've all had to make some adjustments to our work environment in response to the COVID pandemic. For Aristotle Cloud Services this included changing how we worked and changes to how we deliver services to our clients. To support our clients, we produced a [guide to remote working](/blog/2020/03/aristotles-guide-to-remote-working.html) using the Aristotle Metadata Registry. We've also launched a [new Aristotle labs](/blog/2020/05/launching-aristotle-labs-covid-dashboard.html), that included a [COVID-19 Data dashboard](https://labs.aristotlemetadata.com/#/covid/graph) to demonstrate to our clients how they can incorporate Aristotle into how they report their own data.
 
 
-While we have had to adjust some timelines within the Roadmap based on ongoing global and national, we've still been able to release a number of new features to Aristotle clients, including
+While we have had to adjust our product Roadmap based on ongoing global and national events, we’ve still been able to release a number of new features to Aristotle clients that we've covered below!
 
-## New features already available:
+## New features already available in Aristotle
 
 ### New standards-aligned dataset functionality
 
@@ -23,8 +23,7 @@ While we have had to adjust some timelines within the Roadmap based on ongoing g
 
 ### Metadata toolbox, reporting and visualisation
 
-**[We've added a new metadata toolbox into Aristotle](/blog/2020/06/launching-aristotle-toolbox.html)**. This toolbox gives users a one-stop area to find tools for interpreting and analysing metadata. The ability to generate metadata reports to answer questions about content in the registry tool, Data Element Component
-soon support for metadata import from Excel.
+**[We've added a new metadata toolbox into Aristotle](/blog/2020/06/launching-aristotle-toolbox.html)**. This toolbox gives users a one-stop area to find tools for interpreting and analysing metadata, and the ability to generate metadata reports to answer questions about content in the registry tool. In an upcoming release we are also releasing a new tool for metadata import from Excel.
 
 ![Metadata Report Builder](/aristotle/images/blog/2020-06-data-report-builder.png "Metadata Report Builder")
 *The Metadata Report Builder, listing all the metadata in the registry that has been created in the last 20 years.*
@@ -46,7 +45,7 @@ Speaking of our help site, [we completely redesign our help pages using Zoho](ht
 
 ### Newly launched community forums
 
-When users need more direct help, we've launched our [new Discourse powered community forums](https://aristotle.trydiscourse.com/). Our metadata forums are designed to help new and established users of the Aristotle Metadata Registry connect and communication, to learn how other users work within the system. We're already seeding the forums with discussion based on new features, user guides based on common user stories, and developers guides to help software developers learn how to integrate Aristotle into their tools using our APIs.
+For when users need more direct help, we've launched our [new Discourse powered community forums](https://aristotle.trydiscourse.com/). Our metadata forums are designed to help new and established users of the Aristotle Metadata Registry connect and communication, to learn how other users work within the system. We're already seeding the forums with discussion based on new features, user guides based on common user stories, and developers guides to help software developers learn how to integrate Aristotle into their tools using our APIs.
 
 ![Our new community forum](/aristotle/images/blog/2020-06-forum.png "Our new community forum")
 
@@ -55,7 +54,7 @@ When users need more direct help, we've launched our [new Discourse powered comm
 ### Metadata editor and creation improvements
 
 Our development team is still hard at work building our new editing tools which are due for release in mid-August.
-These new editors will be faster, cleaner and more interactive to make the management of metadata a more intuitive process. The first iteration of the new metadata editors will provide minor improvements to the current editor, and retains most of the same Aristotle look-and-feel to reduce the need for retaining on how to use the new editor.
+These new editors will be faster, cleaner and more interactive to make the management of metadata a more intuitive process. The first iteration of the new metadata editors will provide minor improvements to the current editor and retains most of the same Aristotle look-and-feel to reduce the need for retraining on how to use the new editor.
 
 However, this new editor backend will make it easier to incorporate changes in future releases.
 
