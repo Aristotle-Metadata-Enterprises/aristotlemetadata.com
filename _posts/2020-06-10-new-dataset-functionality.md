@@ -1,3 +1,9 @@
+---
+layout: post
+title: Mid-year Aristotle Roadmap update - new features and community changes
+author: larrn
+---
+
 In the [2020 Aristotle Roadmap](/blog/2020/02/2020-aristotle-development-roadmap-meeting.html) we dedicated effort to evaluating the alignment of Aristotle with the latest changes to the ISO/IEC 11179 standard, to ensure alignment of data asset management tools within the Aristotle Metadata Registry. The most recent addition to the ISO standard, is Part 7 “Metamodel for data set registration” was published in December 2019 defines standards for recording Data Assets, Data Set Specifications and Data Provenance.
 
 We are pleased to announce some new features in the latest release of the Aristotle Metadata Registry that continue our alignment with the ISO 11179 standard.
