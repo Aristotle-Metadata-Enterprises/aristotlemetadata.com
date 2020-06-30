@@ -17,7 +17,7 @@ While we have had to adjust our product Roadmap based on ongoing global and nati
 
 ### New standards-aligned dataset functionality
 
-**[We've published our review of the additions to the ISO 11179 standard for datasets](/blog/2020/03/new-dataset-functionality.html)**, and added new features for the management of data assets. This includes additions to dataset editors to capture data provenence and lineage information to record and trace the source of data. We've also published a document to demonstrate alignment with existing data standards to support mappings between the Aristotle Metadata Registry and government data portals.
+**[We've published our review of the additions to the ISO 11179 standard for datasets](/blog/2020/06/new-dataset-functionality.html)**, and added new features for the management of data assets. This includes additions to dataset editors to capture data provenence and lineage information to record and trace the source of data. We've also published a document to demonstrate alignment with existing data standards to support mappings between the Aristotle Metadata Registry and government data portals.
 
 ![Data Provenance records in Aristotle](/aristotle/images/blog/2020-06-10-data-provenance.png "Data Provenance records in Aristotle")
 
