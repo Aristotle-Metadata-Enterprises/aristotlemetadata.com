@@ -2,6 +2,8 @@
 layout: post
 title: Presenting the Simple Data Dictionary Format
 author: francisco
+img: /aristotle/images/blog/2020-07-sddf-excel.png
+thumbnail: /aristotle/images/blog/2020-07-sddf-excel.png
 ---
 
 We at Aristotle Cloud Services Australia are thrilled to present the Simple Data Dictionary Format!
