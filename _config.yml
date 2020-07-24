@@ -54,3 +54,9 @@ authors:
     headshot: /aristotle/images/people/dylan.md.jpg
     short_about: >
         Aristotle Metadata Registry Developer.
+  francisco:
+    display_name: Francisco Gallardo 
+    short_name: Francisco
+    headshot: /aristotle/images/people/francisco_profile_pic.jpeg
+    short_about: >
+        Aristotle Metadata Registry Developer.
