@@ -11,13 +11,13 @@ Github recently launched their new [Github codespaces](https://github.com/featur
 As one of the lucky few who were given access to the GitHub Codespaces beta program I had the opportunity to test it out and offer my thoughts on behalf of the Aristotle team below.
 
 ## First impressions
-There were a few small changes that needed to be done to the [Aristotle Metadata home page](https://github.com/Aristotle-Metadata-Enterprises/aristotlemetadata.com/), (including making this blogpost) and it was easy opening a Codespace to start working. Opening a code space for a project is literally as easy as GitHub says - click "Open in Codespace" on a repository and it does the rest - no need to configuring or decommission a server, its all handled for you.
+There were a few small changes that needed to be done to the [Aristotle Metadata home page](https://www.aristotlemetadata.com/), (including making this blogpost) and it was easy opening a Codespace to start working. Opening a code space for a project is literally as easy as GitHub says - click "Open in Codespace" on a repository and it does the rest - no need to configuring or decommission a server, its all handled for you.
 
 ![How to open Codespaces](/aristotle/images/blog/codespaces/codespaces-opening-project.png "How to open Codespaces")
 
-[Our website](aristotlemetadata.com/) is a basic [Jekyll](https://jekyllrb.com/) static site, and offers a great basic test of whats available in Codespaces already. Loading a fresh Codespace took less than 2 minutes, which is comparable to AWS Cloud9. As someone who when it was still C9.io, Codespaces reminded me a lot of that - its a simple way to open an editor and a virtual machine for a GitHub project.
+[Our website](https://www.aristotlemetadata.com/) is a basic [Jekyll](https://jekyllrb.com/) static site, and offers a great basic test of whats available in Codespaces already. Loading a fresh Codespace took less than 2 minutes, which is comparable to AWS Cloud9. As someone who used Cloud9 when it was still C9.io, Codespaces reminded me a lot of that - its a simple way to open an editor and a virtual machine for a GitHub project.
 
-The [documentation for Codespaces](https://docs.github.com/en/github/developing-online-with-codespaces/about-codespaces) is also great. Whats i didn't know is that GitHub can also [load your dotfiles directly into each new Codespace](https://docs.github.com/en/github/developing-online-with-codespaces/personalizing-codespaces-for-your-account), so your preferences (`.bashrc` and similar files) will follow you across Codespaces.
+The [documentation for Codespaces](https://docs.github.com/en/github/developing-online-with-codespaces/about-codespaces) is also great. What I didn't know is that GitHub can also [load your dotfiles directly into each new Codespace](https://docs.github.com/en/github/developing-online-with-codespaces/personalizing-codespaces-for-your-account), so your preferences (`.bashrc` and similar files) will follow you across Codespaces.
 
 
 ## Editing files
@@ -54,12 +54,12 @@ One other minor issue is you can't open your site in a private window or differe
 
 ## Final thoughts
 
-**This is amazing** and may start to become my default IDE - as a co-founder who is spending less time as a developer, and more time in meetings, writing emails, strategy papers, letters and tenders, *this is just amazing*! Most of my daily tools are Windows based, so I've been spending a lot of time getting Windows Subsystem for Linux working alongside the rest of my daily workflow, which comes with its own headaches. So being able to quickly checkout a branch, make changes and take some load of my local machine seems very promising.
+**This is amazing** and may become my default IDE - as a co-founder who is spending less time as a developer, and more time in meetings, writing emails, strategy papers, letters and tenders, *this is just amazing*! Most of my daily tools are Windows based, so I've been spending a lot of time getting Windows Subsystem for Linux working alongside the rest of my daily workflow, which comes with its own headaches. So being able to quickly checkout a branch, make changes and take some load of my local machine seems very promising.
 
 There are a lot of features here to review that I haven't had a chance to look at, including collaborative workspaces, Git integration and connecting with a local version of Visual Studio, but from a quick glance everything works smoothly.
 
-Overall, its an extremely quick way to get started on a project, and I look forward to writing an update after I've had a chance getting the Aristotle Metadata Registry software, with all its many dependencies, running in codespaces under Docker-compose.
+Overall, it's an extremely quick way to get started on a project, and I look forward to writing an update after I've had a chance getting the Aristotle Metadata Registry software, with all its many dependencies, running in codespaces under Docker-compose.
 
 **The Aristotle Metadata Registry is no stranger to cloud innovation**. If you want to learn how to access a cloud-hosted metadata registry as simple as Github's Codespaces [get in contact with us](/contact.html).
 
-Discuss this post on our community forum: https://aristotle.trydiscourse.com/
+Discuss this post on our community forum: https://community.aristotlemetadata.com/
