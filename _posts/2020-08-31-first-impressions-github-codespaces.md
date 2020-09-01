@@ -8,7 +8,7 @@ thumbnail: /aristotle/images/blog/codespaces/codespaces-jekyll.png
 
 Github recently launched their new [Github codespaces](https://github.com/features/codespaces) service - an online, in-browser Integrated Development Environment powered by [Visual Studio Code](https://code.visualstudio.com/). This environment allows someone to quickly load a virtual machine and a complete code editing interface, that is all accessible within the browser without having to install anything on the users machine. If you are familiar with products like [Amazon Web Services's Cloud 9 IDE] (https://aws.amazon.com/cloud9/) or its predecessor C9.io this will probably feel very familiar.
 
-As one of the lucky few who were given access to the GitHub Codespaces beta program I had the opportunity to test it out and offer my thoughts below.
+As one of the lucky few who were given access to the GitHub Codespaces beta program I had the opportunity to test it out and offer my thoughts on behalf of the Aristotle team below.
 
 ## First impressions
 There were a few small changes that needed to be done to the [Aristotle Metadata home page](https://github.com/Aristotle-Metadata-Enterprises/aristotlemetadata.com/), (including making this blogpost) and it was dead easy opening a Codespace to start working. This website is a basic [Jekyll](https://jekyllrb.com/) static site, so it offers a basic test of whats available in Codespaces already. Loading a codespace took about a minute, which is comparable to AWS Cloud9 . As someone who used Cloud9 when it was C9.io, Codespaces reminded me a lot of that - its a simple way to open an editor and a virtual machine for a GitHub project. Opening a code space for a project is literally as easy as GitHub says - click "Open in Codespace" on a repository and it does the rest - no need to configuring or decommission a server, its all handled for you.
@@ -57,5 +57,7 @@ One other minor issue is you can't open your site in a private window or differe
 There are a lot of features here to review that I haven't had a chance to look at, including collaborative workspaces, Git integration and connecting with a local version of Visual Studio, but from a quick glance everything works smoothly.
 
 Overall, its an extremely quick way to get started on a project, and I look forward to writing an update after I've had a chance getting the Aristotle Metadata Registry software, with all its many dependencies, running in codespaces under Docker-compose.
+
+**The Aristotle Metadata Registry is no stranger to cloud innovation**. If you want to learn how to access a cloud-hosted metadata registry as simple as Github's Codespaces [get in contact with us](/contact.html).
 
 Discuss this post on our community forum: https://aristotle.trydiscourse.com/
