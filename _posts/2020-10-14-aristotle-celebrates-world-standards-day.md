@@ -6,13 +6,13 @@ img: /aristotle/images/blog/2020-10-koala.png
 thumbnail: /aristotle/images/blog/2020-10-koala.png
 ---
 
-Each year the [World Standards Cooperation celebrates World Standards Day](https://www.worldstandardscooperation.org/world-standards-day/world-standards-day-2020/) to showcase how international standards bring the world together and make our planet a safer and cleaner.
+Each year the [World Standards Cooperation celebrates World Standards Day](https://www.worldstandardscooperation.org/world-standards-day/world-standards-day-2020/) to showcase how international standards bring the world together and make our planet a safer and cleaner place.
 
-As a supporter and implementer of global standards, Aristotle Cloud Services celebrates this day as well! As this years World Standards Day highlights, standards aren't just important for data but impact how we interact with our local environment in very real ways.
+As a supporter and implementer of global standards, Aristotle Cloud Services celebrates this day as well! As this years World Standards Day highlights, standards aren't just important for data, they also impact how we interact with our local environment in very real ways.
 
 2020 has been a challenging year especially in Australia, with everyone having to learn about [Air quality standards](https://soe.environment.gov.au/theme/ambient-air-quality/topic/2016/national-air-quality-standards), [Face mask standards](https://www.standards.org.au/standards-catalogue/sa-snz/health/he-013/as--4381-colon-2015) and [global hand sanitiser standards](https://www.ncbi.nlm.nih.gov/books/NBK144054/).
 
-So as a way of looking forward to a brighter future, Aristotle Cloud Services are commemorating World Standards Day 2020 and celebrate our upcoming third birthday, we've started a company sponsorship of the [World Wide Fund for Nature to support native tree adoption](https://donate.wwf.org.au/adopt/tree) across Australia.
+So as a way of looking forward to a brighter future, Aristotle Cloud Services are commemorating World Standards Day 2020 and celebrating our upcoming third birthday by starting a company sponsorship of the [World Wide Fund for Nature to support native tree adoption](https://donate.wwf.org.au/adopt/tree) across Australia.
 
 Aristotle Cloud Services has selected the [World Wide Fund for Nature]() as we know they conform to [Australian governance standards for charities and non-profits](https://www.acnc.gov.au/tools/topic-guides/governance-standards), so we have high certainty that our donation will make a positive impact, and thanks to [Australian Standard 4970](https://www.standards.org.au/standards-catalogue/sa-snz/agriculture/ev-018/as--4970-2009), we can be sure that our trees will be protected from future development and will have the best chance to survive and make a positive impact on our beautiful local landscape.
 
