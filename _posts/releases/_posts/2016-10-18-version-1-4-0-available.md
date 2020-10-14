@@ -2,6 +2,7 @@
 layout: post
 title: Aristotle-MDR v1.4.0 now available on our Open Registry
 author: sam
+category: releases
 ---
 
 The latest version of the Aristotle Metadata Registry is now available on 

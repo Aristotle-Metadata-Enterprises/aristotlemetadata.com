@@ -20,6 +20,6 @@ Aristotle Cloud Services has selected the [World Wide Fund for Nature]() as we k
 
 Discuss this post on our community forum: https://community.aristotlemetadata.com/
 
-![Koala](/aristotle/images/blog/2020-10-koala.jpg "Koala")
+![WWF Certificate](/aristotle/images/blog/2020-10-wwf-certificate.PNG "WWF Certificate")
 
-Image source: https://commons.wikimedia.org/wiki/File:Koala_watches_around_from_a_tree._Raymond_Island,_Gippsland_Lakes_Coastal_Park,_Victoria.jpg
+Koala Image source: [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Koala_watches_around_from_a_tree._Raymond_Island,_Gippsland_Lakes_Coastal_Park,_Victoria.jpg).

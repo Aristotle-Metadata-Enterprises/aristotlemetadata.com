@@ -2,6 +2,7 @@
 layout: post
 title: Aristotle Metadata Registry v1.5 released
 author: sam
+category: releases
 ---
 
 Today we are pleased to announce the release of the [latest version of the Aristotle Metadata Registry to PyPI](https://pypi.python.org/pypi/aristotle-metadata-registry/1.5.0) – version 1.5.

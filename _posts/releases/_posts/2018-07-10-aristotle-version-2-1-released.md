@@ -2,6 +2,7 @@
 layout: post
 title: Aristotle Metadata Registry v2.1 now publicly available
 author: sam
+category: releases
 ---
 We are proud to announce that the Aristotle Metadata Registry version 2.1 is now available for public access.
 This new release can be [downloaded from GitHub](https://github.com/aristotle-mdr/aristotle-metadata-registry/releases/tag/v2.1.0)

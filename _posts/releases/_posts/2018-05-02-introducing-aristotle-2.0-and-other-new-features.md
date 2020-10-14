@@ -4,6 +4,7 @@ title: Introducing Aristotle 2.0 and other new features
 author: larrn
 img: /aristotle/images/blog/open-road.jpg
 thumbnail: /aristotle/images/blog/open-road.jpg
+category: releases
 ---
 
 May is here, and the team has been working hard and delivering new features from our published 2018 roadmap, including 
