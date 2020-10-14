@@ -2,6 +2,7 @@
 layout: post
 title: Code management changes to the Aristotle Metadata Registry in version 2.0
 author: sam
+category: releases
 ---
 
 The largest change to Aristotle MDR in version 2.0 is moving to a [mono-repo](https://developer.atlassian.com/blog/2015/10/monorepos-in-git/) to manage both the core Aristotle MDR code and all related extensions in a single managed Git repository. This change makes it easier for us to version extensions and set dependencies of related code. By managing the Aristotle ecosystem as a single repository, we can clearly communicate to ourselves and to our developer community which extensions are compatible with the main Aristotle MDR system.
