@@ -47,6 +47,7 @@ head_scripts: >
             <div class="row">
                 <div id="blog-mansonry" class="blog-list">
                   {% for post in site.posts %}
+                    {% if post.releases_only %}{% else %}
 
                     <article class="post col-md-10 col-sm-12 col-xs-12 col-md-offset-1 col-sm-offset-0 col-xs-offset-0">
                         <div class="post-inner">
@@ -84,6 +85,7 @@ head_scripts: >
                             </div><!--//content-->
                         </div><!--//post-inner-->
                     </article><!--//post-->
+                    {% endif %}
                   {% endfor %}
 
 
