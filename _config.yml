@@ -60,3 +60,8 @@ authors:
     headshot: /aristotle/images/people/francisco_profile_pic.jpeg
     short_about: >
         Aristotle Metadata Registry Developer.
+  aristotle:
+    display_name: Aristotle Devops Team
+    short_name: Aristotle
+    headshot: /aristotle/images/people/aristotle.256.png
+    email: hello@aristotlemetadata.com

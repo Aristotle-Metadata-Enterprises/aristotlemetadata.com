@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Aristotle Metadata Registry v4.5.0 released
-author: sam
+author: aristotle
 category: releases
 releases_only: yes
 ---
