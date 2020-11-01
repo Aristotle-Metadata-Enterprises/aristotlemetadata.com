@@ -17,3 +17,8 @@ Duane Attree, Managing Director, Potential<sup>(x)</sup> outlined the reasons fo
 Aristotle is looking forward to collaborating with our Potential<sup>(x)</sup>  colleagues by helping with training and learning more about the metadata needs of the health sector. This opportunity expands our work with clients in the health and social welfare spaces to make sure that they can manage and improve the lives of the people they work with.
 
 [Download this media release as a PDF](/aristotle/media/2020-11-02 - PotentialX and Aristotle.pdf)
+
+
+![Social media banner](/aristotle/images/blog/2020-11-potential-x-acsa-wide-square.png "Social media banner")
+
+Discuss this post on our community forum: https://community.aristotlemetadata.com/
