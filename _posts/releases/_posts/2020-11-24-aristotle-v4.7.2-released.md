@@ -15,4 +15,4 @@ The following issues were also addressed:
 - Alerts missing on item page for locked items
 - Edits to custom fields not saving correctly
 
-Discuss this post on our community forum: https://community.aristotlemetadata.com/
+Discuss this post on our [community forum](https://community.aristotlemetadata.com/)
