@@ -3,6 +3,7 @@ layout: post
 title: Aristotle Metadata Registry v4.7.2
 author: aristotle
 category: releases
+releases_only: true
 ---
 
 ### Aristotle Metadata Registry v4.7.2 is now available to all clients.
