@@ -1,0 +1,174 @@
+---
+title: Blog
+body_class: blog-page
+head_scripts: >
+    <link id="theme-style" rel="stylesheet" href="/aristotle/css/blog.css">
+---
+{% include html_head.html %}
+
+<style>
+    .comparison-page .h1, .comparison-page .h2 {
+        text-align: center;
+        margin:1.75em 0;
+    }
+    .comparison-page .lead {
+        text-align: center;
+    }    
+    .comparison-page .lead::after, .comparison-page .lead::before {
+        display:block;
+        margin: 1.5em 25%;
+        border-bottom:1px solid #356a69;
+        content: ""
+    }
+    .comparison-page .h2 {margin-top: 3em;}
+
+    .user-guide {
+        margin: 30px auto ;
+        height: auto;
+        width: 80%;
+    }
+
+    #mc-embedded-subscribe {
+        background-color: #356a69 !important;
+    }
+
+
+</style>
+
+<body class="">
+    <div class="wrapper comparison-page">
+        {% include header.html %}
+        <div class="container" style="padding-top:150px">
+            <div class="row">
+                <section class="post col-md-10 col-sm-12 col-xs-12 col-md-offset-1 col-sm-offset-0 col-xs-offset-0">
+                    <header class="h1 comparison">
+                        Aristotle Metadata Registry
+                        {% if page.competitor %}
+                            vs
+                        {% else %}
+                            &amp;
+                        {% endif %}
+                        
+                        {{ page.them }}
+                    </header>
+
+                    <div class="lead">
+                        {{ page.lead }}
+                    </div>
+                 
+                    <header class="h2 comparison">
+                    {% if page.competitor %}
+                        Why choose Aristotle Metadata 
+                        over {{ page.them }}?
+                    {% else %}
+                        How can Aristotle Metadata
+                        support {{ page.them }}?
+                    {% endif %}
+                    </header>
+                    <table class="table">
+                        <thead>
+                            <tr>
+                                <th width="60%">Feature</th>
+                                <th width="20%">Aristotle Metadata Registry</th>
+                                <th width="20%">{{ page.them }}</th>
+                            </tr>
+                        </thead>
+                        {% for group in page.features %}
+                        <tbody>
+                            <tr><th>
+                                {{ group.group }}
+                            </th>
+                            <th>{{group.us}}</th>
+                            <th>{{group.them}}</th>
+                            </tr>
+                            {% for feature in group.features %}
+                                <tr>
+                                    <td style="padding-left:30px">
+                                        {{feature.title}}
+                                        {% if feature.details %}
+                                        <br>
+                                        <small>{{feature.details}}  </small>
+                                        {% endif %}
+                                    </td>
+                                    <td>
+                                        {% if feature.us == true %}
+                                            <i class="text-success fa fa-check"></i>
+                                        {% elsif feature.us == false %}
+                                            <i class="fa fa-times"></i>
+                                        {% else %}
+                                            {{feature.us}}
+                                        {% endif %}
+                                        {% if feature.us-extra %}
+                                            <br>
+                                            <small>{{feature.us-extra}}</small>
+                                        {% endif %}
+                                    </td>
+                                    <td>
+                                        {% if feature.them == true %}
+                                            <i class="text-success fa fa-check"></i>
+                                        {% elsif feature.them == false %}
+                                            {% if page.competitor%}
+                                                <i class="fa fa-times text-danger"></i>
+                                            {% else %}
+                                                <i class="fa fa-circle"></i>
+                                            {% endif %}
+                                            
+
+                                        {% else %}
+                                            {{feature.them}}
+                                        {% endif %}
+                                        {% if feature.them-extra %}
+                                            <br>
+                                            <small>{{feature.them-extra}}</small>
+                                        {% endif %}
+                                    </td>
+                                </tr>
+                            {% endfor %}
+                        </tbody>
+                        {% endfor %}
+                    </table>
+
+                    <div class="lead">
+                        {{ page.call-to-action  }}
+                    </div>
+                </section><!--//featured-blog-posts-->
+                <div class="row">
+                    <div class="col-sm-4 col-sm-offset-1">
+                        <img class="img-responsive user-guide" 
+                            src="/aristotle/images/user-guide-screenshot.png">
+                    </div>
+                    <div class="col-sm-6">
+                        {% include mailchimp.html %}
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div><!--//wrapper-->
+    
+    <!-- ******FOOTER****** --> 
+    {% include footer.html %}
+    <!--//footer-->
+    
+    <!-- Javascript -->          
+    <script type="text/javascript" src="/assets/plugins/jquery-1.11.2.min.js"></script>
+    <script type="text/javascript" src="/assets/plugins/jquery-migrate-1.2.1.min.js"></script>
+    <script type="text/javascript" src="/assets/plugins/bootstrap/js/bootstrap.min.js"></script> 
+    <script type="text/javascript" src="/assets/plugins/bootstrap-hover-dropdown.min.js"></script>
+    <script type="text/javascript" src="/assets/plugins/back-to-top.js"></script>
+    <script type="text/javascript" src="/assets/plugins/jquery-placeholder/jquery.placeholder.js"></script>
+    <script type="text/javascript" src="/assets/plugins/FitVids/jquery.fitvids.js"></script>
+    <script type="text/javascript" src="/assets/plugins/flexslider/jquery.flexslider-min.js"></script> 
+            
+    <!-- blog page specific js starts --> 
+    <script type="text/javascript" src="/assets/plugins/imagesloaded/imagesloaded.pkgd.min.js"></script>     
+    <script type="text/javascript" src="/assets/plugins/masonry.pkgd.min.js"></script> 
+    <script type="text/javascript" src="/assets/js/blog.js"></script>
+    <!-- blog page specific js ends -->   
+     
+    <script type="text/javascript" src="/assets/js/main.js"></script>
+    
+    {% include ga.html %}    
+</body>
+</html> 
+
