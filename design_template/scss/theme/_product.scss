@@ -1,0 +1,215 @@
+.product-header {
+	position: relative;
+	z-index: 10;
+}
+
+
+.video-play-icon-holder {
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	margin-top: -30px;
+	margin-left: -30px;
+	font-size: 2rem;
+	display: inline-block;
+	width: 60px;
+	height: 60px;
+	color: white;
+	background: rgba($theme-text-color-primary, 0.7);
+	text-align: center;
+	@include border-radius(50%);
+	padding-top: 9px;
+	z-index: 10;
+	cursor: pointer;
+	&:hover {
+		background: rgba($theme-text-color-primary, 0.9);
+	}
+
+}
+
+
+
+.features-section {
+	.item {
+		position: relative;
+		margin-bottom: 6rem;
+		
+		&.section-summary {
+			margin-bottom: 3rem;
+		}
+		
+
+	}
+	
+	.item-inner {
+		height: 100%;
+	}
+	
+	.item-title {
+		font-size: 1.125rem;
+	}
+
+	.icon-holder {
+		position: absolute;
+		top: -30px;
+		font-size: 2rem;
+		margin-bottom: 1rem;
+		width: 60px;
+		height: 60px;
+		padding-top: 9px;
+		@include gradient-directional($theme-color-primary, $theme-color-secondary, 45deg);
+		@include border-radius(50%);
+		text-align: center;
+		color: #fff;
+		
+	}
+	
+}
+
+.features-tab {
+	.nav-item {
+		font-size: 1.125rem;
+		padding: 1.5rem;
+		.icon {
+			color: $theme-text-color-light;
+			font-size: 1.75rem;
+		}
+		.nav-link {
+			color: $theme-text-color-primary;
+			font-weight: bold;
+			&.active {
+				color: $theme-color-primary;
+				.icon {
+					color: $theme-color-primary;
+				}
+			}
+			&:hover {
+				color: $theme-color-primary;
+				.icon {
+					color: $theme-color-primary;
+				}
+			}
+		}
+	}
+	
+}
+
+.tab-pane {
+	.title {
+		font-size: 1.5rem;
+	}
+	.subtitle {
+		font-size: 1rem;
+		font-weight: 500;
+	}
+}
+
+.features-columns-section {
+	.item {
+		padding: 2rem;
+		padding-left: 6rem;
+		overflow-x: hidden;
+		position: relative;
+		height: 100%;
+	}
+	.icon-holder {
+		font-size: 2rem;
+		width: 100px;
+		height: 100px;
+		display: inline-block;
+		@include border-radius(50%);
+		position: absolute;
+		left: -15px;
+		top: -15px;
+		background: lighten($theme-color-primary, 30%);
+		text-align: center;
+		.icon {
+			color: $theme-color-primary;
+			padding-top: 35px;
+		}
+	}
+}
+
+.slider-container {
+	
+	.figure-holder {
+		height: 100%;
+		min-height: 200px;
+		position: relative;
+		.mask {
+			display: block;
+			width: 100%;
+			height: 100%;
+			position: absolute;
+			left: 0;
+			top: 0;
+			background: rgba($theme-text-color-primary, 0.5);
+			
+		}
+	}
+	.content-holder {
+		height: 100%;
+	}
+	.figure-holder-1 {
+		background: url('../images/cases/case-1.jpg') no-repeat center center;
+		background-size: cover;
+	}
+	.figure-holder-2 {
+		background: url('../images/cases/case-2.jpg') no-repeat center center;
+		background-size: cover;
+	}
+	.figure-holder-3 {
+		background: url('../images/cases/case-3.jpg') no-repeat center center;
+		background-size: cover;
+	}
+
+	.case-logo {
+		z-index: 10;
+		
+	}
+}
+
+
+
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) { 
+    
+}
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) { 
+
+}
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) { 
+
+ }
+
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) {  }
+
+
+/* We occasionally use media queries that go in the other direction */
+// Extra small devices (portrait phones, less than 576px)
+@media (max-width: 575.98px) {
+	.features-tab .nav-item {
+		padding: 0;
+	}
+    .features-tab .nav-item .nav-link {
+	    font-size: 0.875rem;
+	    padding: 0;
+    }
+
+}
+
+// Small devices (landscape phones, less than 768px)
+@media (max-width: 767.98px) { }
+
+// Medium devices (tablets, less than 992px)
+@media (max-width: 991.98px) { }
+
+// Large devices (desktops, less than 1200px)
+@media (max-width: 1199.98px) { }
+
+
