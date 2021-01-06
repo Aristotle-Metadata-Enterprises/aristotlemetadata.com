@@ -1,0 +1,218 @@
+
+.pricing-tab {
+	display: block;
+	text-align: center;
+	padding: 0.5rem;
+	width: 100%;
+	@include border-radius(4px);
+	font-weight: bold;
+	background: white;
+	color: $theme-text-color-primary;
+	&:hover {
+		text-decoration: none;
+		color: #fff;
+		background: $theme-color-primary;
+	}
+
+	&.active {
+		background: $theme-color-primary;
+		color: #fff;
+	}
+}
+
+
+.pricing-table {
+	
+	background: white;
+	width: 100%;
+
+	td, th {
+		padding: 1rem;
+		border-collapse: collapse;
+		border-bottom: 1px solid $theme-border-color;
+	}
+	
+	tbody {
+		td, th {
+			border-bottom: 1px solid $theme-border-color;
+		}
+	}
+	
+	.pricing-plan-name {
+		font-family: 'DM Sans', sans-serif;
+	}
+
+	
+	.pricing-label {
+		display: inline-block;
+		width: 100%;
+		height: 50px;
+		top: -50px;
+		left: 0;
+		background: $theme-color-primary;
+		color: #fff;
+		padding: 1rem;
+		font-family: 'DM Sans', sans-serif;
+		font-size: 0.875rem;
+		font-weight: 700;
+	}
+	
+	.data-text {
+		font-size: 0.875rem;
+	}
+	
+	
+	.pricing-plan-name {
+		font-size: 1.25rem;
+		color: $theme-text-color-primary;
+	}
+	
+	.pricing-figure {
+		color: $theme-color-primary;
+		.currency {
+			font-size: 1.5rem;
+			font-weight: 300;
+			vertical-align: super;
+		}
+		.number {
+			font-size: 2.5rem;
+			font-weight: normal;
+			
+		}
+		.unit {
+			color: $theme-text-color-light;
+			font-size: 0.875rem;
+			font-weight: normal;
+		}
+	}
+	
+	.pricing-desc {
+		font-size: 0.875rem;
+		color: $theme-text-color-light;
+		font-weight: normal;
+	}
+	
+	.pricing-0-data {
+		padding-left: 2rem;
+		width: 260px;
+		text-align: left;
+		font-weight: normal;
+	}
+	
+	.icon-tick {
+		background: $theme-color-tick;
+		color: #fff;
+		width: 16px;
+		height: 16px;
+		font-size: 0.75rem;
+		display: inline-block;
+		padding-top: 1px;
+		text-align: center;
+		@include border-radius(50%);
+	}
+	
+	.icon-cross {
+		background: $theme-bg-light;
+		color: $theme-text-color-light;
+		width: 16px;
+		height: 16px;
+		font-size: 0.75rem;
+		padding-top: 1px;
+		display: inline-block;
+		text-align: center;
+		@include border-radius(50%);
+	}
+	
+	tr.tr-data-type {
+		.pricing-0-data {
+			font-weight: bold;
+		}
+		td {
+			background: $theme-bg-light;
+		}
+		
+	}
+	
+	
+}
+
+.info-popover-trigger {
+	background: $theme-text-color-secondary;
+	color: #fff;
+	width: 16px;
+	height: 16px;
+	font-size: 0.75rem;
+	display: inline-block;
+	text-align: center;
+	@include border-radius(50%);
+	&:hover {
+		background: $theme-text-color-secondary;
+	}
+}
+
+
+.customers-section {
+	.company-logo {
+		max-width: 120px;
+		height: auto;
+	}
+	
+	.logo-holder img {
+		width: 140px;
+	}
+	
+	.source {
+		font-size: 0.875rem;
+		font-weight: 500;
+		color: $theme-text-color-light;
+	}
+}
+
+
+.faq-section {
+	.item {
+		height: 100%;
+		
+	}
+	.faq-icon {
+		display: inline-block;
+		color: $theme-color-primary;
+		position: absolute;
+		left: 0;
+		top: 0;
+	}
+	.faq-q {
+		font-size: 1.125rem;
+		padding-left: 1.5rem;
+		position: relative;
+	}
+}
+
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) { 
+   .pricing-table td, .pricing-table th {
+	    display: table-cell !important;
+    }
+}
+
+// Small devices (landscape phones, less than 768px)
+@media (max-width: 767.98px) { 
+    .pricing-table .pricing-0-data {
+	    width: 50%;
+    }
+}
+
+// Medium devices (tablets, less than 992px)
+@media (max-width: 991.98px) { 
+	.mobile-is-hidden {
+	    display: none;
+    }
+
+    
+    .pricing-table .tr-plan th {
+	    border: none;
+
+    }
+    
+}

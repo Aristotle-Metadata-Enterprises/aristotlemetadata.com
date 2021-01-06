@@ -1,0 +1,88 @@
+.navbar-aristotle {
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
+
+.navbar-aristotle .navbar-brand {
+  padding-bottom: 4px;
+}
+
+.navbar-aristotle .navbar-brand img {
+  height: 72px;
+}
+
+.footer-aristotle .footer-col .logo-icon {
+  max-width:300px;
+}
+
+.theme-bg-gradient {
+  background-image: linear-gradient(135deg, #356a69, 75%, #3F88C5) !important;
+}
+
+.curve-top {
+  background-image: url("/assets/images/patterns/curve-top.svg") !important;
+}
+
+.curve-bottom {
+  background-image: url("/assets/images/patterns/curve-bottom.svg") !important;
+}
+
+.cover .curve-top,
+.cover .curve-bottom,
+.curve-top.cover,
+.curve-bottom.cover 
+{
+  background-size: cover;
+}
+
+.post-banner-holder {
+  text-align: center;
+}
+
+.aristotle-blog-thumb {
+  background-size: cover;
+  height: 200px;
+  width: 100%;
+}
+
+
+.aristotle-blog-content img {
+  max-width: 100%;
+}
+
+.cover div.lighter {
+  opacity: 0.3;
+}
+
+.curve-top.green {
+  background-image: url("/aristotle/assets/patterns/curve-top-green.svg") !important;
+}
+
+.curve-bottom.gray {
+  background-image: url("/aristotle/assets/patterns/curve-bottom-gray.svg") !important;
+}
+
+.hero-wrapper.aristotle-primary {
+  background-image: linear-gradient(135deg, #356a6990, 75%, #3F88C590) !important;
+}
+
+.profile-image {
+  border-radius: 50%;
+}
+
+.aristotle-blog-card > a.post-link {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.aristotle-blog-card > a.post-link > .post-content-holder {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+}
+
+.aristotle-blog-card > a.post-link > .post-content-holder > .post-excerpt{
+  flex-grow: 1;
+  /* flex: 1 0 0; */
+}

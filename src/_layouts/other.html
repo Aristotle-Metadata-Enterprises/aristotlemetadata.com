@@ -1,0 +1,36 @@
+{% include html_head.html %}
+
+<body class="home-page">
+    
+{% include header.html %}
+
+<div class="headline-bg">
+</div><!--//headline-bg-->
+
+    <section class="contact-section section section-on-bg">
+        <div class="container">
+            <h2 class="title text-center">{{ page.title }}</h2>
+            <p class="intro text-center">{{ page.subtitle }}</p>
+            <div class="contact-form">
+                <div class="row">
+                    <div class="contact-form-inner col-md-8 col-sm-12 col-xs-12 col-md-offset-2 col-sm-offset-0 xs-offset-0">
+                        <div class="row">                                                           
+    {{ content }} 
+                    </div><!--//row-->
+                </div>
+            </div><!--//row-->
+            <div id="form-messages"></div>
+        </div><!--//contact-form-->
+    </div><!--//container-->
+</section><!--//contact-section-->
+        
+
+    {% include footer.html %}
+    {% include footer_scripts.html %}
+
+    {{ page.footer_scripts }}
+    <script type="text/javascript" src="assets/js/main.js"></script>
+    {% include ga.html %}
+
+</body>
+</html>

@@ -1,0 +1,109 @@
+@media (min-width: 992px) {
+  .blog-entry-wrapper {
+      margin-top: 0px;
+  }
+}
+iframe {
+  max-width: 100%;
+}
+
+.blog-face {
+    position:relative;
+    display: block;
+    margin: 0px auto 30px;
+    z-index: 39;
+    height:120px;
+}
+
+.blog-entry-wrapper .blog-entry .blog-entry-heading {
+  height: 450px;
+}
+
+article.post img {
+  max-width:100%;
+}
+
+.flexslider .slides>li {
+  background-size: cover; 
+}
+
+.blog-list .post-inner figure.post-thumb {
+  height:260px;
+  overflow: hidden;
+}
+.blog-list .post-inner figure.post-thumb img {
+  width:100%;
+}
+
+.blog-entry-wrapper .blog-entry .post-nav.post-nav-bottom {
+  width: 100%;
+  bottom: 0px;
+  background: rgba(0, 0, 0, 0.8);
+  padding: 15px 30px;
+  margin-bottom: 0;
+  margin-top: 25px;
+  font-size: 14px;
+  height: 55px;
+}
+.post-nav-bottom .nav-next {
+  color:white;
+}
+
+div.blog-entry-wrapper {
+  padding-bottom:0px;
+}
+
+.blog-entry-wrapper .blog-entry .blog-entry-heading div.container {
+  max-width:900px;
+}
+
+pre.highlight {
+  color:black;
+}
+
+input[type=url] {
+  appearance: none; 
+  -webkit-appearance: none;
+  -moz-appearance: none;
+}
+
+ol.comment-list { list-style:none; margin:0 0 1em; padding:0; text-indent:0; }
+ol.comment-list li { }
+ol.comment-list li.alt { }
+ol.comment-list li.bypostauthor {}
+ol.comment-list li.byuser {}
+ol.comment-list li.comment-author-admin {}
+ol.comment-list li.comment { border-bottom:1px dotted #666; padding:1em; }
+ol.comment-list li.comment div.comment-author {}
+ol.comment-list li.comment div.vcard { font:normal 16px georgia,times,serif; }
+ol.comment-list li.comment div.vcard cite.fn { font-style:normal; }
+ol.comment-list li.comment div.vcard cite.fn a.url {}
+ol.comment-list li.comment div.vcard img.avatar { border:5px solid #ccc; float:right; margin:0 0 1em 1em; }
+ol.comment-list li.comment div.vcard img.avatar-32 {}
+ol.comment-list li.comment div.vcard img.photo {}
+ol.comment-list li.comment div.vcard span.says {}
+ol.comment-list li.comment div.commentmetadata {}
+ol.comment-list li.comment div.comment-meta { font-size:9px; }
+ol.comment-list li.comment div.comment-meta a { color:#ccc; }
+ol.comment-list li.comment p { font-size:14px; margin:0 0 1em; }
+ol.comment-list li.comment ul { font-size:11px; list-style:square; margin:0 0 1em 2em; }
+ol.comment-list li.comment div.reply { font-size:11px; }
+ol.comment-list li.comment div.reply a { font-weight:bold; }
+ol.comment-list li.comment ul.children { list-style:none; margin:1em 0 0; text-indent:0; }
+ol.comment-list li.comment ul.children li {}
+ol.comment-list li.comment ul.children li.alt {}
+ol.comment-list li.comment ul.children li.bypostauthor {}
+ol.comment-list li.comment ul.children li.byuser {}
+ol.comment-list li.comment ul.children li.comment {}
+ol.comment-list li.comment ul.children li.comment-author-admin {}
+ol.comment-list li.comment ul.children li.depth-2 { border-left:5px solid #555; margin:0 0 .25em .25em; }
+ol.comment-list li.comment ul.children li.depth-3 { border-left:5px solid #999; margin:0 0 .25em .25em; }
+ol.comment-list li.comment ul.children li.depth-4 { border-left:5px solid #bbb; margin:0 0 .25em .25em; }
+ol.comment-list li.comment ul.children li.depth-5 {}
+ol.comment-list li.comment ul.children li.odd {}
+ol.comment-list li.even { background:#fff; }
+ol.comment-list li.odd { background:#f6f6f6; }
+ol.comment-list li.parent { border-left:5px solid #111; }
+ol.comment-list li.thread-alt { }
+ol.comment-list li.thread-even {}
+ol.comment-list li.thread-odd {}
