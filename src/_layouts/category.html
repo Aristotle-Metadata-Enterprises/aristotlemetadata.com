@@ -1,108 +1,66 @@
 ---
-title: Blog
-body_class: blog-page
-head_scripts: >
-    <link id="theme-style" rel="stylesheet" href="/aristotle/css/blog.css">
+layout: raw
+title: "Blog :tag"
+
 ---
-{% include html_head.html %}
 
-<body class="blog-page">
-    <div class="wrapper">
-        {% include blog_header.html %}
-        <div class="container" style="padding-top:150px">
-            <div class="row">
-                <section class="post col-md-10 col-sm-12 col-xs-12 col-md-offset-1 col-sm-offset-0 col-xs-offset-0">
-                    <header class="h3">
-                        {{ page.tag | capitalize }}
-                    </header>
-                    <p>
-                        Viewing all posts filed under: <em>{{ page.tag | capitalize  }}</em>
-                    </p>
- 
-                </section><!--//featured-blog-posts-->
+<div class="hero-wrapper">
+    <section class="blog-header page-header py-3 py-md-5 over-curve">
+        {% include curve.html top="lighter cover green" bottom="gray" %}
+        <div class="container">	 
+            <h1 class="page-headline text-center mb-5">Aris<u>blog</u>le - {{ page.tag | capitalize  }}</h1>
+            <div class="page-tagline mb-4 text-center">
+                Viewing all posts filed under: <em>{{ page.tag | capitalize  }}</em>
             </div>
-        </div>
-        <!-- ******BLOG LIST****** --> 
-        <div class="blog container">
-            <div class="row">
-                <div id="blog-mansonry" class="blog-list">
-                  {% for post in site.categories[page.tag] %}
+        </div><!--//container-->
+    </section><!--//blog-header-->
+</div><!--//hero-wrapper-->
 
-                    <article class="post col-md-10 col-sm-12 col-xs-12 col-md-offset-1 col-sm-offset-0 col-xs-offset-0">
-                        <div class="post-inner">
-                            <div class="content">
-                                <h3 class="post-title"><a href="{{ post.url }}">{{ post.title }}</a></h3>
-                                <div class="post-entry">
-                                    <p>{{ post.content | strip_html | truncatewords:50}}</p>
-                                    <a class="read-more" href="{{ post.url }}">Read more <i class="fa fa-long-arrow-right"></i></a>
-                                </div>
-                                <div class="meta">
-                                    <ul class="meta-list list-inline">                                       
-                                    	<li class="post-time post_date date updated">
-                                    	{% assign d = post.date | date: "%-d"  %}
-                                        {{ post.date | date: "%B" }} 
-                                        {% case d %}
-                                          {% when '1' or '21' or '31' %}{{ d }}st
-                                          {% when '2' or '22' %}{{ d }}nd
-                                          {% when '3' or '23' %}{{ d }}rd
-                                          {% else %}{{ d }}th
-                                          {% endcase %}, 
-                                	    {{ post.date| date: '%Y'  }}
-                                        </li>
-                                        
-                                    	<li class="post-author"> by <a href="#">{{ site.authors[post.author].display_name }}</a></li>
-                                    	<li class="post-comments-link">
-                                	        <a href="{{ post.url }}#comment-area"><i class="fa fa-comments"></i></a>
-                                	    </li>
-                                	</ul><!--//meta-list-->                           	
-                                </div><!--meta-->
-                            </div><!--//content-->
-                        </div><!--//post-inner-->
-                    </article><!--//post-->
-                  {% endfor %}
+<div class="search-form-section text-center pt-5">
+<div class="container">
+    <div class="search-form-wrapper mx-auto d-inline-block">
+        <form class="form-inline search-form" action="#" method="get">
+            <input type="text" placeholder="Search blog post" name="search" class="form-control search-input mr-2">
+            <button type="submit" class="btn btn-gradient" value="Search"><i class="fa fa-search"></i></button>
+        </form><!--//search-form-->   
+    </div><!--//mx-auto-->
+</div><!--//container-->
+</div><!--//search-form-wrapper-->
 
 
-                </div><!--//blog-list-->  
-            </div><!--//row-->
-            {% comment %}
-            <div class="pagination-container text-center">
-                <ul class="pagination">
-                    <li class="disabled"><a href="#">&laquo;</a></li>
-                    <li class="active"><a href="#">1<span class="sr-only">(current)</span></a></li>
-                    <li><a href="#">2</a></li>
-                    <li><a href="#">3</a></li>
-                    <li><a href="#">4</a></li>
-                    <li><a href="#">5</a></li>
-                    <li><a href="#">&raquo;</a></li>
-                </ul><!--//pagination-->
-            </div><!--//pagination-container-->
-            {% endcomment %}
-        </div><!--//blog-->        
-    </div><!--//wrapper-->
-    
-    <!-- ******FOOTER****** --> 
-    {% include footer.html %}
-    <!--//footer-->
-    
-    <!-- Javascript -->          
-    <script type="text/javascript" src="/assets/plugins/jquery-1.11.2.min.js"></script>
-    <script type="text/javascript" src="/assets/plugins/jquery-migrate-1.2.1.min.js"></script>
-    <script type="text/javascript" src="/assets/plugins/bootstrap/js/bootstrap.min.js"></script> 
-    <script type="text/javascript" src="/assets/plugins/bootstrap-hover-dropdown.min.js"></script>
-    <script type="text/javascript" src="/assets/plugins/back-to-top.js"></script>
-    <script type="text/javascript" src="/assets/plugins/jquery-placeholder/jquery.placeholder.js"></script>
-    <script type="text/javascript" src="/assets/plugins/FitVids/jquery.fitvids.js"></script>
-    <script type="text/javascript" src="/assets/plugins/flexslider/jquery.flexslider-min.js"></script> 
-            
-    <!-- blog page specific js starts --> 
-    <script type="text/javascript" src="/assets/plugins/imagesloaded/imagesloaded.pkgd.min.js"></script>     
-    <script type="text/javascript" src="/assets/plugins/masonry.pkgd.min.js"></script> 
-    <script type="text/javascript" src="/assets/js/blog.js"></script>
-    <!-- blog page specific js ends -->   
-     
-    <script type="text/javascript" src="/assets/js/main.js"></script>
-    
-    {% include ga.html %}    
-</body>
-</html> 
+<section class="blog-list-section py-5">
+<div class="container">
+    <div class="row">
+        {% for post in site.categories[page.tag] %}
+            {% include blog_card.html post=post %}
+        {% endfor %}
+    </div><!--//row-->
 
+    {% if paginator.page_trail %}
+        <nav class="pagination-container text-center">
+            <ul class="pagination justify-content-center">
+                <li class="page-item disabled">
+                    <a class="page-link" href="" aria-label="Previous">
+                        <span aria-hidden="true">&laquo;</span>
+                    </a>
+                </li>
+                {% for trail in paginator.page_trail %}
+                    {% if page.url == trail.path %}
+                    <li class="page-item active" aria-current="page">
+                    {% else %}
+                    <li class="page-item">
+                    {% endif %}
+                        <a class="page-link" href="{{ trail.path | prepend: site.baseurl }}" title="{{trail.title}}">{{ trail.num }}</a>
+                    </li>
+                {% endfor %}
+                <li class="page-item">
+                    <a class="page-link" href="#" aria-label="Next">
+                        <span aria-hidden="true">&raquo;</span>
+                    </a>
+                </li>
+            </ul>
+        </nav>
+    {% endif %}
+  
+</div><!--//container-->
+</section><!--//blog-list-section-->

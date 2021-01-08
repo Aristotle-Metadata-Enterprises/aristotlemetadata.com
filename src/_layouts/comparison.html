@@ -1,26 +1,12 @@
----
-title: Blog
-body_class: blog-page
-head_scripts: >
-    <link id="theme-style" rel="stylesheet" href="/aristotle/css/blog.css">
----
 {% include html_head.html %}
 
 <style>
-    .comparison-page .h1, .comparison-page .h2 {
-        text-align: center;
-        margin:1.75em 0;
-    }
-    .comparison-page .lead {
-        text-align: center;
-    }    
     .comparison-page .lead::after, .comparison-page .lead::before {
         display:block;
         margin: 1.5em 25%;
         border-bottom:1px solid #356a69;
         content: ""
     }
-    .comparison-page .h2 {margin-top: 3em;}
 
     .user-guide {
         margin: 30px auto ;
@@ -35,28 +21,40 @@ head_scripts: >
 
 </style>
 
-<body class="">
-    <div class="wrapper comparison-page">
-        {% include header.html %}
-        <div class="container" style="padding-top:150px">
-            <div class="row">
-                <section class="post col-md-10 col-sm-12 col-xs-12 col-md-offset-1 col-sm-offset-0 col-xs-offset-0">
-                    <header class="h1 comparison">
+<body class="comparison-page">
+    {% include header.html %}
+
+    <div class="hero-wrapper">
+        {% include curve.html top="lighter green" bottom="gray" %}
+     
+        <section class="product-header page-header over-curve py-3 py-md-5">
+            <div class="container text-center">	
+                <div class="single-col-max mx-auto">	   
+                    <h1 class="page-headline mb-3">
+
                         Aristotle Metadata Registry
+                        <br>
                         {% if page.competitor %}
                             vs
                         {% else %}
                             &amp;
                         {% endif %}
-                        
+                        <br>
                         {{ page.them }}
-                    </header>
 
-                    <div class="lead">
+                    </h1>
+                    <div class="page-tagline mb-4">
                         {{ page.lead }}
                     </div>
-                 
-                    <header class="h2 comparison">
+                </div><!--//single-col-max-->
+            </div>
+        </section><!--//product-header-->
+    </div><!--//hero-wrapper-->
+    
+	<section class="page-content py-5">
+		<div class="container">
+            <div class="single-col-max mx-auto">	   
+                <header class="h2 text-center">
                     {% if page.competitor %}
                         Why choose Aristotle Metadata 
                         over {{ page.them }}?
@@ -64,8 +62,11 @@ head_scripts: >
                         How can Aristotle Metadata
                         support {{ page.them }}?
                     {% endif %}
-                    </header>
-                    <table class="table">
+                </header>
+            </div>
+            <div class="row">
+                <div class="col-md-10 offset-md-1">
+                    <table class="table shadow rounded pt-5">
                         <thead>
                             <tr>
                                 <th width="60%">Feature</th>
@@ -127,48 +128,36 @@ head_scripts: >
                         </tbody>
                         {% endfor %}
                     </table>
-
-                    <div class="lead">
-                        {{ page.call-to-action  }}
-                    </div>
-                </section><!--//featured-blog-posts-->
-                <div class="row">
-                    <div class="col-sm-4 col-sm-offset-1">
-                        <img class="img-responsive user-guide" 
-                            src="/aristotle/images/user-guide-screenshot.png">
-                    </div>
-                    <div class="col-sm-6">
-                        {% include mailchimp.html %}
-                    </div>
                 </div>
-
             </div>
         </div>
-    </div><!--//wrapper-->
-    
-    <!-- ******FOOTER****** --> 
-    {% include footer.html %}
-    <!--//footer-->
-    
-    <!-- Javascript -->          
-    <script type="text/javascript" src="/assets/plugins/jquery-1.11.2.min.js"></script>
-    <script type="text/javascript" src="/assets/plugins/jquery-migrate-1.2.1.min.js"></script>
-    <script type="text/javascript" src="/assets/plugins/bootstrap/js/bootstrap.min.js"></script> 
-    <script type="text/javascript" src="/assets/plugins/bootstrap-hover-dropdown.min.js"></script>
-    <script type="text/javascript" src="/assets/plugins/back-to-top.js"></script>
-    <script type="text/javascript" src="/assets/plugins/jquery-placeholder/jquery.placeholder.js"></script>
-    <script type="text/javascript" src="/assets/plugins/FitVids/jquery.fitvids.js"></script>
-    <script type="text/javascript" src="/assets/plugins/flexslider/jquery.flexslider-min.js"></script> 
-            
-    <!-- blog page specific js starts --> 
-    <script type="text/javascript" src="/assets/plugins/imagesloaded/imagesloaded.pkgd.min.js"></script>     
-    <script type="text/javascript" src="/assets/plugins/masonry.pkgd.min.js"></script> 
-    <script type="text/javascript" src="/assets/js/blog.js"></script>
-    <!-- blog page specific js ends -->   
-     
-    <script type="text/javascript" src="/assets/js/main.js"></script>
-    
-    {% include ga.html %}    
-</body>
-</html> 
+    </section>
 
+    {% include cta_bold.html call="Don't take our word for it - try it yourself!" 
+        sub_call=page.cta.sub_call body=page.cta.body action=page.cta.action url="/contact.html"  %}
+
+	<section class="page-content py-5">
+		<div class="container">
+            <div class="row">
+                <div class="col-md-5">
+                    <img class="img-fluid user-guide float-right" 
+                        src="/aristotle/images/user-guide-screenshot.png">
+                </div>
+                <div class="col-sm-6">
+                    {% include mailchimp.html %}
+                </div>
+            </div>
+        </div><!--//container-->
+    </section><!--//page-content-->
+
+    <section class="cta-section text-center py-5 theme-bg-gradient position-relative">
+        {% include curve.html cover=cover %}
+    </section><!--//cta-section-->
+    
+
+    {% include footer.html %}
+    {% include footer_scripts.html %}
+
+    {% include ga.html %}
+</body>
+</html>

@@ -3,6 +3,7 @@ layout: post
 title: Aristotle Metadata Registry v4.7.1 - New Reviews and Issues feature release!
 author: aristotle
 category: releases
+img: /aristotle/images/blog/releases/4.7.1-issues_list.png
 ---
 
 ### Aristotle Metadata Registry v4.7.1 is now available to all clients.

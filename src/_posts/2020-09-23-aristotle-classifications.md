@@ -2,7 +2,9 @@
 layout: post
 title: Classification management now available in Aristotle!
 author: sam
+img: /aristotle/images/blog/2020-09-classifications_announce/anzsco-main.png
 ---
+
 ## Classifications, Reference Data, Controlled Vocabularies... however you refer to them Aristotle supports them all!
 
 The latest release of the Aristotle Metadata Registry includes a huge new feature from the [Aristotle Feature Roadmap](https://www.aristotlemetadata.com/blog/2020/02/2020-aristotle-development-roadmap-meeting.html) that allows you to create, manage and govern statistical classifications alongside the rest of your metadata. To help familiarise you with this great new tool, we've released a feature spotlight video that covers all of these features:

@@ -1,0 +1,73 @@
+<section class="blog-header page-header py-3 py-md-5 ">
+    {% include curve.html top="lighter cover green" bottom="gray" %}
+    <div class="container over-curve">	
+        {% if header %}
+        <h1 class="page-headline text-center mb-5">{{ include.header }}</h1>
+        {% endif %}
+        <div class="page-tagline mb-4 text-center">
+            {{ include.tagline }}
+        </div>
+        {% if include.more_link %}
+        <div class="mb-4 text-center">
+            <a class="more-link" href="/blog/">Read more on the Aris<u>blog</u>le <strong>&rarr;</strong></a>
+        </div>
+        {% endif  %}
+
+        <div class="featured-blog-posts">
+            <div class="slider-container text-center">
+                <div class="featured-slider tiny-slider">
+                    {% assign featured = site.posts | where_exp:"p", "p.img" %}
+                    {% for post in featured limit: 4 %}
+                    <div class="item">
+                        <a class="item-link d-block" href="{{ post.url }}">
+                            <div class="row">
+                                <div class="col-12 col-lg-6 order-lg-1">
+                                    <div class="figure-holder figure-holder" style="background-image:url({{post.img}})">
+                                    </div><!--//figure-holder-->
+                                </div><!--//col-12-->
+                                <div class="col-12 col-lg-6 order-lg-0">
+                                    <div class="content-box p-5 text-left">
+                                        <div class="post-type mb-2">
+                                            <span class="font-weight-bold text-primary">{% include categorise.txt post=post %}</span>
+                                            <span class="px-2">|</span><span>
+                                                {% include wpm.txt words=post.content %}
+                                            </span>
+                                        </div><!--//post-type-->
+                                        <h4 class="post-title mb-3">{{ post.title }}</h4>
+                                        <div class="post-excerpt mb-3">
+                                            {{ post.content | strip_html | truncatewords:50}}
+                                        </div>
+                                        <div class="post-author">
+                                            <div class="row">
+                                                <div class="col-12 col-lg-2">
+                                                    <div class="profile mb-3">
+                                                        {{ site.authors[page.author].headshot }}
+                                                        <img class="profile-image img-fluid" src="{{ site.authors[post.author].headshot }}" alt="">
+                                                    </div>
+                                                </div><!--col-12-->
+                                                <div class="col-12 col-lg-10 pt-1">
+                                                    <div class="name font-weight-bold">{{ site.authors[post.author].display_name }}</div>
+                                                    <div class="meta">{{ site.authors[post.author].position }}</div>
+                                                </div><!--//col-12-->
+                                            </div><!--//row-->
+                                        </div><!--//post-author-->
+                                    </div><!--//content-box-->
+                                </div><!--//col-->
+                            </div><!--//row-->
+                        </a><!--//item-link-->
+                    </div><!--//item-->
+                    {% endfor %}
+
+                </div><!--//featured-slider-->
+                <div class="slider-custom-controls d-none d-md-block">
+                    <div class="prev" data-controls="prev">
+                        <i class="fas fa-chevron-left"></i>
+                    </div>
+                    <div class="next" data-controls="next">
+                        <i class="fas fa-chevron-right"></i>         
+                    </div>
+                </div><!--//slider-custom-controls-->
+            </div><!--slider-container-->
+        </div><!--//featured-blog-posts-->
+    </div><!--//container-->
+</section><!--//blog-header-->

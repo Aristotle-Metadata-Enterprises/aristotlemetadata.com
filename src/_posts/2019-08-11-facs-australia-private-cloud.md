@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Family and Community Services NSW signs up with Aristotle Cloud Services!
-author: sam
+author: lauren
 img: /aristotle/images/blog/facs-aristotle-banner.jpg
 thumbnail: /aristotle/images/blog/facs-aristotle-banner.jpg
 ---

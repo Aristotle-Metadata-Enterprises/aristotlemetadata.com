@@ -1,0 +1,27 @@
+<div class="item text-left mb-5 shadow-sm rounded">
+    <div class="item-inner">   
+        <div class="row">
+            <div class="col-12 col-lg-5">
+                <div class="figure-holder figure-holder-1 rounded-left d-flex justify-content-center"
+                     style="background-image:url('{{include.story.hero_image}}')">
+                </div><!--//figure-holder-->
+            </div><!--//col-12-->
+            <div class="col-12 col-lg-7">
+                <div class="content-holder p-5 a7e-bg-white">
+                    <div class="logo-holder mb-3">
+                        <img src="{{ include.story.logo }}" style="max-height:80px;" alt="" >
+                        {% if include.story.title %}
+                            <span class="case-intro mb-3 font-weight-bold">{{ include.story.title }}</span>
+                        {% endif %}
+                    </div>
+                    <div class="summary mb-3">
+                        {{ include.story.lead }}
+                    </div><!--//summary-->
+                    {% if include.story.url %}
+                        <div><a class="more-link" href="{{ include.story.url }}">Read More <span class="link-arrow">&rarr;</span></a></div>
+                    {% endif %}
+                </div><!--//content-holder-->
+            </div><!--//col-12-->
+        </div><!--//row-->
+    </div><!--//item-inner-->
+</div><!--//item-->

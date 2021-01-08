@@ -5,11 +5,11 @@ install:
 	bundle _2.0.2_ install
 
 build:
-	jekyll build --future
+	jekyll build -s ./src --future
 
 serve:
-	jekyll serve -H0.0.0.0 -P$(PORT) --future
+	jekyll serve -s ./src -H0.0.0.0 -P$(PORT) --future
 
 serve-win:
 	gem install wdm
-	jekyll serve -H0.0.0.0 -P$(PORT) --future --watch --force_polling
+	jekyll serve -s ./src -H0.0.0.0 -P$(PORT) --future --watch --force_polling

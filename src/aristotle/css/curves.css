@@ -1,0 +1,27 @@
+.cover .curve-top,
+.cover .curve-bottom,
+.curve-top.cover,
+.curve-bottom.cover 
+{
+  background-size: cover;
+}
+
+.curve-top {
+  background-image: url("/assets/images/patterns/curve-top.svg") !important;
+}
+
+.curve-bottom {
+  background-image: url("/assets/images/patterns/curve-bottom.svg") !important;
+}
+
+.curve-top.green {
+  background-image: url("/aristotle/assets/patterns/curve-top-green.svg") !important;
+}
+
+.curve-bottom.gray {
+  background-image: url("/aristotle/assets/patterns/curve-bottom-gray.svg") !important;
+}
+
+.curve-bottom.green-to-blue {
+  background-image: url("/aristotle/assets/patterns/curve-bottom-green-to-blue.svg") !important;
+}

@@ -1,5 +1,5 @@
-{% if include.categories %}
-    {{ include.categories.first | capitalize}}
+{% if include.post.categories.first %}
+    {{ include.post.categories.first | capitalize}}
 {% else %}
     General
 {% endif %}

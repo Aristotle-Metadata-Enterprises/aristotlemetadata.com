@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Mid-year Aristotle Roadmap update - new features and community changes
+title: Expanded support for 11179-7 Datasets within Aristotle Metadata Registry
 author: larrn
 ---
 

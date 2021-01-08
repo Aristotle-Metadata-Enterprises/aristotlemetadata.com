@@ -1,0 +1,52 @@
+---
+layout: raw
+---
+<div class="hero-wrapper">
+    <div class="curve-container">
+        <div class="curve-top"></div>
+        <div class="curve-bottom"></div>
+    </div><!--//curve-container-->
+
+    <section class="contact-header page-header over-curve py-4 py-md-5">
+        <div class="container text-center">	
+            <div class="single-col-max mx-auto">
+                <h1 class="page-headline mb-3">{{ page.call_to_action }}</h1>
+                <div class="page-tagline mb-5">
+                    {{ page.page_intro }}
+                </div>
+
+                {{ content }} 
+
+                <div class="contact-form-box shadow rounded p-5 mb-5">
+                    <form id="contact-form" class="contact-form" method="post" action="https://getsimpleform.com/messages?form_api_token=8912b0e723f1761a207116e5a4fea5f6">
+                        <h3 class="text-center">
+                            {{ page.form_call_to_action }}
+                        </h3>
+                        <div class="mb-3 text-center">
+                            {{ page.form_intro }}
+                        </div>
+                        <div class="form-row">                                                           
+                            <div class="form-group col-12 col-xl-6">
+                                <label class="sr-only" for="cname">Name</label>
+                                <input type="text" class="form-control" id="cname" name="name" placeholder="Name" minlength="2" required="" >
+                            </div>                    
+                            <div class="form-group col-12 col-xl-6">
+                                <label class="sr-only" for="cemail">Email</label>
+                                <input type="email" class="form-control" id="cemail" name="email" placeholder="Email" required="" >
+                            </div>
+                            
+                            <div class="form-group col-12">
+                                <label class="sr-only" for="cmessage">Your message</label>
+                                <textarea class="form-control" id="cmessage" name="message" placeholder="Enter your message" rows="10" required=""></textarea>
+                            </div>
+                            <div class="form-group col-12">
+                                <button type="submit" class="btn btn-block btn-gradient py-2">Submit</button>
+                            </div>                           
+                        </div><!--//form-row-->
+                        <input type='hidden' name='redirect_to' value='http://www.aristotlemetadata.com/contact/thanks.html' />
+                    </form><!--//contact-form-->
+                </div><!--//contact-form-box-->
+            </div><!--//single-col-max-->
+        </div><!--//container-->
+    </section><!--//contact-header-->
+</div><!--//hero-wrapper-->     

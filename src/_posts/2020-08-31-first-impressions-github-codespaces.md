@@ -4,6 +4,8 @@ title: First impressions of Github Codespaces
 author: sam
 img: /aristotle/images/blog/codespaces/codespaces-jekyll.png
 thumbnail: /aristotle/images/blog/codespaces/codespaces-jekyll.png
+categories: Engineering
+
 ---
 
 Github recently launched their new [Github codespaces](https://github.com/features/codespaces) service - an online, in-browser Integrated Development Environment powered by [Visual Studio Code](https://code.visualstudio.com/). This environment allows someone to quickly load a virtual machine and a complete code editing interface, that is all accessible within the browser without having to install anything on the users machine. If you are familiar with products like [Amazon Web Services's Cloud 9 IDE](https://aws.amazon.com/cloud9/) or its predecessor C9.io this will probably feel very familiar.

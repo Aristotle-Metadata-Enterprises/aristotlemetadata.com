@@ -1,0 +1,41 @@
+<section class="cta-section text-center py-5 theme-bg-gradient position-relative">
+    <div class="curve-containers">
+        <div class="curve-top"></div>
+        <div class="curve-bottom"></div>
+    </div><!--//curve-container-->
+    <div class="container py-4">
+        
+        <h3 class="section-title text-white mb-3">
+            {{ include.call }}
+        </h3>
+        {% if include.sub_call %}
+        <div class="section-intro mb-5 text-white single-col-max mx-auto">
+            {{ include.sub_call }}
+        </div>
+        {% endif %}
+        
+        {% if include.text_body or include.body %}
+        <div class="data-box mb-3">
+            <div class="row">
+                {% if include.text_body %}
+                <div class="item w-75 mx-auto">
+                    <div class="item-inner p-3 text-white">
+                        {{ include.text_body | newline_to_br }}
+                    </div>
+                </div>
+                {% elsif include.body %}
+                    {{ include.body }}
+                {% endif %}
+            </div><!--//row-->
+        </div><!--//data-box-->
+        {% endif %}
+
+        {% if include.url %}
+        <div class="pt-3 text-center">
+            <a class="btn btn-inverse" href="{{ include.url }}">
+                {{ include.action|default:"Contact us for a demo today!" }}
+            </a>
+        </div>
+        {% endif %}
+    </div>
+</section><!--//cta-section-->
