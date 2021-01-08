@@ -7,19 +7,29 @@ pagination:
 
 ---
 
+
+{% if paginator.page == 1 %}
+{% include blog_carousel.html header="Aris<u>blog</u>le" tagline="Recent news and media about Aristotle Metadata" %}
+{% else %}
 <div class="hero-wrapper">
-
-    {% if paginator.page == 1 %}
-    {% include blog_carousel.html header="Aris<u>blog</u>le" tagline="Recent news and media about Aristotle Metadata." %}
-    {% endif %}
-
+    {% include curve.html top="lighter cover green" bottom="gray" %}
+    <section class="blog-header page-header py-3 py-md-5 over-curve">
+        <div class="container">	
+            <h1 class="page-headline text-center mb-5">Aris<u>blog</u>le</h1>
+            <div class="page-tagline mb-4 text-center">
+                Recent news and media about Aristotle Metadata
+            </div>
+        </div><!--//container-->
+    </section><!--//blog-header-->
 </div><!--//hero-wrapper-->
+{% endif %}
+
 
 <div class="search-form-section text-center pt-5">
 <div class="container">
     <div class="search-form-wrapper mx-auto d-inline-block">
         <form class="form-inline search-form" action="#" method="get">
-            <input type="text" placeholder="Search blog post" name="search" class="form-control search-input mr-2">
+            <input type="text" placeholder="Search blog posts" name="search" class="form-control search-input mr-2">
             <button type="submit" class="btn btn-gradient" value="Search"><i class="fa fa-search"></i></button>
         </form><!--//search-form-->   
     </div><!--//mx-auto-->
