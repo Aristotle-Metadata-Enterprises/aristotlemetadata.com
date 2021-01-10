@@ -18,7 +18,10 @@
                         {{ include.story.lead }}
                     </div><!--//summary-->
                     {% if include.story.url %}
-                        <div><a class="more-link" href="{{ include.story.url }}">Read More <span class="link-arrow">&rarr;</span></a></div>
+                        <div><a class="more-link" href="{{ include.story.url }}">
+                            {{ include.story.link_text | default: "Read More" }}
+                            <span class="link-arrow">&rarr;</span>
+                        </a></div>
                     {% endif %}
                 </div><!--//content-holder-->
             </div><!--//col-12-->

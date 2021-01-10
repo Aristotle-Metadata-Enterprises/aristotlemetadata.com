@@ -18,7 +18,7 @@
                 </div><!--//post-type-->
                 <h4 class="post-title">{{ include.post.title }}</h4>
                 <div class="post-excerpt mb-3">
-                    {{ include.post.content | strip_html | truncatewords:50}}
+                    {{ include.post.content | markdownify | strip_html | truncatewords:50}}
                 </div><!--//post-excerpt-->
                 <div class="post-author">
                     <div class="row">
@@ -28,6 +28,7 @@
                         <div class="col-12 col-lg-9 pt-1">
                             <div class="name font-weight-bold">{{ site.authors[include.post.author].display_name }}</div>
                             <div class="meta">{{ site.authors[include.post.author].position }}</div>
+                            <div class="meta">{{ post.date | date_to_long_string: "ordinal" }}</div>
                         </div><!--//col-12-->
                     </div><!--//row-->
                 </div><!--//post-author-->

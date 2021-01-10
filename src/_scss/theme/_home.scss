@@ -37,7 +37,8 @@
 }
 .section-intro {
 	font-size: 1.125rem;
-	color: lighten($theme-text-color-secondary, 15%);
+	// color: lighten($theme-text-color-secondary, 15%);
+	color: $theme-text-color-secondary;
 }
 
 .hero-section {

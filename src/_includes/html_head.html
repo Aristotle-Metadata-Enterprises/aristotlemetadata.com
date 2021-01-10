@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en"> 
 <head>
-  <title>{{ page.title }} - Aristotle Metadata</title>
+  <title>{{ page.title | strip_html}} - Aristotle Metadata</title>
 	
 	<!-- Meta -->
 	<meta charset="utf-8">
@@ -14,9 +14,12 @@
 	<!-- Google Font -->
 	<link href="https://fonts.googleapis.com/css?family=DM+Sans:400,500,700&display=swap" rel="stylesheet">
 	
-	<!-- FontAwesome JS-->
+  <!-- FontAwesome JS-->
+  {% comment %}
   <script defer src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/js/all.min.js" integrity="sha512-F5QTlBqZlvuBEs9LQPqc1iZv2UMxcVXezbHzomzS6Df4MZMClge/8+gXrKw2fl5ysdk4rWjR0vKS7NNkfymaBQ==" crossorigin="anonymous"></script>
-  
+  {% endcomment %}
+  <script src="https://kit.fontawesome.com/7c78701591.js" crossorigin="anonymous"></script>
+
 	<!-- Plugins CSS -->
 	<link rel="stylesheet" href="/assets/plugins/tiny-slider/tiny-slider.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/dripicons/2.0.0/webfont.min.css" integrity="sha512-pi7KSLdGMxSE62WWJ62B1R5/H7WNnIsj2f51MikplRt31K0uCZ1lfPSw/0Jb1flSz6Ed2YLSlox6Uulf7CaFiA==" crossorigin="anonymous" />

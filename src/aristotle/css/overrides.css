@@ -73,3 +73,33 @@
 .partners-section img.img-fluid {
   max-height: 300px;
 }
+
+.icon-holder svg {
+  position: relative;
+  top: -3px;
+}
+
+.icon-holder .fas,
+.icon-holder .far,
+.icon-holder .fab,
+.icon-holder .fad
+{
+  /* This is a weird thing needed for the home page */
+  top: -5px;
+  position: relative;
+}
+
+.hero-wrapper.overflow {
+  overflow:visible !important;
+}
+
+.full-size-feature-image {
+  overflow: hidden;
+  box-shadow: 3px 3px 5px #777;
+  /* max-height: 500px; */
+}
+
+.full-size-feature-image img {
+  max-width:none !important;
+  opacity: 0.9;
+}

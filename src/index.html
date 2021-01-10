@@ -7,7 +7,7 @@ footer_scripts: >
 dark: false
 ---
 
-<div class="hero-wrapper {% if page.dark %}theme-bg-gradient{% endif %}">
+<div class="hero-wrapper overflow {% if page.dark %}theme-bg-gradient{% endif %}">
     {% if page.dark %}
         {% include curve.html top="cover" bottom="gray" %}
     {% else %}
@@ -25,7 +25,6 @@ dark: false
                     <p>The Aristotle Metadata Registry is a modern, user-friendly collaborative tool for recording business knowledge about data.
                     <p>Our Registry captures human intelligence about data so it can be integrated with business intelligence solutions, and can be deployed in the cloud or as an enterprise on-premise solution.
                     <p>We support you by delivering secure cloud-hosted registries, metadata goverance consulting, custom software integrations, and training and support.
-                    <!-- Launch is a modern website template perfect for marketing your SaaS products. It helps to launch your products with a bang and grow exponentially. -->
                 </div>
                 <div class="cta-btns mb-lg-3">
                     <a class="btn btn-{% if page.dark %}inverse{% else %}gradient{% endif %} mr-2 mb-3" href="/contact/demo.html">
@@ -41,7 +40,8 @@ dark: false
             <img src="assets/images/product/product-hero-1.png" alt="product">
         </div><!--//hero-figure-holder-->
     </section><!--//hero-section-->
-    
+
+    {% comment %}
     <section class="logos-section theme-bg-primary over-curve pb-4 py-lg-5 text-center">
         <div class="container">
             <div class="logos-row row mx-auto"> 
@@ -77,9 +77,101 @@ dark: false
                 </div><!--//item-->
             </div>    
         </div><!--//container-->
+        {% endcomment %}
+
     </section><!--//logos-section-->
-    
 </div><!--//hero-wrapper-->
+
+<section class="features-columns-section py-5 why-metadata-section">
+    <h3 class="mb-lg-5 text-center section-title single-col-max mx-auto">Metadata is essential for understanding your data</h3>
+    <div class="mb-4 text-center">
+        Evidence-based decision making requires data which is correct and easily understood.
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-12 col-lg-6 mb-5">
+                <div class="item shadow rounded">
+                    <div class="icon-holder">
+                        <div class="icon far fa-university"></div>
+                    </div><!--//icon-holder-->
+                    <div class="column-content">
+                        <h4>Government & Compliance</h4>
+                        <div class="desc mb-2">
+                            <p>
+                            Metadata is the key language of government to ensure data is collected, reported and analysed correctly.
+                            </p><p>
+                            Without metadata data will be incorrectly collected and interpreted and you risk policies being improperly applied.
+                            </p>
+                        </div>
+                        <a class="more-link" href="/metadata/">Learn more <span class="link-arrow">&rarr;</span></a>
+                    </div><!--//column-content-->
+                </div><!--//item-->
+                
+            </div><!--//col-->
+            
+            <div class="col-12 col-lg-6 mb-5">
+                <div class="item shadow rounded">
+                    <div class="icon-holder">
+                        <div class="icon far fa-industry-alt"></div>
+                    </div><!--//icon-holder-->
+                    <div class="column-content">
+                        <h4>Private Enterprise</h4>
+                        <div class="desc mb-2">
+                            <p>
+                            Data drives corporate decision making, so leadership boards and teams need confidence in their data.
+                            </p><p>
+                            Well-managed metadata extracts more value from corporate data assets and reduces costs when collecting and interpreting data.
+                            </p>
+                        </div>
+                        <a class="more-link" href="/metadata/">Learn more <span class="link-arrow">&rarr;</span></a>
+                    </div><!--//column-content-->
+                </div><!--//item-->
+            </div><!--//col-12-->
+            
+            <div class="col-12 col-lg-6 mb-5">
+                <div class="item shadow rounded">
+                    <div class="icon-holder">
+                        <div class="icon far fa-hospital"></div>
+                    </div><!--//icon-holder-->
+                    <div class="column-content">
+                        <h4>Data & Health Informatics</h4>
+                        <div class="desc mb-2">
+                            <p>
+                                Metadata is records the definitions needed to accurately measure and improve patient experience.
+                                </p><p>
+                                By capturing metadata definitions you improve policy effectiveness by ensuring patient data is collected correctly,
+                                and can be used to when reporting on health performance indicators.
+                                </p>
+                            </div>
+                        <a class="more-link" href="/metadata/">Learn more <span class="link-arrow">&rarr;</span></a>
+                    </div><!--//column-content-->
+                </div><!--//item-->
+            </div><!--//col-12-->
+            
+            <div class="col-12 col-lg-6 mb-5">
+                <div class="item shadow rounded">
+                    <div class="icon-holder">
+                        <div class="icon far fa-chart-pie"></div>
+                    </div><!--//icon-holder-->
+                    <div class="column-content">
+                        <h4>Statistics & actuarial</h4>
+                        <div class="desc mb-2">
+                            <p>
+                            Metadata systems are integral for national statistics agencies when capturing standard defintions and classifications, and ensure they are properly managed and securely published.
+                            </p><p>
+                            Well governed metadata is vital to the understanding of official statstics - by industry, by government and by the public.
+                            </p>
+                        </div>
+                        <a class="more-link" href="/metadata/">Learn more <span class="link-arrow">&rarr;</span></a>
+                    </div><!--//column-content-->
+                </div><!--//item-->
+            </div><!--//col-12-->
+        </div><!--//row-->
+    </div><!--//container-->
+    <p>
+
+    </p>
+</section><!--//features-columns-section-->         
 
 <section class="benefits-section py-5">
     <div class="container">
@@ -108,7 +200,7 @@ dark: false
                         <li><span class="theme-check-icon icon dripicons-checkmark mr-2"></span> Data governance</li>
                         <li><span class="theme-check-icon icon dripicons-checkmark mr-2"></span> API & Integrations</li>
                     </ul><!--//item-list-->
-                    <div><a class="more-link" href="./aristotle-metadata-registry.html">Find out more <span class="link-arrow">&rarr;</span></a></div>
+                    <div><a class="more-link" href="./products/aristotle-metadata-registry.html">Find out more <span class="link-arrow">&rarr;</span></a></div>
                 </div><!--//item-content-->
                 <div class="item-figure col-12 col-lg-5 pt-5 col-xl-6">
                     <img class="img-fluid shadow rounded" src="/assets/images/product/product-1.png" alt="">   
@@ -168,6 +260,94 @@ dark: false
 
     </div><!--//container-->
 </section><!--//benefits-section-->
+
+<section class="why-section py-5">
+    <div class="container">
+        <h3 class="mb-4 text-center section-title single-col-max mx-auto">More Than Just A Metadata Registry</h3>
+        <div class="row">
+            <div class="item col-12 col-md-6">
+                <div class="item-inner p-3 p-lg-5">
+                    <div class="media flex-column flex-md-row">
+                        <div class="icon-holder mr-3 mr-lg-5 mb-3">
+                            <div class="icon far fa-fw fa-cogs"></div>
+                        </div><!--//icon-holder-->
+                        <div class="media-body">
+                            <h4>Integration services</h4>
+                            <div class="desc mb-2">
+                                <p>Metadata drives insights about data, and is most valuable when it connects with your existing data systems.
+                                </p>
+                                <p>Thats why we provides well-documented, supported APIs to connect to your data systems,
+                                    and can build custom integration services to make sure your team is getting most out of your metadata.
+                                </p>
+                            </div><!--//desc-->
+                            <a class="more-link" href="/services/#integration">Learn more <span class="link-arrow">&rarr;</span></a>
+                        </div><!--//media-body-->
+                    </div><!--//media-->
+                </div><!--//item-inner-->
+            </div><!--//item-->
+            <div class="item col-12 col-md-6">
+                <div class="item-inner p-3 p-lg-5">
+                    <div class="media flex-column flex-md-row">
+                        <div class="icon-holder mr-3 mr-lg-5 mb-3">
+                            <div class="icon far fa-fw fa-person-dolly"></div>
+                        </div><!--//icon-holder-->
+                        <div class="media-body">
+                            <h4>Metadata Migration</h4>
+                            <div class="desc mb-2">
+                                <p>Nothing is scarier than a blank slate, that why we provide the services to migrate your existing metadata.
+                                </p>
+                                <p>Whether your metadata is stored in an existing system or is managed using office tools like Excel or Word,
+                                    we have the expertise to seemlessly migrate your metadata to make sure you are generating smarter insights sooner.
+                                </p>
+                            </div><!--//desc-->
+                            <a class="more-link" href="/services/#migration">Learn more <span class="link-arrow">&rarr;</span></a>
+                        </div><!--//media-body-->
+                    </div><!--//media-->
+                </div><!--//item-inner-->
+            </div><!--//item-->
+            <div class="item col-12 col-md-6">
+                <div class="item-inner p-3 p-lg-5">
+                    <div class="media flex-column flex-md-row">
+                        <div class="icon-holder mr-3 mr-lg-5 mb-3">
+                            <div class="icon far fa-fw fa-chalkboard-teacher"></div>
+                        </div><!--//icon-holder-->
+                        <div class="media-body">
+                            <h4>Training</h4>
+                            <div class="desc mb-2">
+                                <p>The Aristotle Metadata Registry comes with in-built help and is designed to be easy to use, but we can deliver training so teams have
+                                    confidence that they are following best-practice and are using the full suite of Aristotle Metadata tools.
+                                </p>
+                            </div><!--//desc-->
+                            <a class="more-link" href="/services/#training">Learn more <span class="link-arrow">&rarr;</span></a>
+                        </div><!--//media-body-->
+                    </div><!--//media-->
+                </div><!--//item-inner-->
+            </div><!--//item-->
+            <div class="item col-12 col-md-6">
+                <div class="item-inner p-3 p-lg-5">
+                    <div class="media flex-column flex-md-row">
+                        <div class="icon-holder mr-3 mr-lg-5 mb-3">
+                            <div class="icon far fa-fw fa-university"></div>
+                        </div><!--//icon-holder-->
+                        <div class="media-body">
+                            <h4>Metadata Governance</h4>
+                            <div class="desc mb-2">
+                                <p>
+                                    To continue to benefit from your metadata, you need a plan to continually capture data knowledge and keep it up to date.
+                                </p>
+                                <p>
+                                    We work with your team to develop governance plans to guarantee that future-proof your metadata,
+                                    so you can extract value out of your high-quality data assets.
+                                </p>
+                            </div><!--//desc-->
+                            <a class="more-link" href="/services/#governance">Learn more <span class="link-arrow">&rarr;</span></a>
+                        </div><!--//media-body-->
+                    </div><!--//media-->
+                </div><!--//item-inner-->
+            </div><!--//item-->
+        </div><!--//row-->
+    </div><!--//container-->
+</section><!--//why-section-->
 
 {% include blog_carousel.html tagline="<h3>Recent news and media about Aristotle Metadata</h3>" more_link=true %}
 
@@ -249,84 +429,35 @@ dark: false
             </div><!--//testimonials-slider-->
             <div class="slider-custom-controls d-none d-md-block">
                 <div class="prev" data-controls="prev">
-                    <i class="fas fa-chevron-left"></i>
+                    <i class="fas fa-fw fa-chevron-left"></i>
                 </div>
                 <div class="next" data-controls="next">
-                    <i class="fas fa-chevron-right"></i>         
+                    <i class="fas fa-fw fa-chevron-right"></i>         
                 </div>
             </div><!--//slider-custom-controls-->
         </div><!--//slider-container-->
     </div><!--//container-->
 </section><!--//testiomonials-section-->
 
-<section class="why-section py-5">
+<section class="page-content py-5">
     <div class="container">
-        <h3 class="mb-4 text-center section-title single-col-max mx-auto">More Than Just A Metadata Registry</h3>
         <div class="row">
-            <div class="item col-12 col-md-6">
-                <div class="item-inner p-3 p-lg-5">
-                    <div class="media flex-column flex-md-row">
-                        <div class="icon-holder mr-3 mr-lg-5 mb-3">
-                            <div class="icon dripicons-alarm"></div>
-                        </div><!--//icon-holder-->
-                        <div class="media-body">
-                            <h4>Integration services</h4>
-                            <div class="desc mb-2">List one of your product features or benefits here. You can use free icon font <a href="http://demo.amitjakhu.com/dripicons/" target="_blank" >Dripicons</a> here. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam in tincidunt ante, sit amet bibendum magna. 
-                            </div><!--//desc-->
-                            <a class="more-link" href="product.html">Learn more <span class="link-arrow">&rarr;</span></a>
-                        </div><!--//media-body-->
-                    </div><!--//media-->
-                </div><!--//item-inner-->
-            </div><!--//item-->
-            <div class="item col-12 col-md-6">
-                <div class="item-inner p-3 p-lg-5">
-                    <div class="media flex-column flex-md-row">
-                        <div class="icon-holder mr-3 mr-lg-5 mb-3">
-                            <div class="icon dripicons-broadcast"></div>
-                        </div><!--//icon-holder-->
-                        <div class="media-body">
-                            <h4>Metadata Migration</h4>
-                            <div class="desc mb-2">List one of your product features or benefits here. You can use free icon font <a href="http://demo.amitjakhu.com/dripicons/" target="_blank" >Dripicons</a> here. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam in tincidunt ante, sit amet bibendum magna. 
-                            </div><!--//desc-->
-                            <a class="more-link" href="product.html">Learn more <span class="link-arrow">&rarr;</span></a>
-                        </div><!--//media-body-->
-                    </div><!--//media-->
-                </div><!--//item-inner-->
-            </div><!--//item-->
-            <div class="item col-12 col-md-6">
-                <div class="item-inner p-3 p-lg-5">
-                    <div class="media flex-column flex-md-row">
-                        <div class="icon-holder mr-3 mr-lg-5 mb-3">
-                            <div class="icon dripicons-rocket"></div>
-                        </div><!--//icon-holder-->
-                        <div class="media-body">
-                            <h4>Training</h4>
-                            <div class="desc mb-2">List one of your product features or benefits here. You can use free icon font <a href="http://demo.amitjakhu.com/dripicons/" target="_blank" >Dripicons</a> here. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam in tincidunt ante, sit amet bibendum magna. 
-                            </div><!--//desc-->
-                            <a class="more-link" href="product.html">Learn more <span class="link-arrow">&rarr;</span></a>
-                        </div><!--//media-body-->
-                    </div><!--//media-->
-                </div><!--//item-inner-->
-            </div><!--//item-->
-            <div class="item col-12 col-md-6">
-                <div class="item-inner p-3 p-lg-5">
-                    <div class="media flex-column flex-md-row">
-                        <div class="icon-holder mr-3 mr-lg-5 mb-3">
-                            <div class="icon dripicons-briefcase"></div>
-                        </div><!--//icon-holder-->
-                        <div class="media-body">
-                            <h4>Metadata Governance</h4>
-                            <div class="desc mb-2">List one of your product features or benefits here. You can use free icon font <a href="http://demo.amitjakhu.com/dripicons/" target="_blank" >Dripicons</a> here. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam in tincidunt ante, sit amet bibendum magna. 
-                            </div><!--//desc-->
-                            <a class="more-link" href="product.html">Learn more <span class="link-arrow">&rarr;</span></a>
-                        </div><!--//media-body-->
-                    </div><!--//media-->
-                </div><!--//item-inner-->
-            </div><!--//item-->
-        </div><!--//row-->
+            <div class="col-md-5">
+                <img class="img-fluid user-guide float-right" 
+                    src="/aristotle/images/user-guide-screenshot.png">
+            </div>
+            <div class="col-sm-6">
+                {% include mailchimp.html %}
+            </div>
+        </div>
     </div><!--//container-->
-</section><!--//why-section-->
+</section><!--//page-content-->
 
+<section class="cta-section text-center py-5 theme-bg-gradient position-relative">
+    {% include curve.html cover=cover %}
+</section><!--//cta-section-->
+
+{% comment %}
 {% capture cta_body %}
     <div class="item col-6 col-lg-3">
         <div class="item-inner p-3 text-white">
@@ -363,3 +494,5 @@ dark: false
     sub_call="Intro goes here. Lorem ipsum dolor sit amet, consectetur adipiscing elit."
     body=cta_body
     action="Start Free Trial" url="/contact.html"  %}
+
+{% endcomment %}

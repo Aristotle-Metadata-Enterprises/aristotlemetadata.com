@@ -2,7 +2,9 @@
     {% include curve.html top="none" bottom="green-to-blue" %}
     <div class="container">
         {% for logo_details in include.logos %}
-            {% include story-card-wide.html story=logo_details %}
+            {% unless  logo_details.hide | default: true %}
+                {% include story-card-wide.html story=logo_details %}
+            {% endunless %}
         {% endfor %}
     </div><!--//container-->
 </section><!--//stories-section-->

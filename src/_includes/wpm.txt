@@ -1,5 +1,5 @@
 {% if include.words %}
-    {{ include.words | number_of_words | divided_by: 200.0 | ceil }}
+    {{ include.words | number_of_words | divided_by: 250.0 | ceil }}
 {% else %}
     -
 {% endif %}

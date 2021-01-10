@@ -20,7 +20,7 @@
                 <div class="slider-container text-center">
                     <div class="featured-slider tiny-slider">
                         {% assign featured = site.posts | where_exp:"p", "p.img" %}
-                        {% for post in featured limit: 4 %}
+                        {% for post in featured limit: 5 %}
                         <div class="item">
                             <a class="item-link d-block" href="{{ post.url }}">
                                 <div class="row">
@@ -34,6 +34,10 @@
                                                 <span class="font-weight-bold text-primary">{% include categorise.txt post=post %}</span>
                                                 <span class="px-2">|</span><span>
                                                     {% include wpm.txt words=post.content %}
+                                                </span>
+                                                <span class="px-2">|</span>
+                                                <span>
+                                                    {{ post.date | date_to_long_string: "ordinal" }}
                                                 </span>
                                             </div><!--//post-type-->
                                             <h4 class="post-title mb-3">{{ post.title }}</h4>
