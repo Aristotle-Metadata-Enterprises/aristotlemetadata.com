@@ -19,9 +19,6 @@ footer_scripts: >
                         Aristotle Metadata Registry for recording business knowledge about data.
                         </p>
                     </div>
-					<div class="cta-btn mb-lg-3 mb-4">
-						<a class="video-play-trigger btn btn-gradient mb-3" href="#" data-toggle="modal" data-target="#modal-video">Watch Demo</a>
-					</div> 
 					<div class="product-main-figure position-relative">
 						<img class="img-fluid rounded shadow" src="/assets/images/product/product-desktop.png" alt="">
 						<div class="video-play-trigger video-play-icon-holder shadow-sm " data-toggle="modal" data-target="#modal-video" ><div class="icon dripicons-media-play pl-1"></div></div>
@@ -39,7 +36,6 @@ footer_scripts: >
 					<div class="p-3">
 						<h2 class="section-title">The all-in-one solution for creating and governing metadata</h2>
 						<div class="section-intro">
-                            The Aristotle Metadata Registry supports all your data goverance requirements
                         </div>
 					</div><!--//inner-->
 				</div><!--//col-12-->
@@ -99,7 +95,9 @@ footer_scripts: >
 							<div class="icon far fa-university"></div>
 						</div><!--//icon-holder-->
 						<h4 class="item-title">Governance & Endorsement</h4>
-						<div class="mb-2">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam maximus urna eros, a aliquet quam rhoncus semper. Fusce eu erat a odio pharetra consequat sed et felis. </div>
+						<div class="mb-2">
+                            Build confidence in your data by recording decisions throughout your entire data lifecycle.
+                        </div>
 						<a class="more-link" href="#features-govern">Read More <span class="link-arrow">&rarr;</span></a>
 					</div><!--//item-inner-->
 				</div><!--//item-->
@@ -107,37 +105,27 @@ footer_scripts: >
 		</div><!--//container-->
 	</section><!--//features-section-->
 	
-	<section class="features-tabs-section">
-		<div class="container">
-			<h2 class="section-title text-center mb-3">See the features that stand us apart for the competition</h2>
+	<section class="hero-wrapper features-tabs-section">
+		{% include curve.html top="cover green a7e-op-2" bottom="gray cover" %}
+
+        <div class="container over-curve">
+			<h2 class="section-title text-center mb-3 pt-5">See the features that set us apart</h2>
             <div class="section-intro text-center mb-5 single-col-max mx-auto">
                 <p>Collaboratively create, edit, register and publish metadata - all from a single tool that provides the integrations needed to fit in with your existing data products.
                 </p>
                 <p>Records all the information that defines your data in a standards-compliant way - including data dictionaries, code lists, business glossaries & vocabularies, performance indicators, classifications and more.
                 </p>
-            </div>
-            {% comment %}
-			<ul class="features-tab nav d-flex justify-content-center text-center" id="features-tab" role="tablist">
-				<li class="nav-item flex-fill">
-					<a class="nav-link active" id="feature-tab-1" data-toggle="tab" href="#feature-1" role="tab" aria-controls="feature-1" aria-selected="true"><span class="icon dripicons-network-3 d-inline-block"></span><span class="d-block">Feature One</span></a>
-				</li>
-				<li class="nav-item flex-fill">
-					<a class="nav-link" id="feature-tab-2" data-toggle="tab" href="#feature-2" role="tab" aria-controls="feature-2" aria-selected="false"><span class="icon dripicons-view-thumb d-inline-block"></span><span class="d-block">Feature Two</span></a>
-				</li>
-				<li class="nav-item flex-fill">
-					<a class="nav-link" id="feature-tab-3" data-toggle="tab" href="#feature-3" role="tab" aria-controls="feature-3" aria-selected="false"><span class="icon dripicons-to-do d-inline-block"></span><span class="d-block">Feature Three</span></a>
-				</li>
-			</ul>
-            {% endcomment %}
-			
-            {% comment %}
-            We've disabled tab content for now - lets not hide anything.
-            {% endcomment %}
-			<div class="features-tab-content --tab-content">
+            </div>			
+		</div><!--//container-->
+	</section><!--//features-tabs-section-->
+
+    <section class="hero-wrapper features-tabs-section">
+        <div class="container">
+            <div class="features-tab-content">
 				<div class="feature-1-pane tab-pane fade show active py-5" id="features-find" role="tabpanel" aria-labelledby="feature-tab-1">
 					<div class="row">
 						<div class="col-12 col-lg-5">
-							<h4 class="title mb-3">Find your data easier</h4>
+							<h4 class="title mb-3">Find the right data, faster</h4>
 							<div class="desc mb-4">
                                 Find your content faster using our intelligent search engine that including spell suggestions,
                                 filters and facets that makes searching metadata fast and reliable.
@@ -278,7 +266,9 @@ footer_scripts: >
                                     </div>
 								</div><!--//col-12-->
 							</div><!--//row-->
-							<div><a class="more-link" href="/services/#governance">Beginning your data governance journey? Learn about our governance services <span class="link-arrow">&rarr;</span></a></div>
+							<div><a class="more-link" href="/services/#governance">
+                                <b>Beginning your data governance journey?</b><br>
+                                We can help setup your governance processes. <span class="link-arrow">&rarr;</span></a></div>
 						</div><!--//col-->
 					</div><!--//row-->
 				</div><!--//feature-3-pane-->
@@ -287,26 +277,9 @@ footer_scripts: >
 		</div><!--//container-->
 	</section><!--//features-tabs-section-->
 	
-	<section class="cta-section py-5 text-center">
-		<div class="container">
-			<div class="py-5 theme-bg-gradient position-relative rounded">
-				<div class="curve-container">
-					<div class="curve-top curve-top-sm"></div>
-					<div class="curve-bottom curve-bottom-sm"></div>
-				</div><!--//curve-container-->
-				<div class="container">
-					<h3 class="mb-2 text-white mb-3">Ready To Grow Your Business?</h3>
-					<div class="section-intro text-white mb-3 single-col-max mx-auto">Intro goes here. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi sapien leo, cursus quis feugiat eget, malesuada non ipsum.ss</div>
-					<div class="pt-3 text-center">
-						<a class="btn btn-inverse mr-lg-2 mb-3" href="#">Start Free Trial</a>
-						<br class="d-block d-lg-none">
-						<a class="btn btn-inverse mb-3" href="#">Watch Demo</a>
-					</div>
-				</div>
-			</div>
-		</div><!--//container-->
-	</section><!--//cta-section--> 
-	
+    {% include cta_bold.html call="Don't take our word for it - try it yourself!" 
+        sub_call=page.cta.sub_call body=page.cta.body action=page.cta.action url="/contact/"  %}
+
 	
 
     {% include video_modal.html url="https://www.youtube.com/embed/kR_AFTon1jQ" %}
