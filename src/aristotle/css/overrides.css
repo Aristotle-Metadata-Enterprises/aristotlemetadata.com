@@ -82,7 +82,8 @@
 .icon-holder .fas,
 .icon-holder .far,
 .icon-holder .fab,
-.icon-holder .fad
+.icon-holder .fad,
+.icon-holder .fal
 {
   /* This is a weird thing needed for the home page */
   top: -5px;

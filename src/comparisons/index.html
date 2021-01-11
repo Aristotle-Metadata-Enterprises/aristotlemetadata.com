@@ -1,0 +1,89 @@
+---
+layout: raw
+title: Comparisons and Alternatives
+
+cta:
+    call: Tell your metadata success story
+    text_body: |
+        Aristotle Metadata understands how metadata makes organisations smarter, faster and more effective.
+        
+        Let us help unlock the value of your metadata so you can become the next Aristotle Metadata success story.            
+
+    action: Contact us for a demo
+
+comparisons:
+    - title: Aristotle Metadata & Collibra
+      url: ./collibra
+      details: |
+            The New South Wales Government
+            integrated the Aristotle Metadata Registry into departmental Insights, Analytics and Research Units
+            to improve evidence-based decision making 
+            to achieve the best outcomes for children, families and vulnerable communities.
+    - title: Aristotle Metaata & CKAN
+      url: ./ckan
+      details: |
+            The New South Wales Government
+            integrated the Aristotle Metadata Registry into departmental Insights, Analytics and Research Units
+            to improve evidence-based decision making 
+            to achieve the best outcomes for children, families and vulnerable communities.
+    - title: Aristotle Metaata & METeOR
+      url: ./aihw-meteor
+      details: |
+            The New South Wales Government
+            integrated the Aristotle Metadata Registry into departmental Insights, Analytics and Research Units
+            to improve evidence-based decision making 
+            to achieve the best outcomes for children, families and vulnerable communities.
+    - title: Aristotle Metaata & Magda.io
+      url: ./magda-io
+      details: |
+            The New South Wales Government
+            integrated the Aristotle Metadata Registry into departmental Insights, Analytics and Research Units
+            to improve evidence-based decision making 
+            to achieve the best outcomes for children, families and vulnerable communities.
+
+---
+
+<div class="hero-wrapper">
+    {% include curve.html top="lighter green" bottom="green-to-blue" %}
+
+    <section class="customers-header page-header over-curve py-4 py-md-5">
+        <div class="container text-center">	
+            <div class="single-col-max mx-auto">	   
+                <h1 class="page-headline mb-3">Aristotle Metadata Comparisons and Alternatives</h1>
+                <div class="page-tagline mb-4">
+                    Learn how Aristotle compares to and complements other
+                    leading data & metadata management tools.
+                </div>
+                <div class="cta-btn mb-lg-3">
+                    <a class="btn btn-gradient mb-3" href="/contact/demo" >Contact us for a demo</a>
+                </div> 
+            </div><!--//single-col-max-->
+        </div>
+    </section><!--//customers-header-->		
+</div>
+
+<section class="customers-section py-5">
+    <div class="container py-5 col-8 mx-auto">
+        <div class="row mb-3">
+            {% for alt in page.comparisons %}
+            <div class="col-12 col-lg-6 mb-5">
+                <div class="item shadow rounded p-4">
+                    <div class="logo-holder mb-2">
+                        <strong>{{ alt.title }}</strong>
+                    </div><!--//logo-holder-->
+                    <div class="summary mb-3">
+                        {{ alt.details }}
+                    </div><!--//summary-->
+                    <div class="mb-4"><a class="more-link" href="{{ alt.url }}">View More <span class="link-arrow">&rarr;</span></a></div>
+                    
+                </div><!--//item-->
+            </div><!--//col-12-->
+            {% endfor %}
+        </div><!--//row-->    
+        <div class="text-center"><a href="#" class="btn-gradient btn">More Customer Stories</a></div>
+    </div><!--//container-->
+</section><!--//customers-section-->
+
+{% include cta_bold.html call=page.cta.call
+    sub_call=page.cta.sub_call text_body=page.cta.text_body
+    action=page.cta.action url="/contact/demo"  %}
