@@ -3,7 +3,7 @@ install:
 	bundle _2.0.2_ install
 
 build:
-	jekyll build -H0.0.0.0 -P80 --future
+	jekyll build --future
 
 serve:
 	jekyll serve -H0.0.0.0 -P80 --future
