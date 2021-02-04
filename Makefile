@@ -1,11 +1,14 @@
 PORT ?= 80
 
+container:
+	docker run -v "$(realpath .)":/site -w /site -p $(PORT):$(PORT) -it --rm ruby:latest bash
+
 install:
 	gem install bundler -v 2.0.2
 	bundle _2.0.2_ install
 
 build:
-	jekyll build -s ./src --future
+	JEKYLL_ENV=production jekyll build -s ./src --future
 
 serve:
 	jekyll serve -s ./src -H0.0.0.0 -P$(PORT) --future

@@ -7,3 +7,4 @@ group :jekyll_plugins do
     gem "jekyll-paginate-v2"
 end
   
+gem "jekyll-sitemap", "~> 1.4"

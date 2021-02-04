@@ -1,3 +1,4 @@
+url: https://www.aristotlemetadata.com
 permalink: blog/:categories/:year/:month/:slug.html
 
 pagination: 
@@ -10,7 +11,7 @@ pagination:
     after: 2
 
 plugins:
-#   - jekyll-sitemap
+  - jekyll-sitemap
   - jekyll-paginate-v2
 
 sass:
@@ -60,7 +61,7 @@ authors:
     linkedin: in/laureneickhorst
     position: COO & Co-founder
     short_about: >
-        Sales and communications coordinator.
+        Marketing and communications coordinator.
   dylan:
     display_name: Dylan Silke
     short_name: Dylan

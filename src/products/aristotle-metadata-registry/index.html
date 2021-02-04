@@ -520,56 +520,7 @@ footer_scripts: >
 		</div><!--//container-->
 	</section><!--//pricing-header-->
 
-    <section class="why-section py-5">
-        <div class="container">
-            <h3 class="mb-4 text-center section-title single-col-max mx-auto">More Than Just A Metadata Registry</h3>
-            <div class="row">
-                <div class="item col-12 col-md-6">
-                    <div class="item-inner p-3 p-lg-5">
-                        <div class="media flex-column flex-md-row">
-                            <div class="icon-holder mr-3 mr-lg-5 mb-3">
-                                <div class="icon far fa-fw fa-clouds"></div>
-                            </div><!--//icon-holder-->
-                            <div class="media-body">
-                                <h4>Enterprise Cloud Hosting</h4>
-                                <div class="desc mb-2">
-                                    <p>Trust your metadata to the experts.
-                                    </p>
-                                    <p>Aristotle Metadata Registry subscriptions include frequent new releases and cloud hosting in our
-                                        standard cloud environments. For users with more sensitive data requirements,
-                                        we also provide Secure and Protected hosting options trusted by clients globally.
-                                    </p>
-                                </div><!--//desc-->
-                                <a class="more-link" href="/products/aristotle-cloud-hosting">Learn more about hosting options <span class="link-arrow">&rarr;</span></a>
-                            </div><!--//media-body-->
-                        </div><!--//media-->
-                    </div><!--//item-inner-->
-                </div><!--//item-->
-                <div class="item col-12 col-md-6">
-                    <div class="item-inner p-3 p-lg-5">
-                        <div class="media flex-column flex-md-row">
-                            <div class="icon-holder mr-3 mr-lg-5 mb-3">
-                                <div class="icon far fa-fw fa-person-dolly"></div>
-                            </div><!--//icon-holder-->
-                            <div class="media-body">
-                                <h4>Services & Support</h4>
-                                <div class="desc mb-2">
-                                    <p>Nothing is scarier than a blank slate, that why we provide the services to advance your data maturity.
-                                    </p>
-                                    <p>Whether its training, custom development, governance and policy design or complex data migration - our team
-                                        of metadata experts and partners have the skills to tkae your data capability to the next level.
-                                    </p>
-                                </div><!--//desc-->
-                                <a class="more-link" href="/services/">Learn more about services <span class="link-arrow">&rarr;</span></a>
-                                <br>
-                                <a class="more-link" href="/partners/">Learn more about partners <span class="link-arrow">&rarr;</span></a>
-                            </div><!--//media-body-->
-                        </div><!--//media-->
-                    </div><!--//item-inner-->
-                </div><!--//item-->
-            </div><!--//row-->
-        </div><!--//container-->
-    </section><!--//why-section-->
+	{% include boilerplate/more_than_a_registry.html %}
 
     <div class="container">
         <div class="row">
@@ -584,6 +535,6 @@ footer_scripts: >
     </div><!--//container-->
 
     {% include cta_bold.html call="Learn more about how Aristotle Metadata improve the value of your data"
-        sub_call=page.cta.sub_call action=page.cta.action url="/products/aristotle-metadata-registry/pricing" %}
+        sub_call=page.cta.sub_call action=page.cta.action url="/contact/demo" %}
 
     {% include video_modal.html url="https://www.youtube.com/embed/kR_AFTon1jQ" %}
