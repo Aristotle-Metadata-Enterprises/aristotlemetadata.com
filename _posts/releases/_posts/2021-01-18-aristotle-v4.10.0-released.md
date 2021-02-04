@@ -19,6 +19,8 @@ Administrators can also now also control the editing permissions of metadata reg
 
 Once a content policy is applied to the registry, users will be able to see the new "delete" option when viewing an item page, or from certain browse pages in their workgroups and organisations.
 
+[You can read more about setting up deletion policies at our online Knowledge-base](https://desk.zoho.com.au/portal/aristotlecloudservicesaustralia/en/kb/articles/content-policies-how-to-control-the-editing-and-deletion-of-content).
+
 Other features added in this release include:
 - Fixes distribution table visual overflow
 - Adds an option to allow users to create their own Stewardship Organisations
