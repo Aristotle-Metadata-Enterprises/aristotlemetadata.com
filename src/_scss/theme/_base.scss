@@ -634,14 +634,6 @@ code {
 	    animation-fill-mode: both;
 	    -webkit-animation-fill-mode: both;
 	}
-	/* Make dropdown menu drop on hover */
-	.navbar .dropdown:hover > .dropdown-menu {
-	    display: block;
-	}
-	.navbar  .dropdown > .dropdown-toggle:active {
-	    /*Without this, clicking will make it sticky*/
-	    pointer-events: none;
-	}
  }
 
 // Extra large devices (large desktops, 1200px and up)

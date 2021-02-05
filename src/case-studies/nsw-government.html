@@ -148,31 +148,6 @@ footer_scripts: |
     </section><!--//page-content-->
     
     {% comment %}
-    <section class="cta-section py-5 text-center">
-        <div class="container">
-            <div class="py-5 theme-bg-gradient position-relative rounded">
-                <div class="curve-container">
-                    <div class="curve-top curve-top-sm"></div>
-                    <div class="curve-bottom curve-bottom-sm"></div>
-                </div><!--//curve-container-->
-                <div class="theme-bg-shapes-right"></div>
-                <div class="theme-bg-shapes-left"></div>
-                <div class="container">
-                    <h3 class="mb-2 text-white mb-3">Join Thousands of Companies</h3>
-                    <div class="section-intro text-white mb-3 single-col-max mx-auto">Intro goes here. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi sapien leo, cursus quis feugiat eget, malesuada non ipsum.ss</div>
-                    <form class="signup-form form-inline justify-content-center pt-3">
-                        <div class="form-group">
-                            <label class="sr-only" for="semail">Your email</label>
-                            <input type="email" id="semail" name="semail1" class="form-control semail rounded mr-sm-2" placeholder="Enter email">
-                        </div>
-                        <button type="submit" class="btn btn-secondary rounded transform-0">Try It Now</button>
-                    </form>
-                </div>
-            </div>
-        </div><!--//container-->
-    </section><!--//cta-section--> 
-    {% endcomment %}
-
     <section class="related-section position-relative theme-bg-light py-5">
         <div class="curve-container">
             <div class="curve-top"></div>
@@ -240,5 +215,11 @@ footer_scripts: |
             </div><!--//row-->
         </div><!--//container-->
     </section><!--//related-section-->
+    {% endcomment %}
+
     
+{% include cta_bold.html call="This could be the beginning of your data success story"
+sub_call="Contact us to find out how we can revolutionise your data strategy and reduce the cost of managing your information."
+action="Contact us for a demo" url="/contact/demo"  %}
+
     {% include video_modal.html url="https://www.youtube.com/embed/d04_sgM97R8" %}

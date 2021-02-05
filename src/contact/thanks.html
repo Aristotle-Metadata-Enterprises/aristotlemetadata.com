@@ -2,62 +2,24 @@
 layout: basic
 title: Thanks for contacting us!
 body_class: contact-page
-footer_scripts: >
-    <!-- contact page specific js ends-->  
+heading: Thanks for contacting us!
+byline: We'll be in contact soon to start your metadata journey.
 
 ---
-        <div class="headline-bg contact-headline-bg">
-        </div><!--//headline-bg-->
 
-        
-        <!-- ******Contact Section****** --> 
-        <section class="contact-section section section-on-bg">
-            <div class="container">
-                <h2 class="title text-center">Thanks for contacting us!</h2>
-                <form id="contact-form" class="contact-form" method="post" action="https://getsimpleform.com/messages?form_api_token=8912b0e723f1761a207116e5a4fea5f6">                    
-                    <div class="row text-center">
-                        <div class="contact-form-inner col-md-8 col-sm-12 col-xs-12 col-md-offset-2 col-sm-offset-0 xs-offset-0">
-                            <div class="row">                                                           
-                                <p>
-                                    &nbsp;
-                                </p>
-                                <p>
-                                    We will review your email as quickly as we can and a real live human being will get in contact with you as soon as possible to start
-                                    discussing your needs.
-                                </p>
-                                <p>
-                                    In the mean time check out all of the other ways you can reach us below,
-                                    jump on over to <a href="http://registry.aristotlemetadata.com">our open-access metadata registry</a>,
-                                    browse the rest of the site or
-                                    <a href="/blog/">read some the exciting things we've been doing </a> that keep us so busy.
-                                </p>
-                                <p>
-                                    &nbsp;
-                                </p>
-                            </div><!--//row-->
-                        </div>
-                    </div><!--//row-->
-                    <div id="form-messages"></div>
-                </form><!--//contact-form-->
-            </div><!--//container-->
-        </section><!--//contact-section-->
-        
-        <!-- ******Other Contact Section****** --> 
-        <section class="contact-other-section section">
-            <div class="container text-center">
-                <h2 class="title">Other ways to reach us</h2>
-                <p class="intro">
-                    We're online in more ways than one, so if a webform isn't your thing you can get in contact with us 
-                    through any of the ways below.
+    <div class="col-md-8 mx-auto contact-form-box shadow rounded p-5 mb-5 text-center">
+                <p>
+                    We will review your email and a real live human being will get in contact with
+                    you soon to start discussing your metadata needs.
                 </p>
-                <div class="row">
-                <ul class="other-info list-unstyled col-md-6 col-sm-10 col-xs-12 col-md-offset-3 col-sm-offset-1 xs-offset-0" >
-                    <li><span><i class="fa fa-envelope-o"></i></span><a href="#">hello@aristotlemetadata.com</a></li>
-                    <li><span><i class="fa fa-twitter"></i></span><a href="https://twitter.com/aristotlemdr" target="_blank">@aristotlemdr</a></li>
-                    <li><span><i class="fa fa-github"></i></span><a href="https://github.com/aristotle-mdr/aristotle-metadata-registry">Join us on GitHub</a></li>
-                    <li><span><i class="fa fa-linkedin"></i></span><a href="https://www.linkedin.com/company/aristotle-metadata-registry">LinkedIn</a></li>
-                </ul>
-                </div><!--//row-->
-            </div><!--//container-->
-        </section><!--//contact-other-section-->
-    </div><!--//wrapper-->
+                <p>
+                    In the mean time check out all of the other ways you can reach us below,
+                    jump on over to <a href="http://aristotle.cloud">our open-access metadata registry</a>,
+                    browse the rest of the site or
+                    <a href="/blog/">read some the exciting things we've been doing</a> that keep us so busy.
+                </p>
+    </div><!--//row-->
+
+    {% include blog_carousel.html
+        tagline="<h3>While we come up with the perfect response, catch up on recent news and media about Aristotle Metadata</h3>"
+        more_link=true %}

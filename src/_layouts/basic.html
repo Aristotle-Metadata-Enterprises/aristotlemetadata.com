@@ -4,7 +4,7 @@
     {% include header.html %}
 
     <div class="hero-wrapper">
-        {% include curve.html top=page.curvetop bottom=page.curve.bottom  %}
+        {% include curve.html top=page.curve.top bottom=page.curve.bottom  %}
      
         <section class="product-header page-header over-curve py-3 py-md-5">
             <div class="container text-center">	
@@ -23,6 +23,12 @@
             {{ content }} 
         </div><!--//container-->
     </section><!--//page-content-->
+
+        
+    <section class="cta-section text-center py-5 theme-bg-gradient position-relative">
+        {% include curve.html cover=cover %}
+    </section><!--//cta-section-->
+
 
     {% include footer.html %}
     {% include footer_scripts.html %}

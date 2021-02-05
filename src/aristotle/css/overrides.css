@@ -104,3 +104,19 @@
   max-width:none !important;
   opacity: 0.9;
 }
+
+/* SEARCH */
+
+#navbarSearchDropdown {
+  color: #356a69
+}
+#navbarsearch {
+  min-width: 400px;
+}
+
+/*
+This is required to position the agolia search widget properly.
+*/
+.aa-Panel {
+  margin-top:60px;
+}
