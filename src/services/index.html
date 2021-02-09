@@ -4,6 +4,7 @@ title: Services
 
 services:
     - 
+        id: governance
         category: 
         name: Governance & Strategy
         image: https://image.shutterstock.com/image-photo/business-team-meeting-project-planning-600w-369895379.jpg
@@ -21,6 +22,7 @@ services:
                 registry to take advantage of <a href="/products/aristotle-metadata-registry/#collaboration">Aristotle Metadata Registry automated quality checking</a>.
             </p>
     - 
+        id: migration
         category:
         name: Metadata migration
         image: https://image.shutterstock.com/image-photo/programmer-working-on-laptop-office-600w-395220502.jpg
@@ -39,6 +41,7 @@ services:
                 We back all this up with automated quality assurance processes that give you the knowledge that your new metadata registry will continue to exceed your organisations data quality requirements.
             </p>
     - 
+        id: training
         category: 
         name: Training
         image: https://image.shutterstock.com/image-photo/shot-male-office-worker-giving-600w-410899813.jpg
@@ -56,6 +59,7 @@ services:
                 registry to take advantage of <a href="/products/aristotle-metadata-registry/#collaboration">Aristotle Metadata Registry automated quality checking</a>.
             </p>
     - 
+        id: integration
         category: Software development
         name: Custom development and API integrations
         image: https://image.shutterstock.com/image-photo/start-partners-working-casual-clothes-600w-679066552.jpg
@@ -111,11 +115,11 @@ cta:
 <section class="benefits-section py-5 partners-section">
     <div class="container">
         {% for service in page.services %}
-        <div class="item py-5">
+        <div id="{{service.id}}" class="item py-5">
             <div class="row">
                 <div class="item-content col-12 col-lg-7 col-xl-6 pr-lg-5">
                     <div class="title-note mb-1">{{ service.category }}</div>
-                    <h4 class="title mb-3">{{ service.name }}</h4>
+                    <h4  class="title mb-3">{{ service.name }}</h4>
                     <div class="desc">
                         {{ service.info }}
                     </div><!--//desc-->
