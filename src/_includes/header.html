@@ -33,6 +33,8 @@
                                 <a class="dropdown-item has-icon" href="contact.html">Contact</a>
                             </div>
                         </li>
+                        {% if page.nosearch %}
+                        {% else %}
                         <li class="nav-item dropdown mr-lg-4">
                             <a class="nav-link dropdown-toggle" href="#" id="navbarSearchDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                 <span title="Search" class="fad fa-search"></span>
@@ -43,6 +45,7 @@
                                 </form>
                             </div>
                         </li>
+                        {% endif %}
                     </ul>
                     
                     <ul class="navbar-nav ml-auto">

@@ -2,25 +2,8 @@
 layout: raw
 title: Page not found
 permalink: /404.html
+nosearch: true
 ---
-<style>
-    .text-small {
-        font-size: 80% !important;
-        font-color
-    }
-</style>
-
-<div class="container">
-    <div class="row">
-        <div class="col-12">
-            <h2 class="my-5">Error 404 - Page not found!</h2>
-            <p>You've been sent to a page that doesn't exist!<br>
-            You can use your browsers back button to go back to the page you were just on or <a href="/">click here to go back to the home page</a>.</p>
-        </div>
-    </div><!--//content-area-->    
-    <hr class="my-5">
-</div><!--//container-->
-
 <style>
     .arrow {
         font-size: 30pt;
@@ -38,7 +21,28 @@ permalink: /404.html
     .example-block {
         background-color: #eee;
     }
+    .aa-Panel {
+        margin-top:260px;
+    }
 </style>
+
+<div class="container">
+    <div class="row">
+        <div class="col-12">
+            <h2 class="my-5">Error 404 - Page not found!</h2>
+            <p>We can't find the page you've requested<br>
+        </div>
+    </div><!--//content-area-->
+    <div class="row">
+        <div class="col-sm-4 col-md-4"><a href="/">Click here to go back to the home page</a> or try searching for the page you are looking for:</p>
+        </div>
+        <div class="col-sm-8 col-md-8">
+        <div id="navbarsearch"></div>
+        </div>
+    </div>
+
+    <hr class="my-5">
+</div><!--//container-->
 
 <div class="container mb-5">
     <h4 class="title my-5">But before you go... why did we decide that a missing page was an error "404"?</h4>
