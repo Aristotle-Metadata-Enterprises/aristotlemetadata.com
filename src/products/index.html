@@ -2,6 +2,10 @@
 layout: raw
 title: Products
 
+cta:
+    call: Schedule a demo to see how Aristotle Metadata products can reduce the cost of your data governance
+    text_body: ""
+
 ---
 <div class="hero-wrapper">
     {% include curve.html top="cover lighter green" bottom="cover gray" %}
@@ -26,7 +30,7 @@ title: Products
             <div class="row">
                 <div class="item-content col-12 col-lg-7 col-xl-6 pr-lg-5">
                     <div class="title-note mb-1">Software</div>
-                    <h4 class="title mb-3">Aristotle Metadata Registry</h4>
+                    <h4 class="title mb-3"><a href="/products/aristotle-metadata-registry">Aristotle Metadata Registry</a></h4>
                     <div class="desc">
                         <p>Our flagship enterprise metadata managament platform.</p>
                         <p>Browser-based. User-friendly. Standards-compliant.</p>
@@ -59,8 +63,8 @@ title: Products
             <div class="row">
                 <div class="item-content col-12 col-lg-7 col-xl-6 order-lg-1 pl-lg-5">
                     <div class="title-note mb-1">Hosting</div>
-                    <h4 class="title mb-3">Aristotle Cloud Hosting</h4>
-                    
+                    <h4 class="title mb-3"><a href="/products/aristotle-cloud-hosting">Aristotle Cloud Hosting</a></h4>
+
                     <div class="desc mb-3">
                         Our secure, scalable and stable cloud-hosted platform.<br>
 
@@ -109,7 +113,10 @@ title: Products
             <div class="row">
                 <div class="item-content col-12 col-lg-7 col-xl-6 pr-lg-5">
                     <div class="title-note mb-1">Software-as-a-Service</div>
-                    <h4 class="title mb-3">Aristotle.Cloud (beta)</h4>
+                    <h4 class="title mb-3">
+                        <a href="https://aristotle.cloud">Aristotle.Cloud (beta)
+                        </a>
+                    </h4>
                     <div class="desc">
                         Our traditional SaaS-based, openly available metadata registry.
                         <br>
@@ -123,14 +130,15 @@ title: Products
                         <li class="mb-3"><span class="theme-check-icon icon dripicons-checkmark mr-2"></span> Collaborate with your team</li>
                         <li class="mb-3"><span class="theme-check-icon icon dripicons-checkmark mr-2"></span> Create private metadata & teams</li>
                     </ul><!--//item-list-->
-                    <div class="pt-3"><a class="more-link" href="product.html">Find out more <span class="link-arrow">&rarr;</span></a></div>
+                    <div class="pt-3"><a class="more-link" href="https://aristotle.cloud">Find out more <span class="link-arrow">&rarr;</span></a></div>
                 </div><!--//item-content-->
                 <div class="item-figure col-12 col-lg-5 col-xl-6 pt-5">
-                    <img class="img-fluid shadow rounded" src="/assets/images/product/product-3.png" alt="">   
+                    <img class="img-fluid shadow rounded" src="/aristotle/assets/home/aristotle-metadata-registry.png" alt="">   
                 </div><!--//item-figure-->
             </div><!--//row-->
         </div><!--//item-->
 
+        {% comment %}
         <div class="item py-5">
             <div class="row">
                 <div class="item-content col-12 col-lg-7 col-xl-6 pr-lg-5">
@@ -143,7 +151,7 @@ title: Products
                         packaged for on-site deployment.<br>
                     </div><!--//desc--> 
                     <ul class="list-unstyled pt-4">
-                        <li><span class="icon far fa-2x fa-fw fa-container-storage mr-2"></span> Deployable using Docker</li>
+                        <li><span class="icon far fa-2x fa-fw fa-container-storage mr-2"></span> Containerised for modern IT environments</li>
                         <li><span class="icon fab fa-2x fa-fw fa-discourse mr-2"></span> Community support</li>
                         <li><span class="icon fab fa-2x fa-fw fa-github mr-2"></span> Published via GitHub</li>
                     </ul><!--//item-list-->
@@ -181,57 +189,41 @@ title: Products
                 </div><!--//item-figure-->
             </div><!--//row-->
         </div><!--//item-->
+        {% endcomment %}
 
     </div><!--//container-->
 </section><!--//benefits-section-->
 
 {% include boilerplate/more_than_a_registry.html %}
 
-<section class="cta-section text-center py-5 theme-bg-gradient position-relative">
-    <div class="curve-containers">
-        <div class="curve-top"></div>
-        <div class="curve-bottom"></div>
-    </div><!--//curve-container-->
-    <div class="container py-4">
-        
-        <h3 class="section-title text-white mb-3">Join Thousands of Top Companies</h3>
-        <div class="section-intro mb-5 text-white single-col-max mx-auto">Intro goes here. Lorem ipsum dolor sit amet, consectetur adipiscing elit. </div>
-        
-        <div class="data-box mb-3">
-            <div class="row">
-                <div class="item col-6 col-lg-3">
-                    <div class="item-inner p-3 text-white">
-                        <div class="icon dripicons-meter"></div>
-                        <div class="number">10X</div>
-                        <div class="desc">Faster</div>
-                    </div>
-                </div><!--//item-->
-                <div class="item col-6 col-lg-3">
-                    <div class="item-inner p-3 text-white">
-                        <div class="icon dripicons-graph-line"></div>
-                        <div class="number">20%</div>
-                        <div class="desc">Growth</div>
-                    </div>
-                </div><!--//item-->
-                <div class="item col-6 col-lg-3">
-                    <div class="p-3 text-white">
-                        <div class="icon dripicons-user-group"></div>
-                        <div class="number">300,000+</div>
-                        <div class="desc">Users</div>
-                    </div>
-                </div><!--//item-->
-                <div class="item col-6 col-lg-3">
-                    <div class="item-inner p-3 text-white">
-                        <div class="icon dripicons-store"></div>
-                        <div class="number">1,000+</div>
-                        <div class="desc">Communities</div>
-                    </div>
-                </div><!--//item-->
+{% capture cta_body %}
+<div class="single-col-max mx-auto">
+    <div class="contact-form-box shadow rounded p-5 mb-5">
+        <form id="contact-form" class="contact-form" method="post" action="https://getsimpleform.com/messages?form_api_token=8912b0e723f1761a207116e5a4fea5f6">
+            <div class="form-row">                                                           
+                <div class="form-group col-12 col-xl-6">
+                    <label class="sr-only" for="cname">Name</label>
+                    <input type="text" class="form-control" id="cname" name="name" placeholder="Name" minlength="2" required="" >
+                </div>                    
+                <div class="form-group col-12 col-xl-6">
+                    <label class="sr-only" for="cemail">Email</label>
+                    <input type="email" class="form-control" id="cemail" name="email" placeholder="Email" required="" >
+                </div>
                 
-            </div><!--//row-->
-        </div><!--//data-box-->
-        <div class="pt-3 text-center">
-            <a class="btn btn-inverse" href="signup.html">Start Free Trial</a>
-        </div>
-    </div>
-</section><!--//cta-section-->
+                <div class="form-group col-12">
+                    <label class="sr-only" for="cmessage">Your message</label>
+                    <textarea class="form-control" id="cmessage" name="message" placeholder="Enter your message" rows="6" required=""></textarea>
+                </div>
+                <div class="form-group col-8 mx-auto">
+                    <button type="submit" class="btn btn-block btn-gradient py-2">Submit</button>
+                </div>                           
+            </div><!--//form-row-->
+            <input type='hidden' name='redirect_to' value='http://www.aristotlemetadata.com/contact/thanks.html' />
+        </form><!--//contact-form-->
+    </div><!--//contact-form-box-->
+</div><!--//single-col-max-->
+{% endcapture %}
+
+{% include cta_bold.html call=page.cta.call
+    sub_call=page.cta.text_body body=cta_body
+    %}

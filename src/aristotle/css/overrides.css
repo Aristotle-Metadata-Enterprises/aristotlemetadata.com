@@ -120,3 +120,27 @@ This is required to position the agolia search widget properly.
 .aa-Panel {
   margin-top:60px;
 }
+
+.pricing-table .micro-tier,
+.pricing-table .mini-tier,
+.pricing-table .standard-tier {
+    background-color: #f8fefe;
+}
+.pricing-table .mini-tier,
+.pricing-table .standard-tier {
+    border-right: 1px solid #efefef;
+}
+.pricing-table .micro-tier,
+.pricing-table .standard-tier {
+    border-left: 1px solid #efefef;
+}
+.pricing-table a {
+  text-decoration: underline;
+  text-decoration-style: dashed;
+  text-decoration-thickness: 1px;
+}
+
+h3.title a,
+h4.title a {
+    color: #252930
+}
