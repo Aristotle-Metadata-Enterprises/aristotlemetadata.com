@@ -64,6 +64,13 @@
                     {% endif %}
                 </header>
             </div>
+            {% if page.body %}
+            <div class="row">
+                <div class="col-md-8 mx-auto my-3 page-tagline mb-4 text-center">
+                    {{ page.body }}
+                </div>
+            </div>
+            {% endif %}
             <div class="row">
                 <div class="col-md-10 offset-md-1">
                     <table class="table shadow rounded pt-5">
@@ -95,7 +102,7 @@
                                         {% if feature.us == true %}
                                             <i class="text-success fa fa-check"></i>
                                         {% elsif feature.us == false %}
-                                            <i class="fa fa-times"></i>
+                                            <i class="fa fa-minus"></i>
                                         {% else %}
                                             {{feature.us}}
                                         {% endif %}
@@ -111,7 +118,7 @@
                                             {% if page.competitor%}
                                                 <i class="fa fa-times text-danger"></i>
                                             {% else %}
-                                                <i class="fa fa-circle"></i>
+                                                <i class="fa fa-minus"></i>
                                             {% endif %}
                                             
 

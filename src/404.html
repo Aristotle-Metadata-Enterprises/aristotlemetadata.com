@@ -1,30 +1,196 @@
 ---
-layout: basic
-title: 404 Page not found
+layout: raw
+title: Page not found
 permalink: /404.html
-body_class: download-page
 ---
+<style>
+    .text-small {
+        font-size: 80% !important;
+        font-color
+    }
+</style>
 
-    <div class="headline-bg">
-    </div><!--//headline-bg-->         
-    
-    <!-- ******Apps Section****** --> 
-    <section class="apps-section section section-on-bg">
-        <div class="container">
+<div class="container">
+    <div class="row">
+        <div class="col-12">
+            <h2 class="my-5">Error 404 - Page not found!</h2>
+            <p>You've been sent to a page that doesn't exist!<br>
+            You can use your browsers back button to go back to the page you were just on or <a href="/">click here to go back to the home page</a>.</p>
+        </div>
+    </div><!--//content-area-->    
+    <hr class="my-5">
+</div><!--//container-->
+
+<style>
+    .arrow {
+        font-size: 30pt;
+        min-height: 30px;
+        margin: -20px;
+        color: #356a69;
+    }
+    .example-block {
+        font-size: 75%;
+    }
+    .example-block .h5 {
+        font-size: 1rem !important;
+    }
+
+    .example-block {
+        background-color: #eee;
+    }
+</style>
+
+<div class="container mb-5">
+    <h4 class="title my-5">But before you go... why did we decide that a missing page was an error "404"?</h4>
+    <div class="row">
+        <div class="col-4">
+            <p class="h4">In a word - <em>Metadata!</em></p>
+            <p>
+                <tt>404</tt> isn't just a "number" - its a code, from a set of well-defined and standardised codelist that
+                all web browsers know and understand.
+            </p>
+            <p>
+                This metadata can then be visualised, like in the example on the right - so it can be easily digested by users like you.
+            </p>
+            <p>Because the metadata about these codes has been recorded and endorsed, all web browsers (and users like you)
+                can interpret this code accurately, and can make intelligent decisions about how to handle a web page.
+            </p>
+            <p><strong>
+                This is what the Aristotle Metadata Registry can do for you - record your codes and definitions, so your data makes sense.
+            </strong></p>
+            <p>And because you know that 404 means the page isn't here, you can
+                <ul class="pl-4">
+                    <li>... check the address bar to see if you typed it correctly</li>
+                    <li>... remove this link from your bookmarks if you previously saved it</li>
+                    <li>... or use the form below to tell us about a page you wanted to find!</li>
+                </ul>
+            </p>
+
+        </div>
+
+        <div class="col-md-8 example-block card card-body p-2">
             <div class="row">
-                <div class="content-area col-md-6 col-sm-6 col-xs-12 col-md-push-5 col-sm-push-6 col-xs-push-0">
-                    <div class="download-area">
-                        <h2 class="title">Page not found!</h2>
-                        <p class="intro">You've been sent to a page that doesn't exist!</p>
-                    </div><!--//download-area-->
-                    <div class="info">
-                        <div class="info-inner">
-                            <h3 class="title"><i class="fa fa-bullhorn"></i> Sorry about this.</h3>
-                            <p>You can use your browsers back button to go back to the page you were just on or go to the home page by clicking the logo.</p>
-                            <p>If you find yourself back here, and think the page should exist <a href="https://github.com/aristotle-mdr/aristotle-mdr.github.io/issues/new?title=Broken%20link%20on%20aristotlemetadata.com%20-%20{{page.path}}&body=The%20page%20that%20should%20exist%20is%20%60%60{{page.path}}%60%60%20but%20it%20doesn't!">let us know and we can fix it up</a>.</p>
+                <div class="col-sm-12">
+                    <header class="card text-white bg-primary m-2">
+                        <div class="card-body">
+                            <div class="card-title h5">Web Request: Response status, IANA Code <br><small>(Data&nbsp;Element)</small></div>
+                            The status of a message sent from a browser to a server, using the
+                            <abbr title="Internet Assigned Numbers Authority">IANA</abbr> endorsed codes for 
+                            <abbr title="Hyper-Text Transfer Protocol">HTTP</abbr>.
+                        </div>
+                    </header>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-6 pr-0">
+                    <div class="text-center arrow">
+                        <i class="fad fa-arrow-alt-up"></i>
+                    </div>
+                    <header class="card card-info m-2">
+                        <div class="card-body name">
+                            <div class="card-title h5">Web Request: Response status <br><small>(Data&nbsp;Element&nbsp;Concept)</small></div>
+                            The status of a message from from a server to a browser, in response to a request for a web page.
+                            This status can be returned as a code or as a plain text message that describes the status of the request.
+                        </div>
+                    </header>
+                    <div class="row">
+                        <div class="col-md-6  pr-0">
+                            <div class="text-center arrow">
+                                <i class="fad fa-arrow-alt-up"></i>
+                            </div>
+                            <div class="card card-info m-2" >
+                                <div class="card-body name">
+                                    <div class="card-title h5">Web Request <br><small>(Object&nbsp;Class)</small></div>
+                                    A computer message sent from a browser to a server to retrieve a web page (or other web resource).
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 pl-0">
+                            <div class="text-center arrow">
+                                <i class="fad fa-arrow-alt-up"></i>
+                            </div>
+                            <div class="card card-info m-2" >
+                                <div class="card-body name">
+                                    <div class="card-title h5">Response Status <br><small>(Property)</small></div>
+                                    Information from a server that describes how a browser should interpret the response message.
+                                </div>
+                            </div>
                         </div>
                     </div>
-                </div><!--//content-area-->    
-            </div><!--//row-->        
-        </div><!--//container-->
-    </section><!--//feature-video--> 
+                </div>
+                <div class="col-sm-6 pl-0">
+                    <div class="text-center arrow">
+                        <i class="fad fa-arrow-alt-up"></i>
+                    </div>
+                    <header class="card card-info m-2">
+                        <div class="card-body name">
+                            <div class="card-title h5">IANA HTTP Status Codes <br><small>(Value Domain)</small></div>
+                            A list of codes standardised by the <abbr title="Internet Assigned Numbers Authority">IANA</abbr>
+                            that defines specific web responses statuses.
+                            <p>
+                            Source: <a href="https://tools.ietf.org/html/rfc7231">https://tools.ietf.org/html/rfc7231</a>
+                            </p>
+                            Common codes include:
+                            <table class="table">
+                                <tbody>
+                                <tr><th>Code</th><th>Meaning</th></tr>
+                                <tr><td>200</td><td>✅ Request was successful</td></tr>
+                                <tr><td>403</td><td>🚫 Request forbidden</td></tr>
+                                <tr><td>404</td><td>😖 Resource not found</td></tr>
+                                <tr><td>500</td><td>💥 Server error</td></tr>
+                            </tbody>
+                            </table>
+
+                            <em>Uncommon codes</em> include:
+                            <table class="table">
+                                <tbody>
+                                <tr><th>Code</th><th>Meaning</th></tr>
+                                <tr><td>402</td><td><a href="https://en.wikipedia.org/wiki/List_of_HTTP_status_codes">🤑 Payment required</a></td></tr>
+                                <tr><td>418</td><td><a href="https://en.wikipedia.org/wiki/HTTP_418">☕ I am a teapot</a></td></tr>
+                                <tr><td>451</td><td><a href="https://en.wikipedia.org/wiki/HTTP_451">🔥 Content censored</a></td></tr>
+                            </tbody>
+                            </table>
+
+                        </div>
+                    </header>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+{% capture cta_body %}
+<div class="single-col-max mx-auto">
+    <div class="contact-form-box shadow rounded p-5 my-5">
+        <form id="contact-form" class="contact-form" method="post" action="https://getsimpleform.com/messages?form_api_token=8912b0e723f1761a207116e5a4fea5f6">
+            <h3 class="text-center">
+                Get in contact with us to learn how we can help make your data make sense
+            </h3>
+            <div class="form-row">                                                           
+                <div class="form-group col-12 col-xl-6">
+                    <label class="sr-only" for="cname">Name</label>
+                    <input type="text" class="form-control" id="cname" name="name" placeholder="Name" minlength="2" required="" >
+                </div>                    
+                <div class="form-group col-12 col-xl-6">
+                    <label class="sr-only" for="cemail">Email</label>
+                    <input type="email" class="form-control" id="cemail" name="email" placeholder="Email" required="" >
+                </div>
+                
+                <div class="form-group col-12">
+                    <label class="sr-only" for="cmessage">Your message</label>
+                    <textarea class="form-control" id="cmessage" name="message" placeholder="Enter your message" rows="6" required=""></textarea>
+                </div>
+                <div class="form-group col-8 mx-auto">
+                    <button type="submit" class="btn btn-block btn-gradient py-2">Submit</button>
+                </div>                           
+            </div><!--//form-row-->
+            <input type='hidden' name='redirect_to' value='http://www.aristotlemetadata.com/contact/thanks.html' />
+        </form><!--//contact-form-->
+    </div><!--//contact-form-box-->
+</div><!--//single-col-max-->
+{% endcapture %}
+
+{% include cta_bold.html call="Your data wants to be understood <br>as well as your browser understands this page"
+    sub_call=page.cta.text_body body=cta_body
+    %}
