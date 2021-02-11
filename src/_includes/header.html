@@ -2,7 +2,7 @@
     <div class="branding">
         <div class="container">
             <nav class="navbar-aristotle navbar navbar-expand-lg" >
-                <div class="site-logo"><a class="navbar-brand" href="/"><img class="logo-icon" src="/aristotle/images/brand/aristotle.png" alt="logo"></a></div>    
+                <div class="site-logo"><a class="navbar-brand" href="/"><img class="logo-icon" src="/aristotle/images/brand/aristotle.sm.png" alt="logo"></a></div>    
                 
                 <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navigation" aria-controls="navigation" aria-expanded="false" aria-label="Toggle navigation">
                     <span> </span>
@@ -13,24 +13,27 @@
                 <div class="collapse navbar-collapse pt-3 pt-lg-0" id="navigation">
                     
                     <ul class="navbar-nav">
-                        <li class="nav-item mr-lg-4">
-                            <a class="nav-link" href="/products/">Products</a>
+                        <li class="nav-item dropdown mr-lg-4">
+                            <a class="nav-link dropdown-toggle" href="/products/" id="navbarProductsDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                Registry
+                            </a>    
+                            <div class="dropdown-menu dropdown-menu-left rounded shadow menu-animate slideIn" aria-labelledby="navbarProductsDropdown"> 
+                                <a class="dropdown-item has-icon" href="/products/aristotle-metadata-registry/">Registry</a>
+                                <a class="dropdown-item has-icon" href="/products/aristotle-metadata-registry/#features">Features</a>
+                                <a class="dropdown-item has-icon" href="/products/aristotle-cloud-hosting/">Hosting</a>
+                            </div>
                         </li>
                         <li class="nav-item mr-lg-4">
-                            <a class="nav-link" href="/case-studies/">Customers</a>
+                            <a class="nav-link" href="/case-studies/">Case studies</a>
                         </li>
                         <li class="nav-item dropdown mr-lg-4">
                             <a class="nav-link dropdown-toggle" href="/about" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                About Us
+                                About
                             </a>    
                             <div class="dropdown-menu dropdown-menu-right rounded shadow menu-animate slideIn" aria-labelledby="navbarDropdown"> 
-                                <a class="dropdown-item has-icon" href="/about.html">About Us</a>
-                                <a class="dropdown-item has-icon" href="/careers.html">Careers</a>
-                                <a class="dropdown-item has-icon" href="case.html">Case Study</a>
-                                <a class="dropdown-item has-icon" href="support.html">Support</a>
-                                <a class="dropdown-item has-icon" href="/blog.html">Blog</a>
-                                <a class="dropdown-item has-icon" href="blog-post.html">Blog Post</a>
-                                <a class="dropdown-item has-icon" href="contact.html">Contact</a>
+                                <a class="dropdown-item has-icon" href="/about">About Us</a>
+                                <a class="dropdown-item has-icon" href="/careers">Careers</a>
+                                <a class="dropdown-item has-icon" href="/blog/">Blog</a>
                             </div>
                         </li>
                         {% if page.nosearch %}

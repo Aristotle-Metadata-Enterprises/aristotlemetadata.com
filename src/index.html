@@ -2,10 +2,56 @@
 layout: raw
 title: Home
 footer_scripts: >
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.11"></script>
     <script src="/aristotle/babies.js"></script>
 
 dark: false
 ---
+<div class="hero-wrapper overflow {% if page.dark %}theme-bg-gradient{% endif %}">
+    {% if page.dark %}
+        {% include curve.html top="cover" bottom="gray" %}
+    {% else %}
+        {% include curve.html top="cover a7e-op-3" bottom=" gray a7e-op-3" %}
+        {% comment %}
+        {% include curve.html top="cover green a7e-op-3" bottom="green-to-blue a7e-op-3" %}
+        {% endcomment %}
+    {% endif %}
+
+    <section class="hero-section over-curve pt-5 py-md-5">
+        <div class="container">
+            <div class="hero-content-holder z-index-10 position-relative">
+                <h1 class="site-headline {% if page.dark %}text-white{% endif %}">
+                    Get more out of your data.
+                </h1>
+                <h2 class="mb-5 {% if page.dark %}text-white{% endif %}">So you can 
+                    <span class="healthy-babies"><span>achieve positive outcomes</span></span>
+                </h2>
+                <div class="site-tagline mb-5">
+                    <p>Increase the impact of data across your organisation by 
+                        capturing business knowledge using user-friendly, collaborative data tools.</p>
+                    <p>Find your data faster by recording metadata in a central,
+                        searchable registry thats ready to integrate with your business intelligence solutions.</p>
+                </div>
+                <h2 class="mb-4 {% if page.dark %}text-white{% endif %}">
+                    Aristotle Metadata Registry 
+                    <br>Make data make sense
+                </h2>
+                <div class="cta-btns mb-lg-3">
+                    <a class="btn btn-{% if page.dark %}inverse{% else %}gradient{% endif %} mr-2 mb-3" href="/contact/demo.html">
+                        Contact us for a demo
+                    </a>
+                    <a class="btn btn-{% if page.dark %}inverse{% else %}gradient{% endif %} mr-2 mb-3" href="https://aristotle.cloud/account/login">
+                        Try it out yourself
+                    </a>
+                </div>                
+            </div><!--//hero-content-holder-->
+        </div><!--//container-->
+        <div class="hero-figure-holder">
+            <img src="assets/images/product/product-hero-1.png" alt="product">
+        </div><!--//hero-figure-holder-->
+    </section><!--//hero-section-->
+</div><!--//hero-wrapper-->
+
 
 <div class="hero-wrapper overflow {% if page.dark %}theme-bg-gradient{% endif %}">
     {% if page.dark %}
@@ -16,14 +62,19 @@ dark: false
         {% include curve.html top="cover green a7e-op-3" bottom="green-to-blue a7e-op-3" %}
         {% endcomment %}
     {% endif %}
-    
+
+
     <section class="hero-section over-curve pt-5 py-md-5">
         <div class="container {% if page.dark %}text-white{% endif %}">
             <div class="hero-content-holder z-index-10 position-relative">
                 <h1 class="site-headline mb-3 {% if page.dark %}text-white{% endif %}">
                     Aristotle Metadata Registry 
-                    <br>makes data make sense.
+                    <br>Makes your data make sense.
                 </h1>
+                <div class="site-tagline mb-4">
+                    Get more our of your data, so you can 
+                    <span class="healthy-babies"><span>achieve positive outcomes</span></span> .
+                </div>
                 <div class="site-tagline mb-4">
                     <p>The Aristotle Metadata Registry is a modern, user-friendly collaborative tool for recording business knowledge about data.
                     <p>Our Registry helps you capture human intelligence about data so it can be integrated with business intelligence solutions, and can be deployed in the cloud or as an enterprise on-premise solution.
@@ -80,9 +131,9 @@ dark: false
                 </div><!--//item-->
             </div>    
         </div><!--//container-->
-        {% endcomment %}
 
     </section><!--//logos-section-->
+    {% endcomment %}
 </div><!--//hero-wrapper-->
 
 <section class="features-columns-section py-5 why-metadata-section">
@@ -451,7 +502,7 @@ dark: false
         <div class="row">
             <div class="col-md-5">
                 <img class="img-fluid user-guide float-right" 
-                    src="/aristotle/images/user-guide-screenshot.png">
+                    src="/aristotle/images/user-guide.png">
             </div>
             <div class="col-sm-6">
                 {% include mailchimp.html %}

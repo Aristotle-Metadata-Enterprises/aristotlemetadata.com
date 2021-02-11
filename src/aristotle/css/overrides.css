@@ -8,7 +8,7 @@
 }
 
 .navbar-aristotle .navbar-brand img {
-  height: 72px;
+  height: 78px;
 }
 
 .footer-aristotle .footer-col .logo-icon {
@@ -143,4 +143,30 @@ This is required to position the agolia search widget properly.
 h3.title a,
 h4.title a {
     color: #252930
+}
+
+.theme-bg-gradient .healthy-babies {
+  color: #efefef;
+  border-bottom: 3px solid #efefef;
+}
+
+.healthy-babies {
+  color: #3e4e4e ;
+  border-bottom: 3px solid #6e9e9e;
+  min-width: 15em;
+  display: inline-block;
+}
+
+.healthy-babies .typed-cursor {
+  color: #6e9e9e;
+  font-weight: 100;
+  animation: blinker 0.7s linear infinite;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+@keyframes blinker {
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
 }
