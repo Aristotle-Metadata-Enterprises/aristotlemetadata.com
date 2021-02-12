@@ -1,0 +1,62 @@
+<section class="cta-section text-center py-5 theme-bg-gradient position-relative">
+    <div class="curve-containers">
+        <div class="curve-top"></div>
+        <div class="curve-bottom"></div>
+    </div><!--//curve-container-->
+    <div class="container py-4">
+        
+        <h3 class="section-title text-white mb-3">
+            {{ include.call }}
+        </h3>
+        {% if include.sub_call %}
+        <div class="section-intro mb-5 text-white single-col-max mx-auto">
+            {{ include.sub_call }}
+        </div>
+        {% endif %}
+        
+        {% if include.text_body or include.body %}
+        <div class="data-box mb-3">
+            <div class="row">
+                {% if include.text_body %}
+                <div class="item w-75 mx-auto">
+                    <div class="item-inner p-3 text-white">
+                        {{ include.text_body | newline_to_br }}
+                    </div>
+                </div>
+                {% elsif include.body %}
+                    {{ include.body }}
+                {% endif %}
+            </div><!--//row-->
+        </div><!--//data-box-->
+        {% endif %}
+
+        {% if include.url %}
+        <div class="pt-3 text-center">
+            <a class="btn btn-inverse" href="{{ include.url }}">
+                {{ include.action|default:"Contact us for a demo today!" }}
+            </a>
+        </div>
+        {% endif %}
+
+        
+        <div class="mx-auto mt-4">
+            <div class="row justify-content-md-center">
+                <div class="col-md-3 mt-4">
+                    <strong>Capterra - 5 stars!</strong><br>
+                    <a href="https://www.capterra.com/reviews/216614/Aristotle-Metadata-Registry?utm_source=vendor&utm_medium=badge&utm_campaign=capterra_reviews_badge"><img border="0" src="https://assets.capterra.com/badge/29f1f2bd1ab3bcbe9d9d74e5e73f65af.png?v=2156367&p=216614" /> </a>
+                    <p>
+                        Capterra gives the Aristotle Metadata Registry a 5/5 score based on user reviews.
+                    </p>
+                </div>
+                <div class="col-md-3 mt-4">
+                    <strong>Startup leader</strong><br>
+                    <a href="https://www.aiia.com.au/iawards/about/results/entrant-listing-page-rest-js?state=ACT&category=Research_and_Development_Project_of_the_Year">
+                        <img style="height:50px; border-radius: 3px" border="0" src="/aristotle/assets/awards/iAwards.png" /> </a>
+                    <p>
+                        Finalist in the 2020 Digital Canberra iAwards Startup of the Year.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section><!--//cta-section-->

@@ -140,7 +140,7 @@
         </div>
     </section>
 
-    {% include cta_bold.html call="Don't take our word for it - try it yourself!" 
+    {% include reviews_banner.html call="Don't take our word for it - try it yourself!" 
         sub_call=page.cta.sub_call body=page.cta.body action=page.cta.action url="/contact.html"  %}
 
 	<section class="page-content py-5">
@@ -148,7 +148,7 @@
             <div class="row">
                 <div class="col-md-5">
                     <img class="img-fluid user-guide float-right" 
-                        src="/aristotle/images/user-guide-screenshot.png">
+                        src="/aristotle/images/product-sheet-screenshot.png">
                 </div>
                 <div class="col-sm-6">
                     {% include mailchimp.html %}
@@ -156,13 +156,6 @@
             </div>
         </div><!--//container-->
     </section><!--//page-content-->
-
-    <section class="cta-section text-center py-5 theme-bg-gradient position-relative">
-        {% include curve.html cover=cover %}
-
-        <a href="https://www.capterra.com/reviews/216614/Aristotle-Metadata-Registry?utm_source=vendor&utm_medium=badge&utm_campaign=capterra_reviews_badge"> <img border="0" src="https://assets.capterra.com/badge/29f1f2bd1ab3bcbe9d9d74e5e73f65af.png?v=2156367&p=216614" /> </a>
-    </section><!--//cta-section-->
-    
 
     {% include footer.html %}
     {% include footer_scripts.html %}
