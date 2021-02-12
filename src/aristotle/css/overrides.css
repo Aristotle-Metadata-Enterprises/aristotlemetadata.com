@@ -86,7 +86,7 @@
 .icon-holder .fal
 {
   /* This is a weird thing needed for the home page */
-  top: -5px;
+  top: 5px;
   position: relative;
 }
 
