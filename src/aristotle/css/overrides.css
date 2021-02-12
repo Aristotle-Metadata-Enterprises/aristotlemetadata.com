@@ -86,7 +86,7 @@
 .icon-holder .fal
 {
   /* This is a weird thing needed for the home page */
-  top: 5px;
+  top: -3px;
   position: relative;
 }
 
@@ -176,4 +176,8 @@ h4.title a {
 }
 .hero-figure-holder img {
   width: 700px;
+}
+
+.cloud-details .data-overview {
+  width: 128px;
 }
