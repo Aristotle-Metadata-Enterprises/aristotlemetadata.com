@@ -20,7 +20,7 @@
         <thead>
             <tr class="tr-plan">
                 <th class="pricing-{{forloop.index}}-data mobile-is-hidden"></th>
-                {% for plan in include.plans.plans %}
+                {% for plan in site.data.plans.registry.plans %}
                     <th class="pricing-{{forloop.index}}-data pricing-plan-desc"  style="width:15%">
                         <div class="pricing-data-header">
                             <div class="pricing-plan-name mb-2">{{plan.name}}</div>
@@ -52,7 +52,7 @@
             </tr>
         </thead>
         <tbody>
-            {% for feature in include.plans.features %}
+            {% for feature in site.data.plans.registry.features %}
             <tr class="tr-data-type text-left">
                 <td colspan="6" class="pricing-0-data">
                     <div>

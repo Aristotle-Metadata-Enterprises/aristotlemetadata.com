@@ -1,11 +1,12 @@
   var promo_strings = [
-    "build healthier communities", //babies",
-    //"higher living standards",
-    "build safer cities", // "lower crime",
+    "build healthier communities.",
+    //"higher living standards.",
+    "reduce the cost of business",
+    "build safer cities.",
     "achieve gender equality",
-    "build sustainable cities",
-    "create a cleaner environment",
-    "achieve positive outcomes",
+    "build sustainable cities.",
+    "create a cleaner environment.",
+    "achieve positive outcomes.",
     "do more!"
   ];
 var shuffle = true;

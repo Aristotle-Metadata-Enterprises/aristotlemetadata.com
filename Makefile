@@ -1,4 +1,4 @@
-PORT ?= 80
+PORT ?= 8000
 
 container:
 	docker run -v "$(realpath .)":/site -w /site -p $(PORT):$(PORT) -it --rm ruby:latest bash
@@ -10,9 +10,9 @@ install:
 build:
 	JEKYLL_ENV=production jekyll build -s ./src --future
 
-serve:
+server:
 	jekyll serve -s ./src -H0.0.0.0 -P$(PORT) --future
 
-serve-win:
+server-win:
 	gem install wdm
 	jekyll serve -s ./src -H0.0.0.0 -P$(PORT) --future --watch --force_polling

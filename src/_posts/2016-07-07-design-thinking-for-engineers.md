@@ -51,7 +51,7 @@ Had I been there, what would have happened instead would design built on comprom
 By not being there, this gave the design team the freedom to show users actually needed for the product to succeed.
 
 
-Lesson 2 - New designs will challenge your vision - thats meant to happen
+Lesson 2 - New designs will challenge your vision - that's meant to happen
 =========================================================================
 
 For me, Aristotle has been a labour of love, having spent many countless unpaid hours on
