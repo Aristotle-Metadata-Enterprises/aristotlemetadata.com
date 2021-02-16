@@ -36,7 +36,7 @@ $(document).ready(function() {
     loop: true,
     showCursor: true,
     backDelay: 2000,
-    backSpeed: 40,
+    backSpeed: 20,
     shuffle: shuffle,
     cursorChar: "|",
   });
