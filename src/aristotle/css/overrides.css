@@ -172,13 +172,50 @@ h4.title a {
     100% { opacity:1; }
 }
 
-.hero-figure-holder {
-  right:0 !important;
-}
-.hero-figure-holder img {
-  width: 700px;
-}
 
 .cloud-details .data-overview {
   width: 128px;
+}
+
+.hero-figure-holder {
+  position: absolute;
+  /* right: -180px; */
+  top: 0px;
+}
+
+@media (max-width: 989px) {
+  .hero-holder {
+    height: 400px;
+  }
+  .hero-image {
+    width: 100%;
+  }
+}
+
+@media (min-width: 990px) {
+  .hero-holder {
+    height: 0;
+  }
+  .hero-image {
+      position: relative;
+      top: -100px;
+      left: -100px;
+      width: 800px;
+    }
+}
+
+
+@media (min-width: 1200px) {
+  .hero-image {
+    top: -200px;
+    width: 900px;
+    }
+}
+.people-positioner-holder {
+  overflow: hidden;
+}
+.people-positioner {
+  height: 800px;
+  margin-left: -100px;
+  margin-top: -200px;
 }
