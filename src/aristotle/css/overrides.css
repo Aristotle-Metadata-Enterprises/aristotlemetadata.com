@@ -8,7 +8,7 @@
 }
 
 .navbar-aristotle .navbar-brand img {
-  height: 78px;
+  max-height: 78px;
 }
 
 .footer-aristotle .footer-col .logo-icon {
@@ -218,4 +218,18 @@ h4.title a {
   height: 800px;
   margin-left: -100px;
   margin-top: -200px;
+}
+
+@media (max-width: 575.98px) {
+  .header .site-logo .logo-icon {
+      max-width: 200px;
+      max-height: unset;
+  }
+}
+
+@media (max-width: 787px) {
+  .healthy-babies {
+    display: block;
+    height: 2em;
+  }
 }

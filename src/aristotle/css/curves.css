@@ -4,6 +4,7 @@
 .curve-bottom.cover 
 {
   background-size: cover;
+  background-position-y: top;
 }
 
 .curve-top {
@@ -28,4 +29,8 @@
 
 .curve-bottom.green-to-blue {
   background-image: url("/aristotle/assets/patterns/curve-bottom-green-to-blue.svg") !important;
+}
+
+.home-bottom-curve {
+  max-height: 260px;
 }
