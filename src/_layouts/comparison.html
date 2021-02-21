@@ -140,6 +140,18 @@
         </div>
     </section>
 
+    {% if page.tail %}
+    <section class="product-header page-header over-curve py-3 py-md-5">
+        <div class="container text-center">	
+            <div class="single-col-max mx-auto">	   
+                <div class="page-tagline mb-4">
+                    {{ page.tail }}
+                </div>
+            </div><!--//single-col-max-->
+        </div>
+    </section><!--//product-header-->
+    {% endif %}
+
     {% include reviews_banner.html call="Don't take our word for it - try it yourself!" 
         sub_call=page.cta.sub_call body=page.cta.body action=page.cta.action url="/contact.html"  %}
 
