@@ -1,0 +1,5 @@
+Copyright All Rights reserved - Aristotle Metadata Enterprises
+
+Unless stated below:
+All content in /design_template is copyright 3rd wave media
+All content in /src/assets/shutterstock is licenced to Aristotle Metadata Enterprises, copyright is retained by the original authors

@@ -1,0 +1,144 @@
+.case-meta {
+
+	.case-type-icon {
+		font-size: 2rem;
+		color: $theme-color-primary;
+	}
+	.case-type {
+		color: $theme-text-color-light;
+		font-weight: bold;
+	}
+	.case-type-info {
+		font-weight: bold;
+		color: $theme-text-color-primary;
+		font-size: 1.25rem;
+	}
+}
+
+
+
+.case-banner {
+	position: relative;
+
+	.mask {
+		display: block;
+		width: 100%;
+		height: 100%;
+		position: absolute;
+		left: 0;
+		top: 0;
+		background: rgba($theme-text-color-primary, 0.3);
+		
+	}
+}
+
+.case-study-content {
+	.case-intro {
+		font-size: 1.5rem;
+		color: $theme-text-color-primary;
+	}
+	
+}
+
+.case-quote {
+	.quote {
+		position: relative;
+		font-style: italic;
+		p {
+			font-size: 1.25rem;
+			
+		}
+		.quote-icon-holder {
+			position: absolute;
+			left: 0rem;
+			top: -2.5rem;
+		}
+	}
+	.profile-image {
+		@include border-radius(50%);
+		width: 80px;
+	}
+	.source {
+		font-size: 0.875rem;
+	}
+}
+
+
+.case-list {
+	.case-list-header {
+		font-weight: bold;
+		font-size: 1.25rem;
+		font-family: 'DM Sans', sans-serif;
+		color: $theme-text-color-primary;
+		border-left: 3px solid $theme-color-primary;
+	}
+	.case-list-number {
+		font-size: 2rem;
+		color: $theme-color-primary;
+	}
+}
+
+.related-section {
+	.case-logo {
+		max-width: 140px;
+	}
+	.item {
+		@include transition (all 0.2s ease-in-out 0s);
+		&:hover {
+			transform: translateY(-5px);
+		}
+	}
+}
+
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) { 
+
+}
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) { 
+	.cta-section .form-inline .form-control {
+	    width: 380px;
+	}
+ }
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) { 
+
+ }
+
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) {  }
+
+
+/* We occasionally use media queries that go in the other direction */
+// Extra small devices (portrait phones, less than 576px)
+@media (max-width: 575.98px) {
+	.case-meta .case-type {
+		font-size: 1rem;
+	}
+    .case-meta .case-type-info {
+	    font-size: 1rem;
+    }
+    .signup-form .form-group {
+	    display: block;
+	    width: 100%;
+    }
+    
+     .signup-form .btn {
+	     width: 100%;
+	     @include border-radius(30px !important);
+     }
+
+}
+
+// Small devices (landscape phones, less than 768px)
+@media (max-width: 767.98px) { }
+
+// Medium devices (tablets, less than 992px)
+@media (max-width: 991.98px) { }
+
+// Large devices (desktops, less than 1200px)
+@media (max-width: 1199.98px) { }
+
+

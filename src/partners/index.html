@@ -1,0 +1,161 @@
+---
+layout: raw
+title: Partners
+
+partners:
+    - 
+        category: Cloud Technology
+        name: Amazon Web Services (AWS)
+        url: https://partners.amazonaws.com/partners/001E000001V9BjQIAV/
+        image: /aristotle/assets/partners/aws-select-technology.png
+        link_text: Find out more on our AWS Partner profile
+        info: |
+            <p>
+                Amazon Web Services is one of the worlds largest and most-reliable cloud technology providers.
+                AWS provides cloud technology services globally, including auto-scaling servers,
+                managed search engines, robust database technologies, and serverless API integration platforms.
+            </p>
+            <p>
+                Aristotle Metadata uses the power and reliability of AWS to deliver global, highly available
+                services to our clients.
+            </p>
+            <p>
+                Aristotle Metadata is an AWS Select Tier Technology Partner, and a member of the AWS Activate program.
+                By maintaining a close connect with our AWS through their network of technology representatives, we
+                have up-to-date and reliable information to ensure that our services meet the high needs of our clients.
+            </p>
+    - 
+        category: Consulting Partner
+        name: Catapult BI
+        url: https://www.catapultbi.com/partners/
+        image: /aristotle/assets/partners/catapult-bi.png
+        link_text: Learn more about Catapult BIs partnerships
+        info: |
+            <p>
+                Catapult BI is Australia’s leading business insights consultancy dedicated to assisting organisations to maximise the business value of their corporate data assets.
+            </p>
+            <p>
+                As a leading professional and information technology services organisation, 
+                Catapult BI supports our clients by providing on-premises IT support, information and data governance guideance
+                and change management services.
+            </p>    
+    - 
+        category: Professional affiliation
+        name: Data Management Association (DAMA) Australia
+        url: https://www.dama.org.au/membership/our-members/
+        image: /aristotle/assets/partners/dama-australia.png
+        link_text: Learn more about DAMA members
+        info: |
+            <p>
+                DAMA is an international organisation dedicated to the improvement of data management and data governance
+                that provides its members with training, support and certification.
+            </p>
+            <p>
+                Through our membership with DAMA Australia, Aristotle Metadata remains at the forefront of the data management
+                profession. We ensure that our community it aware of new advances in the field, and we are a regular presenter
+                at DAMA meetings throughout the year.
+            </p>
+    - 
+        category: Professional affiliation
+        name: Data Documentation Intiative (DDI Alliance)
+        url: https://ddialliance.org/ddi-membership
+        image: /aristotle/assets/partners/ddi-logo-tagline1.png
+        link_text: Learn more about DDI members
+        info: |
+            <p>
+                The DDI Alliance is a international organisation dedicated to the development of interoperability formats
+                to improve the long-term management of data in the social, behavioral, economic, and health sciences.
+            </p>
+            <p>
+                Through our membership with the DDI Alliance, Aristotle Metadata continues its commitment to the 
+                long-term preservation of metadata for our clients. Thanks to the interoperability of DDI, clients can be confident that
+                their metadata will generate long-term value for their organisation.
+            </p>
+
+cta:
+    call: Interested in becoming a partner?
+    text_body: |
+        Aristotle Metadata understands how metadata makes organisations smarter, faster and more effective.
+        
+        If you like to help your clients make their data make sense, use the form below to contact us about
+        a partnership with Aristotle Metadata.
+        
+---
+<div class="hero-wrapper theme-bg-gradient">
+    {% include curve.html top="cover lighter green" bottom="cover gray" %}
+ 
+    <section class="product-header page-header over-curve py-3 py-md-5">
+        <div class="container text-center">	
+            <div class="single-col-max mx-auto">	   
+                <h1 class="page-headline mb-3">Our Partners</h1>
+                <div class="page-tagline mb-4">
+                    <p>
+                        By maintaining a network of strategic and technology partners,
+                        Aristotle Metadata maximises value for our clients by making sure
+                        we stay at the forefront of modern data & metadata management.
+                    </p>
+                </div>
+            </div><!--//single-col-max-->
+        </div>
+    </section><!--//product-header-->
+</div><!--//hero-wrapper-->
+
+<section class="benefits-section py-5 partners-section">
+    <div class="container">
+        {% for partner in page.partners %}
+        <div class="item py-5">
+            <div class="row">
+                <div class="item-content col-12 col-lg-7 col-xl-6 pr-lg-5">
+                    <div class="title-note mb-1">{{ partner.category }}</div>
+                    <h4 class="title mb-3">{{ partner.name }}</h4>
+                    <div class="desc">
+                        {{ partner.info }}
+                    </div><!--//desc-->
+                    <div><a class="more-link" href="{{ partner.url }}">{{ partner.link_text }}<span class="link-arrow">&rarr;</span></a></div>
+                </div><!--//item-content-->
+                <div class="item-figure col-12 col-lg-5 pt-5 col-xl-6">
+                    <img class="img-fluid shadow rounded" src="{{ partner.image }}" alt="">   
+                </div><!--//item-figure-->
+            </div><!--//row-->
+        </div><!--//item-->
+        {% endfor %}
+    </div><!--//container-->
+</section><!--//benefits-section-->
+
+{% capture cta_body %}
+<div class="single-col-max mx-auto">
+    <div class="contact-form-box shadow rounded p-5 mb-5">
+        <form id="contact-form" class="contact-form" method="post" action="https://getsimpleform.com/messages?form_api_token=8912b0e723f1761a207116e5a4fea5f6">
+            <h3 class="text-center">
+                Tell me more about partnerships with Aristotle Metadata
+            </h3>
+            <div class="mb-3 text-center">
+                Tell me more about partnerships with Aristotle Metadata
+            </div>
+            <div class="form-row">                                                           
+                <div class="form-group col-12 col-xl-6">
+                    <label class="sr-only" for="cname">Name</label>
+                    <input type="text" class="form-control" id="cname" name="name" placeholder="Name" minlength="2" required="" >
+                </div>                    
+                <div class="form-group col-12 col-xl-6">
+                    <label class="sr-only" for="cemail">Email</label>
+                    <input type="email" class="form-control" id="cemail" name="email" placeholder="Email" required="" >
+                </div>
+                
+                <div class="form-group col-12">
+                    <label class="sr-only" for="cmessage">Your message</label>
+                    <textarea class="form-control" id="cmessage" name="message" placeholder="Enter your message" rows="6" required=""></textarea>
+                </div>
+                <div class="form-group col-8 mx-auto">
+                    <button type="submit" class="btn btn-block btn-gradient py-2">Submit</button>
+                </div>                           
+            </div><!--//form-row-->
+            <input type='hidden' name='redirect_to' value='http://www.aristotlemetadata.com/contact/thanks.html' />
+        </form><!--//contact-form-->
+    </div><!--//contact-form-box-->
+</div><!--//single-col-max-->
+{% endcapture %}
+
+{% include cta_bold.html call=page.cta.call
+    sub_call=page.cta.text_body body=cta_body
+    %}

@@ -1,0 +1,84 @@
+---
+layout: raw
+title: Comparisons and Alternatives
+
+cta:
+    call: Don't just take our word for it!
+    text_body: |
+        Aristotle Metadata understands how metadata makes organisations smarter, faster and more effective.
+        Unlock the value of your metadata so you can become the next Aristotle Metadata success story.
+    action: Contact us for a demo
+
+comparisons:
+    - title: Aristotle Metadata & Collibra
+      url: ./collibra
+      details: |
+            Learn how the Aristotle Metadata Registry can integrate with 
+            the Collibra data management platform
+            to provide a complete enterprise data and metadata governance platform.
+    - title: Aristotle Metadata vs Ariā Classifications Manager
+      url: ./aria-classifications
+      details: |
+            Learn how the Aristotle Metadata Registry records
+            statistical classification in a system that rivals the
+            Ariā Classifications Manager.
+    - title: Aristotle Metadata vs AIHW's METeOR
+      url: ./aihw-meteor
+      details: |
+            If you are looking for your own modern metadata registry 
+            learn about how the Aristotle Metadata Registry provides all the 
+            functionality of the AIHW's METeOR registry in a modern, commercially supported software-as-a-service platform.
+    - title: Aristotle Metadata vs Magda.io
+      url: ./magda-io
+      details: |
+            Modern data management platforms need secure role-based access,
+            tested publication & governance, and commercial support.
+            Learn about how Aristotle Metadata can provide a secure, commercially supported platform 
+            that compares to the Magda.io data registry.
+    
+---
+
+<div class="hero-wrapper">
+    {% include curve.html top="lighter green" bottom="green-to-blue" %}
+
+    <section class="customers-header page-header over-curve py-4 py-md-5">
+        <div class="container text-center">	
+            <div class="single-col-max mx-auto">	   
+                <h1 class="page-headline mb-3">Aristotle Metadata Comparisons and Alternatives</h1>
+                <div class="page-tagline mb-4">
+                    See how the Aristotle Metadata Registry compares with other metadata management tools,
+                    and complements the data tools already in your data architecture.
+                </div>
+                <div class="cta-btn mb-lg-3">
+                    <a class="btn btn-gradient mb-3" href="/contact/demo" >Contact us for a demo</a>
+                </div> 
+            </div><!--//single-col-max-->
+        </div>
+    </section><!--//customers-header-->		
+</div>
+
+<section class="customers-section py-5">
+    <div class="container py-5 col-8 mx-auto">
+        <div class="row mb-3">
+            {% assign comparisons = page.comparisons | where_exp:"p", "p.hide != true" %}
+            {% for alt in comparisons %}
+            <div class="col-12 col-lg-8 mx-auto mb-5">
+                <div class="item shadow rounded p-4">
+                    <div class="logo-holder mb-2">
+                        <strong>{{ alt.title }}</strong>
+                    </div><!--//logo-holder-->
+                    <div class="summary mb-3">
+                        {{ alt.details }}
+                    </div><!--//summary-->
+                    <div class="mb-4"><a class="more-link" href="{{ alt.url }}">Learn More <span class="link-arrow">&rarr;</span></a></div>
+                    
+                </div><!--//item-->
+            </div><!--//col-12-->
+            {% endfor %}
+        </div><!--//row-->    
+    </div><!--//container-->
+</section><!--//customers-section-->
+
+{% include reviews_banner.html call=page.cta.call
+    text_body=page.cta.text_body
+    action=page.cta.action url="/contact/demo"  %}

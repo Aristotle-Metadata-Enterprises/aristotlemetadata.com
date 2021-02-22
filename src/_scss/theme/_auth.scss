@@ -1,0 +1,112 @@
+
+.auth-section {
+	height: 100%;
+	min-height: 100%;
+	position: relative;
+}
+
+
+.auth-col-promo {
+	overflow:hidden;
+}
+
+.auth-promo-content {
+	padding-top: 4rem;
+}
+
+.autho-promo-heading {
+	font-size: 1.5rem;
+}
+
+
+.auth-logos {
+	.company-logo {
+		max-width: 90px;
+		@include opacity(0.8);
+	}
+}
+
+.auth-col-main {
+	min-height: 600px;
+}
+
+.auth-wrapper {
+	max-width: 480px;
+	 .login-section & {
+		 max-width: 600px;
+	 }
+}
+
+.social-auth {
+	max-width: 300px;
+}
+
+.form-control {
+    @include placeholder($theme-text-color-light); 
+}
+
+
+.legal-note {
+    font-size: 0.875rem;
+}    
+
+.divider {
+    border-bottom: 1px solid $theme-divider;
+    position: relative;
+}
+
+.or-text {
+    position: absolute;
+    top: -12px;
+    padding: 0 10px;
+    background: #fff;
+    display: inline-block;
+    left: 50%;
+    margin-left: -22px;  
+    color: $theme-text-color-light;
+}
+
+.remember {
+   font-size: 0.875rem;
+}
+.forgotten-password {
+    text-align:right;
+    position: absolute;
+    right: 0;
+    top: 0;
+    font-size: 0.875rem;
+    a {
+        color: $theme-text-color-secondary;
+    }
+}
+
+.auth-option {
+    font-size: 0.875rem;
+}
+
+.btn-submit {
+	min-width: 300px;
+}
+
+
+.auth-footer {
+	font-size: 0.75rem;
+	color: $theme-text-color-light;
+	a {
+		color: $theme-text-color-light;
+	}
+
+}
+
+// Extra small devices (portrait phones, less than 576px)
+@media (max-width: 575.98px) {
+	.auth-heading {
+		font-size: 1.5rem;
+	}
+	.btn-submit {
+		min-width: inherit;
+		width: 100%;
+	}
+}
+
+

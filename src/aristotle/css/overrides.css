@@ -1,0 +1,235 @@
+.navbar-aristotle {
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
+
+.navbar-aristotle .navbar-brand {
+  padding-bottom: 4px;
+}
+
+.navbar-aristotle .navbar-brand img {
+  max-height: 78px;
+}
+
+.footer-aristotle .footer-col .logo-icon {
+  max-width:300px;
+}
+
+.theme-bg-gradient {
+  background-image: linear-gradient(135deg, #356a69, 75%, #3F88C5) !important;
+  color: white !important;
+}
+.theme-bg-gradient h1 {
+  color: white !important;
+}
+
+.post-banner-holder {
+  text-align: center;
+}
+
+.aristotle-blog-thumb {
+  background-size: cover;
+  height: 200px;
+  width: 100%;
+}
+
+.aristotle-blog-content img {
+  max-width: 100%;
+}
+
+.hero-wrapper.aristotle-primary {
+  background-image: linear-gradient(135deg, #356a6990, 75%, #3F88C590) !important;
+}
+
+.profile-image {
+  border-radius: 50%;
+}
+
+.aristotle-blog-card > a.post-link {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.aristotle-blog-card > a.post-link > .post-content-holder {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+}
+
+.aristotle-blog-card > a.post-link > .post-content-holder > .post-excerpt{
+  flex-grow: 1;
+  /* flex: 1 0 0; */
+}
+
+.case-logo-holder img {
+  max-height: 150px;
+}
+
+.testimonials-slider .source-holder img {
+  border-radius: 0% !important;
+}
+
+.partners-section img.img-fluid {
+  max-height: 300px;
+}
+
+.icon-holder svg {
+  position: relative;
+  top: -3px;
+}
+
+.icon-holder .fas,
+.icon-holder .far,
+.icon-holder .fab,
+.icon-holder .fad,
+.icon-holder .fal
+{
+  /* This is a weird thing needed for the home page */
+  top: -3px;
+  position: relative;
+}
+
+.hero-wrapper.overflow {
+  overflow:visible !important;
+}
+
+.full-size-feature-image {
+  overflow: hidden;
+  box-shadow: 3px 3px 5px #777;
+  /* max-height: 500px; */
+}
+
+.full-size-feature-image img {
+  max-width:none !important;
+  opacity: 0.9;
+}
+
+/* SEARCH */
+
+#navbarSearchDropdown {
+  color: #356a69
+}
+#navbarsearch {
+  min-width: 400px;
+}
+
+/*
+This is required to position the agolia search widget properly.
+*/
+.aa-Panel {
+  margin-top:60px;
+}
+
+.pricing-table .micro-tier,
+.pricing-table .mini-tier,
+.pricing-table .standard-tier {
+    background-color: #f8fefe;
+}
+.pricing-table .mini-tier,
+.pricing-table .standard-tier {
+    border-right: 1px solid #efefef;
+}
+.pricing-table .micro-tier,
+.pricing-table .standard-tier {
+    border-left: 1px solid #efefef;
+}
+.pricing-table a {
+  text-decoration: underline;
+  text-decoration-style: dashed;
+  text-decoration-thickness: 1px;
+}
+
+h3.title a,
+h4.title a {
+    color: #252930
+}
+
+.theme-bg-gradient .healthy-babies {
+  color: #efefef;
+  border-bottom: 3px solid #efefef;
+}
+
+.healthy-babies {
+  display: inline-block;
+}
+.healthy-babies span:first-child {
+  color: #3e4e4e ;
+  border-bottom: 3px solid #6e9e9e;
+}
+
+.healthy-babies .typed-cursor {
+  color: #6e9e9e;
+  font-weight: 100;
+  animation: blinker 0.7s linear infinite;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+@keyframes blinker {
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+
+
+.cloud-details .data-overview {
+  width: 128px;
+}
+
+.hero-figure-holder {
+  position: absolute;
+  /* right: -180px; */
+  top: 0px;
+}
+
+@media (max-width: 989px) {
+  .hero-holder {
+    height: 400px;
+  }
+  .hero-image {
+    width: 100%;
+  }
+}
+
+@media (min-width: 990px) {
+  .hero-holder {
+    height: 0;
+  }
+  .hero-image {
+      position: relative;
+      top: -100px;
+      left: -100px;
+      width: 800px;
+    }
+}
+
+
+@media (min-width: 1200px) {
+  .hero-image {
+    top: -200px;
+    width: 900px;
+    }
+}
+.people-positioner-holder {
+  overflow: hidden;
+}
+.people-positioner {
+  height: 800px;
+  margin-left: -100px;
+  margin-top: -200px;
+}
+
+@media (max-width: 575.98px) {
+  .header .site-logo .logo-icon {
+      max-width: 200px;
+      max-height: unset;
+  }
+}
+
+@media (max-width: 787px) {
+  .healthy-babies {
+    display: block;
+    height: 2em;
+  }
+}

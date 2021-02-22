@@ -1,0 +1,36 @@
+
+<!-- Javascript -->          
+<script src="/assets/plugins/jquery-3.4.1.min.js"></script>
+<script src="/assets/plugins/popper.min.js"></script>
+<script src="/assets/plugins/bootstrap/js/bootstrap.min.js"></script>  
+
+<!-- Page Specific JS -->
+<script src="/assets/plugins/tiny-slider/min/tiny-slider.js"></script> 
+<script src="/assets/js/tinyslider-custom.js"></script> 
+
+{{ page.footer_scripts }}
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@algolia/algoliasearch-netlify-frontend@1/dist/algoliasearchNetlify.css" />
+<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@algolia/algoliasearch-netlify-frontend@1/dist/algoliasearchNetlify.js"></script>
+<script type="text/javascript">
+  algoliasearchNetlify({
+    appId: 'ZB9I154E6R',
+    apiKey: 'd6c941e7e6051e64a719c43b02e2e076',
+    siteId: '23b0d133-9af1-4a51-a0ca-93566d1f2d55',
+    branch: 'master',
+    selector: 'div#navbarsearch',
+    theme: {
+        mark: '#356a69',                               // Color of the matching content
+        background: '#fff',                      // Background Color of the input and the panel
+        selected: '#f2f2fe',                        // Background Color of the selected item
+        text: '#111',                             // Color of the title of the items
+        colorSourceIcon: '#356a69'                  // Color of the icon on the left of results
+    }
+  });
+  $('#navbarSearchDropdown').click(function(){
+    setTimeout(function () {
+        $('#autocomplete-0-input').focus();
+    }, 50);
+});
+
+</script>

@@ -1,0 +1,33 @@
+.team-section {
+	.member {
+		position: relative;
+		padding-top: 2rem;
+		background: white;
+		height: 100%;
+		@include transition (all 0.2s ease-in-out 0s);
+		&:hover {
+			transform: translateY(-5px);
+		}
+
+	}
+	.member-profile {
+		top: -60px;
+		
+		img {
+			max-width: 120px;
+			position: absolute;
+			top: -60px;
+			margin-left: 50%;
+			left: -60px;
+			border: 3px solid #fff;
+		}
+	}
+	.member-name {
+		font-weight: bold;
+		font-size: 1.125rem;
+		color: $theme-text-color-primary;
+	}
+	
+}
+
+

@@ -1,0 +1,76 @@
+---
+layout: raw
+title: Arisblogle
+
+pagination:
+    enabled: true
+
+---
+
+
+{% if paginator.page == 1 %}
+{% include blog_carousel.html header="Aris<u>blog</u>le" tagline="Recent news and media about Aristotle Metadata" %}
+{% else %}
+<div class="hero-wrapper">
+    {% include curve.html top="lighter cover green" bottom="gray" %}
+    <section class="blog-header page-header py-3 py-md-5 over-curve">
+        <div class="container">	
+            <h1 class="page-headline text-center mb-5">Aris<u>blog</u>le</h1>
+            <div class="page-tagline mb-4 text-center">
+                Recent news and media about Aristotle Metadata
+            </div>
+        </div><!--//container-->
+    </section><!--//blog-header-->
+</div><!--//hero-wrapper-->
+{% endif %}
+
+{% comment %}
+<div class="search-form-section text-center pt-5">
+<div class="container">
+    <div class="search-form-wrapper mx-auto d-inline-block">
+        <form class="form-inline search-form" action="#" method="get">
+            <input type="text" placeholder="Search blog posts" name="search" class="form-control search-input mr-2">
+            <button type="submit" class="btn btn-gradient" value="Search"><i class="fa fa-search"></i></button>
+        </form><!--//search-form-->   
+    </div><!--//mx-auto-->
+</div><!--//container-->
+</div><!--//search-form-wrapper-->
+{% endcomment %}
+
+
+<section class="blog-list-section py-5">
+<div class="container">
+    <div class="row">
+        {% for post in paginator.posts %}
+            {% include blog_card.html post=post %}
+        {% endfor %}
+    </div><!--//row-->
+
+    {% if paginator.page_trail %}
+        <nav class="pagination-container text-center">
+            <ul class="pagination justify-content-center">
+                <li class="page-item disabled">
+                    <a class="page-link" href="" aria-label="Previous">
+                        <span aria-hidden="true">&laquo;</span>
+                    </a>
+                </li>
+                {% for trail in paginator.page_trail %}
+                    {% if page.url == trail.path %}
+                    <li class="page-item active" aria-current="page">
+                    {% else %}
+                    <li class="page-item">
+                    {% endif %}
+                        <a class="page-link" href="{{ trail.path | prepend: site.baseurl }}" title="{{trail.title}}">{{ trail.num }}</a>
+                    </li>
+                {% endfor %}
+                <li class="page-item">
+                    <a class="page-link" href="#" aria-label="Next">
+                        <span aria-hidden="true">&raquo;</span>
+                    </a>
+                </li>
+            </ul>
+        </nav>
+    {% endif %}
+  
+</div><!--//container-->
+</section><!--//blog-list-section-->

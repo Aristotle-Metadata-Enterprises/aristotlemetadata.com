@@ -1,0 +1,24 @@
+.aristotle-legal-content {
+  font-size: 90%;
+}
+
+.aristotle-legal-content table {
+  width: 100%;
+}
+
+.aristotle-legal-content table td,
+.aristotle-legal-content table th {
+  vertical-align: top;
+  border-top: 1px solid rgb(66, 66, 66);
+  border-bottom: 1px solid rgb(66, 66, 66);
+}
+
+.aristotle-legal-content table td:first-child,
+.aristotle-legal-content table th:first-child {
+  width: 25%;
+}
+
+.aristotle-legal-content h2,
+.aristotle-legal-content h3 {
+    margin-top: 2em;
+}

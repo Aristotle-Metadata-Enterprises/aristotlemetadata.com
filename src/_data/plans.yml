@@ -1,0 +1,113 @@
+registry:
+    plans:
+      -    
+          name: Micro
+          price: 2
+          description: Ideal plans for organisations starting their metadata management journey.
+      -
+          name: Mini
+          price: 4
+          description: Cost-effective shared autoscaling servers with application layer security.
+      -
+          name: Small
+          price: 7
+          description: Ideal for smaller enterprises 
+      -
+          name: Medium
+          price: 12
+          popular: yes
+          description: Excellent for organisations 
+      -
+          name: Large
+          price: 20
+          description: Perfect for large organisations with complex data governance
+    features:
+      -
+          group: "Usage"
+          subfeatures:
+              -
+                  name: Included Users
+                  plans:
+                      micro: 25
+                      mini: 50
+                      small: 100
+                      medium: 250
+                      large: 500
+              -
+                  name: Metadata storage
+                  plans:
+                      {micro: '20,000', mini: '50,000', small: Unlimited, medium: Unlimited, large: Unlimited}
+              -
+                  name: Separate organisations
+                  link: organisations
+                  plans:
+                      {micro: no, mini: no, small: 5, medium: 10, large: Unlimited}
+
+      -
+          group: "Registry features"
+          subfeatures:
+              -
+                  name: ISO-11179 Metadata Registry
+                  plans: {micro: yes, mini: yes, small: yes, medium: yes, large: yes}
+              -
+                  name: Data Registry
+                  plans: {micro: yes, mini: yes, small: yes, medium: yes, large: yes}
+              -
+                  name: Business Glossary
+                  plans: {micro: yes, mini: yes, small: yes, medium: yes, large: yes}
+              -
+                  name: Performance Indicators
+                  plans: {micro: yes, mini: yes, small: yes, medium: yes, large: yes}
+              -
+                  name: Ontology Management
+                  plans: {micro: no, mini: no, small: yes, medium: yes, large: yes}
+              -
+                  name: Classifications
+                  plans: {micro: no, mini: no, small: yes, medium: yes, large: yes}
+
+      -
+          group: "Help & Training"
+          subfeatures:
+              - 
+                  name: Online Knowledge Base,<br>Video tutorials,<br>Community Forums
+                  plans: {micro: yes, mini: yes, small: yes, medium: yes, large: yes}
+              - 
+                  name: Training sessions (per year)
+                  plans: {micro: no, mini: no, small: 2, medium: 2, large: 4}
+              - 
+                  name: Roadmap committee representatives
+                  link: roadmap
+                  popover: "The Aristotle Metadata Roadmap is a annual initiative where our clients can help prioritise the delivery of new features for the Aristotle Metadata Registry"
+                  tiers:
+                      standard: 1 representative
+                      enterprise: 2 representatives
+      -
+          group: "Security"
+          subfeatures:
+              - 
+                  name: Multi-factor Authentication (MFA)
+                  plans: {micro: yes, mini: yes, small: yes, medium: yes, large: yes}
+              - 
+                  name: Single-sign on
+                  link: secure-hosting
+                  plans: {
+                      micro: no, mini: no, small: no,
+                      medium: {has: yes, text: "Optional add-on"}, large: {has: yes, text: "Optional add-on"}
+                  }
+              - 
+                  name: Standard hosting included
+                  plans: {micro: yes, mini: yes, small: yes, medium: yes, large: yes}
+              - 
+                  name: Aristotle Secure Hosting
+                  link: secure-hosting
+                  plans: {
+                      micro: no, mini: no, small: no,
+                      medium: {has: yes, text: "Optional add-on"}, large: {has: yes, text: "Optional add-on"}
+                  }
+              - 
+                  name: Aristotle Protected Hosting
+                  link: secure-hosting
+                  plans: {
+                      micro: no, mini: no, small: no,
+                      medium: {has: yes, text: "Optional add-on"}, large: {has: yes, text: "Optional add-on"}
+                  }

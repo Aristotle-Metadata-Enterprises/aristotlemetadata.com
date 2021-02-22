@@ -1,0 +1,38 @@
+{% include html_head.html %}
+
+<body class="">
+    {% include header.html %}
+
+    <div class="hero-wrapper">
+        {% include curve.html top=page.curve.top bottom=page.curve.bottom  %}
+     
+        <section class="product-header page-header over-curve py-3 py-md-5">
+            <div class="container text-center">	
+                <div class="single-col-max mx-auto">	   
+                    <h1 class="page-headline mb-3">{{ page.heading }}</h1>
+                    <div class="page-tagline mb-4">
+                        {{ page.byline }}
+                    </div>
+                </div><!--//single-col-max-->
+            </div>
+        </section><!--//product-header-->
+    </div><!--//hero-wrapper-->
+    
+	<section class="page-content py-5">
+		<div class="container">
+            {{ content }} 
+        </div><!--//container-->
+    </section><!--//page-content-->
+
+        
+    <section class="cta-section text-center py-5 theme-bg-gradient position-relative">
+        {% include curve.html cover=cover %}
+    </section><!--//cta-section-->
+
+
+    {% include footer.html %}
+    {% include footer_scripts.html %}
+
+    {% include ga.html %}
+</body>
+</html>

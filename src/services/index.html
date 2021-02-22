@@ -1,0 +1,167 @@
+---
+layout: raw
+title: Services
+
+services:
+    - 
+        id: migration
+        category:
+        name: Metadata migration
+        image: /assets/shutterstock/shutterstock_1170187075.jpg
+        info: |
+            <p>
+                If your organisation has existing metadata assets, we have the skills to help you populate your
+                Aristotle Metadata Registry with your content faster.
+            </p>
+            <p>
+                Take advantage of our extensive experience helping clients lift-and-shift their existing metadata into the Aristotle Metadata Registry.
+                We've helped clients migrate metadata from structured databases like SQL and Microsoft Access all the way to bulk upload of Microsoft Excel or CSV formated files.
+                And if your metadata is stored as free-text in Word or PDF, we have the skills to harvest your metadata into a structured form, and analysts who can provide
+                quality control.
+            </p>
+            <p>
+                We back all this up with automated quality assurance processes that give you the knowledge that your new metadata registry will continue to exceed your organisations data quality requirements.
+            </p>
+    - 
+        id: training
+        category: 
+        name: Training
+        image: /assets/shutterstock/shutterstock_410899813.jpg
+        info: |
+            <p>We provide a range of training services based on the needs of the client, including remote, face to face and hybrid formats.
+                And all of our standard training modules are available online and cover topics from
+                <a href="https://www.youtube.com/watch?v=8_BRpvu3ah4&list=PLBVCDZHCxQER7eRS4GQbKC-TNLvOUCD40&index=1&ab_channel=AristotleMetadataRegistry">"An introduction to metadata"</a>
+                and all the way through to <a href="https://www.youtube.com/playlist?list=PLBVCDZHCxQER7eRS4GQbKC-TNLvOUCD40">all the available functions and features of the Aristotle Metadata Registry</a>.
+            <p>Our standarised training modules are available online and on-demand and are targeted to help key user groups build capability faster.
+                From new users unfamiliar with metadata to those already skilled with metadata management looking to integrate with existing tools,
+                we have the right training options for your team.
+            <p>
+                For specialised needs, we can provide training tailored to your organisation as both in-person and branded on-demand videos
+                for a more targeted audience to ensure that you get the most from your metadata registry.
+
+    - 
+        id: governance
+        category: 
+        name: Governance & Strategy
+        image: /assets/shutterstock/shutterstock_369895379.jpg
+        info: |
+            <p>
+                Whether you are beginning your metadata journey, or are looking for an independent review of your data governance, we have the experience to assist you.
+            </p>
+            <p>
+                Ensure that your data strategy is world-class and aligns with your metadata management processes,
+                by utilising our experience developing data and metadata strategies for a range of government and enterprise clients.
+            </p>
+            <p>
+                Continue getting value from your registry and guarantee the quality metadata by building a metadata governance process
+                based on the expert advice of our team. We can then help capture your metadata governance and business rules in your
+                registry to take advantage of <a href="/products/aristotle-metadata-registry/#collaboration">Aristotle Metadata Registry automated quality checking</a>.
+            </p>
+    - 
+        id: integration
+        name: Custom development and API integrations
+        image: /assets/shutterstock/shutterstock_395220502.jpg
+        info: |
+            <p>
+                Connecting your metadata registry to existing systems and dashboards that generate more value from your data.
+                The Aristotle Metadata Registry includes well-documented APIs to connect your registry to your data faster - and we're adding more all the time.
+            </p>
+            <p>
+                Where you need more custom solutions, we have the skills to develop custom software and specialised connectors to enhance your metadata and 
+                connect your existing platforms to your metadata.
+            </p>    
+            <p>
+                We deliver our expertise using agile methodologies that helps us iterate project designs and deliver value to you faster.
+            </p>
+
+cta:
+    call: Data governance is more than just software
+    text_body: |
+        <p>You already know that good governance is more than a metadata registry, and Aristotle Metadata has the skills to help you on your metadata journey.
+        </p>
+        <p>Get in contact to tell us about how we can help enhance your data capabilities.</p>
+        
+---
+
+<style>
+.benefits-section img {
+    max-height: unset !important;
+}
+</style>
+
+
+<div class="hero-wrapper theme-bg-gradient">
+    {% include curve.html top="cover lighter green" bottom="cover gray" %}
+ 
+    <section class="product-header page-header over-curve py-3 py-md-5">
+        <div class="container text-center">	
+            <div class="single-col-max mx-auto">	   
+                <h1 class="page-headline mb-3">Services that get more from your metadata registry</h1>
+                <div class="page-tagline mb-4">
+                    <p>
+                        We're ready to partner with you to help you get the most out of your metadata registry.
+
+                        Our team of analysts, developers and trainers have the skills to formalise your data governance,
+                        and build your data capability - so you can focus on building high-quality data assets faster.
+                    </p>
+                </div>
+            </div><!--//single-col-max-->
+        </div>
+    </section><!--//product-header-->
+</div><!--//hero-wrapper-->
+
+<section class="benefits-section py-5 partners-section">
+    <div class="container">
+        {% for service in page.services %}
+        <div id="{{service.id}}" class="item py-5">
+            <div class="row">
+                <div class="item-content col-12 col-lg-7 col-xl-6 pr-lg-5">
+                    <div class="title-note mb-1">{{ service.category }}</div>
+                    <h4  class="title mb-3">{{ service.name }}</h4>
+                    <div class="desc">
+                        {{ service.info }}
+                    </div><!--//desc-->
+                    {% if service.url %}
+                    <div><a class="more-link" href="{{ service.url }}">{{ service.link_text }}<span class="link-arrow">&rarr;</span></a></div>
+                    {% endif %}
+                </div><!--//item-content-->
+                <div class="item-figure col-12 col-lg-5 pt-5 col-xl-6">
+                    <img class="img-fluid shadow rounded" src="{{ service.image }}" alt="">   
+                </div><!--//item-figure-->
+            </div><!--//row-->
+        </div><!--//item-->
+        {% endfor %}
+    </div><!--//container-->
+</section><!--//benefits-section-->
+
+{% capture cta_body %}
+<div class="single-col-max mx-auto">
+    <div class="contact-form-box shadow rounded p-5 mb-5">
+        <form id="contact-form" class="contact-form" method="post" action="https://getsimpleform.com/messages?form_api_token=8912b0e723f1761a207116e5a4fea5f6">
+            <div class="form-row">                                                           
+                <div class="form-group col-12 col-xl-6">
+                    <label class="sr-only" for="cname">Name</label>
+                    <input type="text" class="form-control" id="cname" name="name" placeholder="Name" minlength="2" required="" >
+                </div>                    
+                <div class="form-group col-12 col-xl-6">
+                    <label class="sr-only" for="cemail">Email</label>
+                    <input type="email" class="form-control" id="cemail" name="email" placeholder="Email" required="" >
+                </div>
+                
+                <div class="form-group col-12">
+                    <label class="sr-only" for="cmessage">Your message</label>
+                    <textarea class="form-control" id="cmessage" name="message" placeholder="Enter your message" rows="6" required=""></textarea>
+                </div>
+                <div class="form-group col-8 mx-auto">
+                    <button type="submit" class="btn btn-block btn-gradient py-2">Submit</button>
+                </div>                           
+            </div><!--//form-row-->
+            <input type='hidden' name='redirect_to' value='http://www.aristotlemetadata.com/contact/thanks.html' />
+        </form><!--//contact-form-->
+    </div><!--//contact-form-box-->
+</div><!--//single-col-max-->
+{% endcapture %}
+
+{% include cta_bold.html call=page.cta.call
+    sub_call=page.cta.text_body body=cta_body
+    %}

@@ -1,0 +1,484 @@
+---
+layout: raw
+title: Home
+footer_scripts: >
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.11"></script>
+    <script src="/aristotle/babies.js"></script>
+
+dark: false
+og:
+    image:
+        url: /aristotle/assets/home/hero-md.png
+        width: 128px
+        height: 128px
+
+---
+<div class="hero-wrapper overflow {% if page.dark %}theme-bg-gradient{% endif %}">
+    {% if page.dark %}
+        {% include curve.html top="cover green a7e-op-2" bottom="gray" %}
+    {% else %}
+        {% include curve.html top="cover white a7e-op-9" bottom="cover green-to-blue a7e-op-6 home-bottom-curve" %}
+    {% endif %}
+
+    <section class="hero-section over-curve pt-5 py-md-5">
+        <div class="container">
+            <div class="hero-content-holder z-index-10 position-relative">
+                <h1 class="site-headline {% if page.dark %}text-white{% endif %}">
+                    Get more out of your data.
+                </h1>
+                <h2 class="mb-5 {% if page.dark %}text-white{% endif %}">So you can 
+                    <span class="healthy-babies"><span>achieve positive outcomes.</span></span>
+                </h2>
+            </div>
+            <div class="row">
+                <div class="col-lg-5">
+                    <div class="site-tagline mb-5">
+                        <p>Increase the impact of data across your organisation by 
+                            capturing business knowledge using user-friendly, collaborative data tools.</p>
+                        <p>Find your data faster by recording metadata in a central,
+                            searchable registry that's ready to integrate with your business intelligence solutions.</p>
+                    </div>
+                    <h2 class="mb-4 {% if page.dark %}text-white{% endif %}">
+                        Aristotle Metadata Registry 
+                        <br>Make data make sense
+                    </h2>
+                    <div class="cta-btns mb-lg-3">
+                        <a class="btn btn-{% if page.dark %}inverse{% else %}gradient{% endif %} mr-2 mb-3" href="/contact/demo.html">
+                            Contact us for a demo
+                        </a>
+                        <a class="btn btn-{% if page.dark %}inverse{% else %}gradient{% endif %} mr-2 mb-3" href="https://aristotle.cloud/account/login">
+                            Try it out yourself
+                        </a>
+                    </div>                
+                </div><!--//hero-content-holder-->
+                <div class="col-lg-7 hero-holder">
+                    <img class="hero-image" src="/aristotle/assets/home/589sam_aristotle-01.svg" alt="">
+                </div><!--//hero-figure-holder-->
+            </div>
+        </div><!--//container-->
+    </section><!--//hero-section-->
+</div><!--//hero-wrapper-->
+
+
+
+<section class="features-columns-section py-5 why-metadata-section">
+    <h3 class="mb-lg-2 text-center section-title single-col-max mx-auto">Your data wants to be understood - and metadata is how it communicates!</h3>
+    <div class="section-intro text-center mb-5 single-col-max mx-auto">
+        <p>Regardless of sector or size, well-managed metadata is critical to the success of your organisation in the 21<sup>st</sup> century.</p>
+        <p>Part of that challenge is making sure your data dictionaries, business glossaries
+            and metadata assets are all managed in a central, searchable metadata registry that can be used by everyone in your team.
+        </p>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-12 col-lg-6 mb-5">
+                <div class="item shadow rounded">
+                    <div class="icon-holder">
+                        <div class="icon far fa-university"></div>
+                    </div><!--//icon-holder-->
+                    <div class="column-content">
+                        <h4>Government & Compliance</h4>
+                        <div class="desc mb-2">
+                            <p>
+                            Metadata is the key language of government to ensure data is collected, reported and analysed correctly.
+                            </p><p>
+                            Without well managed metadata, your data will be incorrectly collected and interpreted and you risk policies being improperly applied.
+                            </p>
+                        </div>
+                        <!-- <a class="more-link" href="/metadata/">Learn more <span class="link-arrow">&rarr;</span></a> -->
+                    </div><!--//column-content-->
+                </div><!--//item-->
+                
+            </div><!--//col-->
+            
+            <div class="col-12 col-lg-6 mb-5">
+                <div class="item shadow rounded">
+                    <div class="icon-holder">
+                        <div class="icon far fa-industry-alt"></div>
+                    </div><!--//icon-holder-->
+                    <div class="column-content">
+                        <h4>Private Enterprise</h4>
+                        <div class="desc mb-2">
+                            <p>
+                            Data drives corporate decision making, so leadership boards and teams need confidence in their data.
+                            </p><p>
+                            Well-managed metadata extracts more value from corporate data assets and reduces costs when collecting and interpreting data.
+                            </p>
+                        </div>
+                        <!-- <a class="more-link" href="/metadata/">Learn more <span class="link-arrow">&rarr;</span></a> -->
+                    </div><!--//column-content-->
+                </div><!--//item-->
+            </div><!--//col-12-->
+            
+            <div class="col-12 col-lg-6 mb-5">
+                <div class="item shadow rounded">
+                    <div class="icon-holder">
+                        <div class="icon far fa-hospital"></div>
+                    </div><!--//icon-holder-->
+                    <div class="column-content">
+                        <h4>Health Data & Informatics</h4>
+                        <div class="desc mb-2">
+                            <p>
+                                Metadata records the definitions needed to accurately measure and improve patient experience.
+                                </p><p>
+                                By capturing metadata definitions you improve policy effectiveness by ensuring patient
+                                data is collected accurately when reporting on health performance indicators.
+                                </p>
+                            </div>
+                        <!-- <a class="more-link" href="/metadata/">Learn more <span class="link-arrow">&rarr;</span></a> -->
+                    </div><!--//column-content-->
+                </div><!--//item-->
+            </div><!--//col-12-->
+            
+            <div class="col-12 col-lg-6 mb-5">
+                <div class="item shadow rounded">
+                    <div class="icon-holder">
+                        <div class="icon far fa-chart-pie"></div>
+                    </div><!--//icon-holder-->
+                    <div class="column-content">
+                        <h4>Statistics & Actuarial</h4>
+                        <div class="desc mb-2">
+                            <p>
+                            Metadata systems are integral for national statistics agencies when capturing standard defintions and classifications, and ensure they are properly managed and securely published.
+                            </p><p>
+                            Well governed metadata is vital to the understanding of official statstics - by industry, by government and by the public.
+                            </p>
+                        </div>
+                        <!-- <a class="more-link" href="/metadata/">Learn more <span class="link-arrow">&rarr;</span></a> -->
+                    </div><!--//column-content-->
+                </div><!--//item-->
+            </div><!--//col-12-->
+        </div><!--//row-->
+    </div><!--//container-->
+    <p>
+
+    </p>
+</section><!--//features-columns-section-->         
+
+<section class="benefits-section py-5">
+    <div class="container">
+        <h3 class="mb-lg-5 text-center section-title single-col-max mx-auto">What Aristotle Metadata Can Do For You</h3>
+        <div class="item py-0">
+            <div class="row">
+                <div class="item-content col-12 col-lg-7 col-xl-6 pr-lg-5">
+                    <div class="title-note mb-1">Software</div>
+                    <h4 class="title mb-3">Aristotle Metadata Registry</h4>
+                    <div class="desc">
+                        <p>Our flagship enterprise metadata management platform.</p>
+                        <p>Browser-based. User-friendly. Standards-compliant.</p>
+                        <p>
+                            Double your data productivity with the Aristotle Metadata Registry
+                            by reducing duplication, streamlining workflows and improving data discovery.
+    
+                            Improve your organisational data capabilities from a central, built-for-purpose metadata platform that 
+                            meets all requirements for modern metadata management and governance.
+                        </p>
+                    </div><!--//desc-->
+                    <ul class="column-list list-unstyled pt-4">
+                        <li><span class="theme-check-icon icon dripicons-checkmark mr-2"></span> Metadata management</li>
+                        <li><span class="theme-check-icon icon dripicons-checkmark mr-2"></span> Collaboration</li>
+                        <li><span class="theme-check-icon icon dripicons-checkmark mr-2"></span> Search and browse</li>
+                        <li><span class="theme-check-icon icon dripicons-checkmark mr-2"></span> Data lineage</li>
+                        <li><span class="theme-check-icon icon dripicons-checkmark mr-2"></span> Classifications</li>
+                        <li><span class="theme-check-icon icon dripicons-checkmark mr-2"></span> Performance Indicators</li>
+                        <li><span class="theme-check-icon icon dripicons-checkmark mr-2"></span> Data governance</li>
+                        <li><span class="theme-check-icon icon dripicons-checkmark mr-2"></span> API & Integrations</li>
+                    </ul><!--//item-list-->
+                    <div><a class="more-link" href="./products/aristotle-metadata-registry">Find out more <span class="link-arrow">&rarr;</span></a></div>
+                </div><!--//item-content-->
+                <div class="item-figure col-12 col-lg-5 pt-5 col-xl-6">
+                    <img class="people-positioner" src="/aristotle/assets/home/589sam_aristotle-03.svg" alt="">   
+                </div><!--//item-figure-->
+            </div><!--//row-->
+        </div><!--//item-->
+        <div class="item py-0">
+            <div class="row">
+                <div class="item-content col-12 col-lg-7 col-xl-6 order-lg-1 pl-lg-5">
+                    <div class="title-note mb-1">Hosting</div>
+                    <h4 class="title mb-3">Aristotle Secure Cloud</h4>
+                    
+                    <div class="desc mb-3">
+                        Our secure, scalable and stable cloud-hosted platform.<br>
+
+                        <p>Built on Amazon Web Services for maximum reliability,
+                            scalability and security in the cloud.
+                        </p>
+                        <p>Available globally and designed to comply with data sovereignty requirements,
+                            this is the easiest way to deploy your own secure Aristotle Metadata Registry.
+                        </p>
+                    </div><!--//desc--> 
+                    
+                    <div class="data-list cloud-details">
+                        <div class="data-list-item media mb-4">
+                            <div class="data-overview mr-md-4 text-center">
+                                <div class="number">99.9%</div>
+                                <div class="note">Uptime guarantee</div>
+                            </div><!--//data-overview-->
+                            <div class="data-desc media-body">
+                                High-availability design means you never have to worry about up-time... ever.
+                                Our enterprise-grade Service Level Agreement (SLA) gives you the confidence
+                                that your metadata will be available whenever you need it.
+                            </div>
+                        </div><!--//data-list-item-->
+
+                        <div class="data-list-item media mb-4">
+                            <div class="data-overview mr-md-4 text-center">
+                                <div class="number">1 day</div>
+                                <div class="note">Deployment time</div>
+                            </div><!--//data-overview-->
+                            <div class="data-desc media-body">
+                                We can deploy your Registry within hours, not weeks - so you see a
+                                return on your metadata investment faster.
+                                New features are available regularly and included in your subscription, so 
+                                you continue to get maximum value from your Registry.
+                            </div>
+                        </div><!--//data-list-item-->
+                        
+                    </div><!--//data-list-->
+                    <div><a class="more-link" href="/products/aristotle-cloud-hosting">Find out more <span class="link-arrow">&rarr;</span></a></div>
+                </div><!--//item-content-->
+                <div class="item-figure col-12 col-lg-5 col-xl-6 pt-5 order-lg-0 people-positioner-holder">
+                    <img class="people-positioner" src="/aristotle/assets/home/589sam_aristotle-02.svg" alt="">   
+                </div><!--//item-figure-->
+            </div><!--//row-->
+        </div><!--//item-->
+
+    </div><!--//container-->
+</section><!--//benefits-section-->
+
+
+<section class="why-section py-5">
+    <div class="container">
+        <h3 class="mb-4 text-center section-title single-col-max mx-auto">More Than Just A Metadata Registry</h3>
+        <div class="row">
+            <div class="item col-12 col-md-6">
+                <div class="item-inner p-3 p-lg-5">
+                    <div class="media flex-column flex-md-row">
+                        <div class="icon-holder mr-3 mr-lg-5 mb-3">
+                            <div class="icon far fa-fw fa-cogs"></div>
+                        </div><!--//icon-holder-->
+                        <div class="media-body">
+                            <h4>Integration services</h4>
+                            <div class="desc mb-2">
+                                <p>Metadata drives insights about data, and is most valuable when it connects with your existing data systems.
+                                </p>
+                                <p>That's why we provide well-documented, supported APIs to connect to your data systems,
+                                    and can build custom integration services to make sure your team is getting the most out of your metadata.
+                                </p>
+                            </div><!--//desc-->
+                            <a class="more-link" href="/services/#integration">Learn more <span class="link-arrow">&rarr;</span></a>
+                        </div><!--//media-body-->
+                    </div><!--//media-->
+                </div><!--//item-inner-->
+            </div><!--//item-->
+            <div class="item col-12 col-md-6">
+                <div class="item-inner p-3 p-lg-5">
+                    <div class="media flex-column flex-md-row">
+                        <div class="icon-holder mr-3 mr-lg-5 mb-3">
+                            <div class="icon far fa-fw fa-person-dolly"></div>
+                        </div><!--//icon-holder-->
+                        <div class="media-body">
+                            <h4>Metadata Migration</h4>
+                            <div class="desc mb-2">
+                                <p>We make sure you get more value from your registry by migrating your existing metadata.
+                                </p>
+                                <p>Whether your metadata is stored in an existing system or is managed using office tools like Excel or Word,
+                                    we have the expertise to seemlessly bring your metadata into the Aristotle Metadata Registry to make sure you are generating smarter, data-driven insights sooner.
+                                </p>
+                            </div><!--//desc-->
+                            <a class="more-link" href="/services/#migration">Learn more <span class="link-arrow">&rarr;</span></a>
+                        </div><!--//media-body-->
+                    </div><!--//media-->
+                </div><!--//item-inner-->
+            </div><!--//item-->
+            <div class="item col-12 col-md-6">
+                <div class="item-inner p-3 p-lg-5">
+                    <div class="media flex-column flex-md-row">
+                        <div class="icon-holder mr-3 mr-lg-5 mb-3">
+                            <div class="icon far fa-fw fa-chalkboard-teacher"></div>
+                        </div><!--//icon-holder-->
+                        <div class="media-body">
+                            <h4>Training</h4>
+                            <div class="desc mb-2">
+                                <p>The Aristotle Metadata Registry comes with in-built help and is designed to be easy to use, but we can deliver training so teams have
+                                    confidence that they are following best-practice and are using the full suite of Aristotle Metadata tools.
+                                </p>
+                            </div><!--//desc-->
+                            <a class="more-link" href="/services/#training">Learn more <span class="link-arrow">&rarr;</span></a>
+                        </div><!--//media-body-->
+                    </div><!--//media-->
+                </div><!--//item-inner-->
+            </div><!--//item-->
+            <div class="item col-12 col-md-6">
+                <div class="item-inner p-3 p-lg-5">
+                    <div class="media flex-column flex-md-row">
+                        <div class="icon-holder mr-3 mr-lg-5 mb-3">
+                            <div class="icon far fa-fw fa-university"></div>
+                        </div><!--//icon-holder-->
+                        <div class="media-body">
+                            <h4>Metadata Governance</h4>
+                            <div class="desc mb-2">
+                                <p>
+                                    To continue to benefit from your metadata, you need a plan to continually capture data knowledge and keep it up to date.
+                                </p>
+                                <p>
+                                    We work with your team to develop data governance process that will future-proof your metadata,
+                                    so you can continue to get value from your data using the Aristotle Metadata Registry.
+                                </p>
+                            </div><!--//desc-->
+                            <a class="more-link" href="/services/#governance">Learn more <span class="link-arrow">&rarr;</span></a>
+                        </div><!--//media-body-->
+                    </div><!--//media-->
+                </div><!--//item-inner-->
+            </div><!--//item-->
+        </div><!--//row-->
+    </div><!--//container-->
+</section><!--//why-section-->
+
+{% include blog_carousel.html tagline="<h3>Recent news and media about Aristotle Metadata</h3>" more_link=true %}
+
+<section class="testimonials-section py-5">
+    <div class="container py-md-5">
+        <h3 class="mb-4 text-center section-title single-col-max mx-auto">
+            Trusted by government and private enterprise internationally
+        </h3>
+        <div class="mb-4 text-center">
+            <a class="more-link" href="/case-studies/">View Customer Stories <strong>&rarr;</strong></a>
+        </div>
+        
+        <div class="slider-container text-center single-col-max mx-auto theme-bg-light rounded shadow-sm p-5">
+            <div class="testimonials-slider tiny-slider">
+                <div class="item">
+                    <div class="item-inner position-relative">    
+                        <div class="quote-holder">
+                            <img class="quote-icon-holder mb-3" src="assets/images/quote-icon.svg" alt="">
+                            <blockquote class="quote-content mb-0 p-2 text-left">
+                                Aristotle has provided an excellent metadata and data governance tool set
+                                to the department to enable us to better understand our data holdings.
+                            </blockquote>
+                        </div><!--//quote-holder-->
+                        <div class="source-holder">
+                            <img src="/aristotle/assets/logos/NSWGov_Waratah_Primary_400x293.jpg" class="source-profile mx-auto mb-3" alt="">
+                            <div class="source-meta">
+                                    <div class="name">Melanie Taylor, Advisor</div>
+                                    <div class="company">NSW Department of Communities and Justice</div>
+                                    <a href="/case-studies/nsw-government">
+                                        Learn more &rarr;
+                                        </a>
+                            </div>
+                        </div><!--//source-holder-->
+                    </div><!--//item-inner-->
+                </div><!--//item-->
+                <div class="item">
+                    <div class="item-inner a7e-fh">    
+                        <div class="quote-holder">
+                            <img class="quote-icon-holder mb-3" src="assets/images/quote-icon.svg" alt="">
+                            <blockquote class="quote-content mb-0 p-2 text-left">
+                                Our business relies on quality data to ensure we produce high quality,
+                                robust analytics, and insights that make a difference to the care and service
+                                our clients deliver.
+                                
+                                Having a partner and platform like Aristotle Metadata Registry ensures
+                                we can build new products and services with confidence that our approach
+                                to data management is best in class.
+                            </blockquote>
+                        </div><!--//quote-holder-->
+                        <div class="source-holder">
+                            <img src="/aristotle/assets/logos/potential-x-logo.jfif" class="source-profile mx-auto mb-3" alt="">
+                            <div class="source-meta">
+                                <div class="name">Duane Attree, Chief Executive Officer</div>
+                                <div class="company">Potential<sup>(x)</sup></div>
+                                <a href="/blog/2020/11/potential-x-signs-multi-year-agreement-use-aristotle-cloud-metadata-registry">
+                                    Learn more &rarr;
+                                    </a>
+                            </div>
+                        </div><!--//source-holder-->
+                    </div><!--//item-inner-->
+                </div><!--//item-->
+                <div class="item">
+                    <div class="item-inner">    
+                        <div class="quote-holder">
+                            <img class="quote-icon-holder mb-3" src="assets/images/quote-icon.svg" alt="">
+                            <blockquote class="quote-content mb-0 p-2 text-left">
+                                I like the layout of the details of each of the metadata items. Easy to read, good links, seemingly complete. In fact, this may be the best instance of trying to present conformant 11179 I have seen.
+                            </blockquote>
+                        </div><!--//quote-holder-->
+                        <div class="source-holder">
+                            <img src="/aristotle/assets/logos/BLS_logo.jpg" class="source-profile mx-auto mb-3" alt="">
+                            <div class="source-meta">
+                                <div class="name">Dan Gillman, Information Scientist</div>
+                                <div class="company">US Bureau of Labour Statistics</div>
+                            </div>
+                        </div><!--//source-holder-->
+                    </div><!--//item-inner-->
+                </div><!--//item-->
+            </div><!--//testimonials-slider-->
+            <div class="slider-custom-controls d-none d-md-block">
+                <div class="prev" data-controls="prev">
+                    <i class="fas fa-fw fa-chevron-left"></i>
+                </div>
+                <div class="next" data-controls="next">
+                    <i class="fas fa-fw fa-chevron-right"></i>         
+                </div>
+            </div><!--//slider-custom-controls-->
+        </div><!--//slider-container-->
+    </div><!--//container-->
+</section><!--//testiomonials-section-->
+
+<section class="page-content py-5">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-5">
+                <img class="img-fluid float-right" 
+                    src="/aristotle/images/product-sheet-screenshot.png">
+            </div>
+            <div class="col-sm-6">
+                {% include mailchimp.html %}
+            </div>
+        </div>
+    </div><!--//container-->
+</section><!--//page-content-->
+
+<section class="cta-section text-center py-5 theme-bg-gradient position-relative">
+    {% include curve.html cover=cover %}
+</section><!--//cta-section-->
+
+{% comment %}
+{% capture cta_body %}
+    <div class="item col-6 col-lg-3">
+        <div class="item-inner p-3 text-white">
+            <div class="icon dripicons-meter"></div>
+            <div class="number">99.9%</div>
+            <div class="desc">Up-time availability</div>
+        </div>
+    </div><!--//item-->
+    <div class="item col-6 col-lg-3">
+        <div class="item-inner p-3 text-white">
+            <div class="icon dripicons-graph-line"></div>
+            <div class="number">20%</div>
+            <div class="desc">Growth</div>
+        </div>
+    </div><!--//item-->
+    <div class="item col-6 col-lg-3">
+        <div class="p-3 text-white">
+            <div class="icon dripicons-user-group"></div>
+            <div class="number">5,000+</div>
+            <div class="desc">Users</div>
+        </div>
+    </div><!--//item-->
+    <div class="item col-6 col-lg-3">
+        <div class="item-inner p-3 text-white">
+            <div class="icon dripicons-store"></div>
+            <div class="number">1,000+</div>
+            <div class="desc">Communities</div>
+        </div>
+    </div><!--//item-->
+{% endcapture %}
+
+
+{% include cta_bold.html call="Join Thousands of Top Companies"
+    sub_call="Intro goes here. Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+    body=cta_body
+    action="Start Free Trial" url="/contact.html"  %}
+
+{% endcomment %}

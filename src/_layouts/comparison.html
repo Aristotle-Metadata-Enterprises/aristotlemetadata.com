@@ -1,0 +1,177 @@
+{% include html_head.html %}
+
+<style>
+    .comparison-page .lead::after, .comparison-page .lead::before {
+        display:block;
+        margin: 1.5em 25%;
+        border-bottom:1px solid #356a69;
+        content: ""
+    }
+
+    .user-guide {
+        margin: 30px auto ;
+        height: auto;
+        width: 80%;
+    }
+
+    #mc-embedded-subscribe {
+        background-color: #356a69 !important;
+    }
+
+
+</style>
+
+<body class="comparison-page">
+    {% include header.html %}
+
+    <div class="hero-wrapper">
+        {% include curve.html top="lighter green" bottom="gray" %}
+     
+        <section class="product-header page-header over-curve py-3 py-md-5">
+            <div class="container text-center">	
+                <div class="single-col-max mx-auto">	   
+                    <h1 class="page-headline mb-3">
+
+                        Aristotle Metadata Registry
+                        <br>
+                        {% if page.competitor %}
+                            vs
+                        {% else %}
+                            &amp;
+                        {% endif %}
+                        <br>
+                        {{ page.them }}
+
+                    </h1>
+                    <div class="page-tagline mb-4">
+                        {{ page.lead }}
+                    </div>
+                </div><!--//single-col-max-->
+            </div>
+        </section><!--//product-header-->
+    </div><!--//hero-wrapper-->
+    
+	<section class="page-content py-5">
+		<div class="container">
+            <div class="single-col-max mx-auto">	   
+                <header class="h2 text-center">
+                    {% if page.competitor %}
+                        Why choose Aristotle Metadata 
+                        over {{ page.them }}?
+                    {% else %}
+                        How can Aristotle Metadata
+                        support {{ page.them }}?
+                    {% endif %}
+                </header>
+            </div>
+            {% if page.body %}
+            <div class="row">
+                <div class="col-md-8 mx-auto my-3 page-tagline mb-4 text-center">
+                    {{ page.body }}
+                </div>
+            </div>
+            {% endif %}
+            <div class="row">
+                <div class="col-md-10 offset-md-1">
+                    <table class="table shadow rounded pt-5">
+                        <thead>
+                            <tr>
+                                <th width="60%">Feature</th>
+                                <th width="20%">Aristotle Metadata Registry</th>
+                                <th width="20%">{{ page.them }}</th>
+                            </tr>
+                        </thead>
+                        {% for group in page.features %}
+                        <tbody>
+                            <tr><th>
+                                {{ group.group }}
+                            </th>
+                            <th>{{group.us}}</th>
+                            <th>{{group.them}}</th>
+                            </tr>
+                            {% for feature in group.features %}
+                                <tr>
+                                    <td style="padding-left:30px">
+                                        {{feature.title}}
+                                        {% if feature.details %}
+                                        <br>
+                                        <small>{{feature.details}}  </small>
+                                        {% endif %}
+                                    </td>
+                                    <td>
+                                        {% if feature.us == true %}
+                                            <i class="text-success fa fa-check"></i>
+                                        {% elsif feature.us == false %}
+                                            <i class="fa fa-minus"></i>
+                                        {% else %}
+                                            {{feature.us}}
+                                        {% endif %}
+                                        {% if feature.us-extra %}
+                                            <br>
+                                            <small>{{feature.us-extra}}</small>
+                                        {% endif %}
+                                    </td>
+                                    <td>
+                                        {% if feature.them == true %}
+                                            <i class="text-success fa fa-check"></i>
+                                        {% elsif feature.them == false %}
+                                            {% if page.competitor%}
+                                                <i class="fa fa-times text-danger"></i>
+                                            {% else %}
+                                                <i class="fa fa-minus"></i>
+                                            {% endif %}
+                                            
+
+                                        {% else %}
+                                            {{feature.them}}
+                                        {% endif %}
+                                        {% if feature.them-extra %}
+                                            <br>
+                                            <small>{{feature.them-extra}}</small>
+                                        {% endif %}
+                                    </td>
+                                </tr>
+                            {% endfor %}
+                        </tbody>
+                        {% endfor %}
+                    </table>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    {% if page.tail %}
+    <section class="product-header page-header over-curve py-3 py-md-5">
+        <div class="container text-center">	
+            <div class="single-col-max mx-auto">	   
+                <div class="page-tagline mb-4">
+                    {{ page.tail }}
+                </div>
+            </div><!--//single-col-max-->
+        </div>
+    </section><!--//product-header-->
+    {% endif %}
+
+    {% include reviews_banner.html call="Don't take our word for it - try it yourself!" 
+        sub_call=page.cta.sub_call body=page.cta.body action=page.cta.action url="/contact.html"  %}
+
+	<section class="page-content py-5">
+		<div class="container">
+            <div class="row">
+                <div class="col-md-5">
+                    <img class="img-fluid user-guide float-right" 
+                        src="/aristotle/images/product-sheet-screenshot.png">
+                </div>
+                <div class="col-sm-6">
+                    {% include mailchimp.html %}
+                </div>
+            </div>
+        </div><!--//container-->
+    </section><!--//page-content-->
+
+    {% include footer.html %}
+    {% include footer_scripts.html %}
+
+    {% include ga.html %}
+</body>
+</html>

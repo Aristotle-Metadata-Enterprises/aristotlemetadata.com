@@ -1,0 +1,5 @@
+{% if include.post.categories.first %}
+    {{ include.post.categories.first | capitalize}}
+{% else %}
+    General
+{% endif %}

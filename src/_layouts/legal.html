@@ -1,0 +1,54 @@
+---
+layout: raw
+head_scripts: |
+    <link id="theme-style" rel="stylesheet" href="/aristotle/css/legal.css">
+
+---
+<div class="hero-wrapper">
+    <div class="curve-container">
+        <div class="curve-top"></div>
+        <div class="curve-bottom"></div>
+    </div><!--//curve-container-->
+    
+    <section class="blog-post-header page-header py-3 py-md-5 over-curve">
+        <div class="container pt-md-3">	 
+            <div class="single-col-max mx-auto">
+                <h1 class="post-title text-center mb-3">{{ page.title }}</h1>
+                
+                <div class="post-banner-holder">
+                    <img class="img-fluid shadow rounded" src="{{page.img}}" alt="">
+                </div><!--//post-banner-->
+            </div><!--//single-col-max-->
+        </div><!--//container-->
+    </section><!--//blog-post-header-->
+</div><!--//hero-wrapper-->
+
+<div class="blog-post-content py-5">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-3">
+                <div class="list-group" style="font-size:10pt">
+                    {% comment %}
+                    <a href="/legal" class="list-group-item list-group-item-action">Legal Home</a>
+                    {% endcomment %}
+                    <a href="/legal/privacy" class="list-group-item list-group-item-action">Aristotle.Cloud Privacy Policy</a>
+                    <a href="/legal/terms-of-service" class="list-group-item list-group-item-action">Aristotle.Cloud Terms of Service</a>
+                    <a href="/legal/subprocessors-and-cookies" class="list-group-item list-group-item-action">Cookies Policy</a>
+                    {% comment %}
+                    <a href="/legal/modern-slavery-statement" class="list-group-item list-group-item-action">Modern Slavery Statement</a>
+                    <a href="/legal/health-and-safety" class="list-group-item list-group-item-action">Occupational Health and Safety Policy</a>
+                    {% endcomment %}
+                    </div>              
+            </div>
+            <div class="col-md-9">
+                <div class="aristotle-legal-content">
+                    {{ content }}
+                </div><!--//aristotle-blog-content-->
+            </div><!--//single-col-max-->
+        </div>
+    </div><!--//container-->
+</div><!--//blog-post-content-->
+
+<section class="cta-section text-center py-5 theme-bg-gradient position-relative">
+    {% include curve.html cover=cover %}
+</section><!--//cta-section-->

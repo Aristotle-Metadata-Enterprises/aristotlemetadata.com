@@ -1,0 +1,123 @@
+.logos-grey {
+	img {
+		filter: grayscale(100%);
+		@include opacity(0.6);
+		max-width:140px;
+	}
+}
+
+.stories-section {
+	.item {
+		background: white;
+	}
+	.figure-holder {
+		height: 100%;
+		min-height: 250px;
+		position: relative;
+		.mask {
+			display: block;
+			width: 100%;
+			height: 100%;
+			position: absolute;
+			left: 0;
+			top: 0;
+			background: rgba($theme-text-color-primary, 0.5);
+			
+		}
+	}
+	.content-holder {
+		height: 100%;
+	}
+	.figure-holder-1 {
+		background: url('../images/stories/story-1.jpg') no-repeat center center;
+		background-size: cover;
+	}
+	.figure-holder-2 {
+		background: url('../images/stories/story-2.jpg') no-repeat center center;
+		background-size: cover;
+	}
+	.figure-holder-3 {
+		background: url('../images/stories/story-3.jpg') no-repeat center center;
+		background-size: cover;
+	}
+	.figure-holder-4 {
+		background: url('../images/stories/story-4.jpg') no-repeat center center;
+		background-size: cover;
+	}
+	.case-logo {
+		z-index: 10;
+		
+	}
+	
+}
+
+.case-section {
+	.item {
+		@include transition (all 0.2s ease-in-out 0s);
+		&:hover {
+			transform: translateY(-5px);
+		}
+	}
+	.case-logo {
+		max-width: 160px;
+	}
+	.figure-holder {
+		height: 100%;
+		min-height: 200px;
+		position: relative;
+		.mask {
+			display: block;
+			width: 100%;
+			height: 100%;
+			position: absolute;
+			left: 0;
+			top: 0;
+			background: rgba($theme-text-color-primary, 0.5);
+			
+		}
+	}
+	.figure-holder-1 {
+		background: url('../images/cases/case-1.jpg') no-repeat center center;
+		background-size: cover;
+	}
+	.figure-holder-2 {
+		background: url('../images/cases/case-2.jpg') no-repeat center center;
+		background-size: cover;
+	}
+	.figure-holder-3 {
+		background: url('../images/cases/case-3.jpg') no-repeat center center;
+		background-size: cover;
+	}
+
+	.case-logo {
+		z-index: 10;
+		
+	}
+}
+
+.reviews-section {
+	.item {
+		height: 100%;
+	}
+	.quote {
+		position: relative;
+		.quote-icon-holder {
+			position: absolute;
+			left: 0rem;
+			top: -2.5rem;
+		}
+	}
+	.profile-image {
+		@include border-radius(50%);
+		width: 80px;
+	}
+	.source {
+		font-size: 0.875rem;
+	}
+}
+
+.star-rating {
+	.fa-star {
+		color: $theme-color-primary;
+	}
+}

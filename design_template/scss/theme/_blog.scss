@@ -1,0 +1,222 @@
+.featured-slider {
+	.item {
+		background: white;
+        a.item-link {
+	        text-decoration: none;
+	        color: $theme-text-color-secondary;
+
+        }
+        
+		.figure-holder {
+			overflow: hidden;
+			height: 100%;
+			min-height: 360px;
+		}
+		.figure-holder-1 {
+		background: url('../images/blog/feature-1.jpg') no-repeat center center;
+		background-size: cover;
+		}
+		.figure-holder-2 {
+			background: url('../images/blog/feature-2.jpg') no-repeat center center;
+			background-size: cover;
+		}
+		.figure-holder-3 {
+			background: url('../images/blog/feature-3.jpg') no-repeat center center;
+			background-size: cover;
+		}
+
+
+	}
+	.post-type {
+		font-size: 0.875rem;
+		
+	}
+	.post-author {
+		font-size: 0.875rem;
+		
+		.profile {
+			max-width: 60px;
+		}
+		.meta {
+			color: $theme-text-color-light;
+		}
+	}
+}
+
+.blog-list-section {
+	.post-item {
+		height: 100%;
+		@include transition (all 0.2s ease-in-out 0s);
+		&:hover {
+			transform: translateY(-5px);
+		}
+	}
+	a.post-link {
+        text-decoration: none;
+        color: $theme-text-color-secondary;
+
+    }
+    .post-type {
+		font-size: 0.875rem;
+		
+	}
+	.post-author {
+		font-size: 0.875rem;
+		
+		.profile {
+			max-width: 60px;
+		}
+		.meta {
+			color: $theme-text-color-light;
+		}
+	}
+}
+
+
+.pagination {
+    margin-bottom: 60px;
+    font-size: 14px;
+    margin-left: auto;
+    margin-right: auto;
+    li {
+        a {
+            @include border-radius(4px);
+            border: none;
+            margin-right: 5px;
+            color: $theme-text-color-secondary;
+            &:hover {
+                color: darken($theme-color-primary, 15%);
+            }
+        }
+    }
+}
+
+
+.pagination>li>a:hover, .pagination>li>span:hover, .pagination>li>a:focus, .pagination>li>span:focus  {
+    background:none;
+    border:none;
+}
+
+.pagination>li:first-child>a, .pagination>li:first-child>span, .pagination>li:last-child>a, .pagination>li:last-child>span {
+    background:none;
+}
+
+.page-item.active .page-link {
+    background: none;
+    border:none; 
+    color: $theme-color-primary;
+    font-weight: bold;
+}
+
+.pagination>li>a:hover, .pagination>li>span:hover, .pagination>li>a:focus, .pagination>li>span:focus {
+	box-shadow: none;
+}
+
+.search-form-wrapper {
+	max-width: 600px;
+}
+
+/* ====== Single Blog Post ====== */
+
+.blog-post-header {
+	.post-title {
+		font-size: 2rem;
+	}
+	.post-meta {
+		font-size: 0.875rem;
+	}
+	
+
+}
+
+.blog-post-content {
+	font-size: 1.125rem;
+	line-height: 1.8;
+}
+
+.post-author-block {
+	font-size: 1rem;
+	.post-author-profile {
+		img {
+			width: 100px;
+		}
+	}
+}
+
+
+.related-posts-section {
+	.post-item {
+		height: 100%;
+		background: white;
+		@include transition (all 0.2s ease-in-out 0s);
+		&:hover {
+			transform: translateY(-5px);
+		}
+	}
+	a.post-link {
+        text-decoration: none;
+        color: $theme-text-color-secondary;
+
+    }
+    .post-type {
+		font-size: 0.875rem;
+		
+	}
+	.post-author {
+		font-size: 0.875rem;
+		
+		.profile {
+			max-width: 60px;
+		}
+		.meta {
+			color: $theme-text-color-light;
+		}
+	}
+}
+
+
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) { 
+
+    .search-form-wrapper .form-inline .form-control {
+	    width: 400px;
+    }
+    
+}
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) { 
+
+ }
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) { 
+
+ }
+
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) {  }
+
+
+/* We occasionally use media queries that go in the other direction */
+// Extra small devices (portrait phones, less than 576px)
+@media (max-width: 575.98px) {
+    .search-form-wrapper .form-inline .form-control {
+	    width: 100%;
+	    margin-bottom: 1rem;
+    }
+    .search-form-wrapper .btn {
+	    width: 100%;
+    }
+}
+
+// Small devices (landscape phones, less than 768px)
+@media (max-width: 767.98px) { }
+
+// Medium devices (tablets, less than 992px)
+@media (max-width: 991.98px) { }
+
+// Large devices (desktops, less than 1200px)
+@media (max-width: 1199.98px) { }
+
+

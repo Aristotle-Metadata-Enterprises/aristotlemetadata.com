@@ -1,15 +1,18 @@
-PORT ?= 80
+PORT ?= 8000
+
+container:
+	docker run -v "$(realpath .)":/site -w /site -p $(PORT):$(PORT) -it --rm ruby:latest bash
 
 install:
 	gem install bundler -v 2.0.2
 	bundle _2.0.2_ install
 
 build:
-	jekyll build --future
+	JEKYLL_ENV=production jekyll build -s ./src --future
 
-serve:
-	jekyll serve -H0.0.0.0 -P$(PORT) --future
+server:
+	jekyll serve -s ./src -H0.0.0.0 -P$(PORT) --future
 
-serve-win:
+server-win:
 	gem install wdm
-	jekyll serve -H0.0.0.0 -P$(PORT) --future --watch --force_polling
+	jekyll serve -s ./src -H0.0.0.0 -P$(PORT) --future --watch --force_polling

@@ -1,0 +1,38 @@
+<div class="col-12 col-lg-4 mb-5">
+    <div class="post-item shadow aristotle-blog-card">
+        <a class="post-link" href="{{ include.post.url }}">
+            <div class="post-thumb-holder aristotle-blog-thumb"
+                style="background-image: url('{{ include.post.img | default:'/aristotle/assets/patterns/curve-top-green.svg' }}')"
+            >
+                <!-- <img class="img-fluid" src="" alt="" height="60px"> -->
+            </div><!--//post-thumb-holder-->
+            <div class="post-content-holder p-4">
+                <div class="post-type mb-2">
+                    <span class="font-weight-bold text-primary">
+                        {% include categorise.txt post=include.post %}
+                    </span>
+                    <span class="px-2">|</span>
+                    <span>
+                        {% include wpm.txt words=post.content %}
+                    </span>
+                </div><!--//post-type-->
+                <h4 class="post-title">{{ include.post.title }}</h4>
+                <div class="post-excerpt mb-3">
+                    {{ include.post.content | markdownify | strip_html | truncatewords:50}}
+                </div><!--//post-excerpt-->
+                <div class="post-author">
+                    <div class="row">
+                        <div class="col-12 col-lg-3">
+                            <div class="profile mb-3"><img class="profile-image img-fluid" src="{{ site.authors[post.author].headshot }}" alt=""></div>
+                        </div><!--col-12-->
+                        <div class="col-12 col-lg-9 pt-1">
+                            <div class="name font-weight-bold">{{ site.authors[include.post.author].display_name }}</div>
+                            <div class="meta">{{ site.authors[include.post.author].position }}</div>
+                            <div class="meta">{{ post.date | date_to_long_string: "ordinal" }}</div>
+                        </div><!--//col-12-->
+                    </div><!--//row-->
+                </div><!--//post-author-->
+            </div><!--//post-excerpt-->
+        </a><!--//post-link-->
+    </div><!--//item-->
+</div><!--//col-->

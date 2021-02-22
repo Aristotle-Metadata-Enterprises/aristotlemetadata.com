@@ -1,0 +1,87 @@
+url: https://www.aristotlemetadata.com
+permalink: blog/:categories/:year/:month/:slug.html
+
+pagination: 
+  enabled: true
+  per_page: 12
+  permalink: :num/
+  sort_reverse: true
+  trail: 
+    before: 2
+    after: 2
+
+plugins:
+  - jekyll-sitemap
+  - jekyll-paginate-v2
+
+sass:
+    sass_dir: ./_scss
+
+navigation:
+  - title: Pricing
+    url: /cloud.html
+  - title: Case Studies
+    url: /case_studies
+  - title: Features
+    url: /features
+#    submenu:
+#      - title: Features
+#        url: /features
+#      - title: Enterprise Community
+#        url: /enterprise
+#      - title: Cloud Hosting
+#        url: /cloud
+#      - title: Consulting
+#        url: /contact
+#   - title: Community
+#     url: /community
+  - title: Blog
+    url: /blog/
+  - title: About
+    url: /about
+
+
+authors:
+  sam:
+    display_name: Sam Spencer
+    short_name: Sam
+    headshot: /aristotle/images/people/legostormtroopr.md.png
+    email: sam@aristotlemetadata.com
+    linkedin: in/legostormtroopr
+    github: legostormtroopr
+    position: CEO & Co-founder
+    short_about: >
+        CEO and technical co-founder, Sam is the lead architect behind the Aristotle Metadata Registry
+  larrn:
+    display_name: Lauren Eickhorst
+    short_name: Lauren
+    headshot: /aristotle/images/people/larrn.md.png
+    email: lauren@aristotlemetadata.com
+    github: larrn
+    linkedin: in/laureneickhorst
+    position: COO & Co-founder
+    short_about: >
+        Marketing and communications coordinator.
+  dylan:
+    display_name: Dylan Silke
+    short_name: Dylan
+    headshot: /aristotle/images/people/dylan.md.jpg
+    position: Full-stack developer
+    short_about: >
+        Aristotle Metadata Registry Developer.
+  francisco:
+    display_name: Francisco Gallardo 
+    short_name: Francisco
+    headshot: /aristotle/images/people/francisco_profile_pic.jpeg
+    position: Full-stack developer
+    linkedin: in/francisco-gallardo-cervantes-5a55822a
+    short_about: >
+        Aristotle Metadata Registry Developer.
+  aristotle:
+    display_name: Aristotle Devops Team
+    short_name: Aristotle
+    headshot: /aristotle/images/people/aristotle.256.png
+    email: hello@aristotlemetadata.com
+    linkedin: /company/aristotle-metadata-registry
+    github: aristotle-metadata-enterprises
+

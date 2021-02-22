@@ -1,0 +1,419 @@
+.hero-wrapper {
+	position: relative;
+	overflow-x: hidden;
+	background: $theme-bg-light;
+	
+}
+
+
+.site-headline {
+	
+	position: relative;
+	z-index: 10;
+}
+
+.site-tagline {
+	font-size: 1.125rem;
+}
+
+
+.page-headline {
+	font-size: 2.75rem;
+	position: relative;
+	z-index: 10;
+}
+
+.page-headline-sub {
+	   font-size: 1.5rem;
+}
+
+.page-tagline {
+	font-size: 1.125rem;
+}
+
+
+.section-title {
+	font-size: 2rem;
+}
+.section-intro {
+	font-size: 1.125rem;
+	// color: lighten($theme-text-color-secondary, 15%);
+	color: $theme-text-color-secondary;
+}
+
+.hero-section {
+	min-height: 600px;
+	
+}
+
+.hero-figure-holder {
+	position: absolute;
+	right: -180px;
+	top: 30px;
+	img {
+		max-width: 100%;
+		height: auto;
+	}
+}
+
+
+
+
+.logos-section {
+	.item {
+		@include opacity(0.4);		
+		img {
+			max-width: 140px;
+			height: auto;
+			
+		}
+	
+	}
+
+}
+
+
+.slider-container {
+	position: relative;
+	
+	.quote-content {
+		font-size: 1.125rem;
+		line-height: 1.6;
+	}
+
+	
+	.quote-icon-l,  .quote-icon-r {
+		font-size: 0.75rem;
+		color: lighten($theme-text-color-secondary, 20%);
+		position: relative;
+		top: -0.5rem;
+	}
+
+	
+	.source-holder {
+		font-size: 0.875rem;
+		color: $theme-text-color-secondary;
+		
+	}
+
+	img.source-profile {
+		width: 100px;
+		background: white;
+		height: auto;
+		@include border-radius(50%);
+		@include box-shadow(0 0.125rem 0.25rem rgba(0,0,0,0.075));
+	}
+	
+	.tns-nav {
+		display: block;
+		margin-top: 1rem;
+		
+		button {
+		    width: 9px;
+		    height: 9px;
+		    padding: 0;
+		    margin: 0 5px;
+		    border-radius: 50%;
+		    background: #ddd;
+		    border: 0;
+		    &.tns-nav-active {
+			    background: $theme-text-color-secondary;
+		    }
+		}
+	}
+	
+	
+	.slider-custom-controls div{
+		background: #fff;
+		font-size: 1.25rem;
+		display: inline-block;
+		color: lighten($theme-text-color-secondary, 15%);
+		@include border-radius(50%);
+		width: 54px;
+		height: 54px;
+	    position: absolute;
+	    top: 50%;
+	    margin: 0;
+	    margin-top: -46px;
+	    padding-top: 6px;
+	    @include box-shadow(0 0.125rem 0.25rem rgba(0,0,0,0.075));
+	    outline: none;
+	    cursor: pointer;
+	    text-align: center;
+	
+	    &:hover {
+		   color: $theme-text-color-primary;
+		   background: white;
+		   @include box-shadow(0 0.125rem 0.25rem rgba(0,0,0,0.085));
+	    }
+	    
+		&.prev {
+			left: -2rem;
+			padding-top: 0.75rem;
+		}
+		&.next {
+			right: -2rem;
+			padding-top: 0.75rem;
+		}
+	}
+
+}
+
+
+.why-section {
+	.media {
+
+		.icon-holder {
+			position: relative;
+			font-size: 2rem;
+			width: 60px;
+			height: 60px;
+			padding-top: 9px;
+			@include gradient-directional($theme-color-primary, $theme-color-secondary, 45deg);
+			@include border-radius(50%);
+			text-align: center;
+			color: #fff;
+			@include box-shadow(0 4px 15px -6px rgba(0,0,0,0.15));
+			
+		}
+	}
+}
+
+.benefits-section {
+	.item {
+		.title-note {
+			color: $theme-color-primary;
+			font-weight: bold;
+		}
+	}
+}
+
+
+
+.theme-check-icon {
+	display: inline-block;
+	width: 24px;
+	height: 24px;
+	background: lighten($theme-color-primary, 35%);
+	@include border-radius(50%);
+	color: $theme-color-primary;
+	padding-top: 2px;
+	text-align: center;
+}
+
+.column-list {
+	columns: 2;
+    column-gap: 20px;
+    li {
+	    padding-top: 0.5rem;
+	    padding-bottom: 0.5rem;
+    }
+}
+
+.data-list {
+	.data-overview {
+		min-width: 120px;
+	}
+	.number {
+		font-size: 2rem;
+		color: $theme-color-primary;
+	}
+	.note {
+		color: $theme-text-color-light;
+	}
+}
+
+
+
+
+.data-box {
+	.icon {
+		font-size: 2.5rem;
+		font-weight: 300;
+		background: rgba(0, 0, 0, 0.1);
+		color: white;
+		width: 80px;
+		height: 80px;
+		display: inline-block;
+		padding-top: 12px;
+		@include border-radius(50%);
+		margin-bottom: 1rem;
+	}
+	.number {
+		font-size: 2.5rem;
+        font-weight: 500;
+        font-family: 'DM Sans', sans-serif;
+	}
+	.desc {
+		font-size: 1.25rem;
+	}
+}
+
+.cta-section {
+	overflow: hidden;
+	.container {
+		position: relative;
+		z-index: 10;
+	}
+	.curve-top {
+		@include opacity(0.5);
+		width: 150%;
+		height: 150%;
+		&.curve-top-sm {
+			width: 100%;
+		}
+	}
+	.curve-bottom {
+		@include opacity(0.5);
+		width: 150%;
+		height: 150%;
+		&.curve-bottom-sm {
+			width: 100%;
+		}
+	}
+}
+
+
+
+
+
+
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) { 
+	.top-line-lg {
+		position: relative;
+		&:before {
+			content: "";
+			display: inline-block;
+			width: 160px;
+	        height:80px;
+	        z-index: -1;
+	        background: transparent;
+	        border: none;
+	        border-top: dashed 2px lighten($theme-color-primary, 30%);
+	        padding: 30px;
+	        border-radius: 50%;
+	        position: absolute;
+	        right: -80px;
+	        top: -10px;
+			
+		}
+	}
+	
+	.bottom-line-lg {
+		position: relative;
+		&:before {
+			content: "";
+			display: inline-block;
+			width: 160px;
+	        height:80px;
+	        z-index: -1;
+	        background: transparent;
+	        border: none;
+	        border-bottom: dashed 2px lighten($theme-color-primary, 30%);
+	        padding: 30px;
+	        border-radius: 50%;
+	        position: absolute;
+	        right: -80px;
+	        bottom: -10px;
+			
+		}
+	}
+
+}
+
+
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) {  }
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) { 
+	.hero-figure-holder {
+		max-width: 900px;
+		right: -250px;
+		top: 30px;
+	}
+ }
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) { 
+	.hero-content-holder {
+		.site-headline {
+			max-width: 620px;
+			font-size: 2.75rem;
+		}
+		.site-tagline {
+			max-width: 360px;
+		}
+		
+	}
+    
+ }
+
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) { 
+    .hero-content-holder {
+		.site-headline {
+			max-width: 700px;
+			font-size: 3rem;
+		}
+		.site-tagline {
+			max-width: 500px;
+		}
+		
+	}
+	.hero-figure-holder {
+		max-width: 1060px;
+		right: -260px;
+		top: 0px;
+	}
+ }
+
+
+/* We occasionally use media queries that go in the other direction */
+// Extra small devices (portrait phones, less than 576px)
+@media (max-width: 575.98px) {
+
+    .page-headline, .site-headline {
+	    font-size: 2rem;
+    }
+    
+    .section-title {
+	    font-size: 1.875rem;
+    }
+    
+    .data-box .number {
+	    font-size: 1.25rem;
+	    font-weight: bold;
+    }
+    .data-box .desc {
+	    font-size: 1rem;
+    }
+
+
+}
+
+// Small devices (landscape phones, less than 768px)
+@media (max-width: 767.98px) { 
+	
+
+
+}
+
+// Medium devices (tablets, less than 992px)
+@media (max-width: 991.98px) {
+	.hero-figure-holder {
+		padding-left: 2rem;
+		padding-right: 2rem;
+		position: static;
+		max-width: 800px;
+		margin: 0 auto;
+	}
+ }
+
+// Large devices (desktops, less than 1200px)
+@media (max-width: 1199.98px) { }
+
+
+
+	
