@@ -2,7 +2,8 @@
 layout: raw
 title: Blog
 is_blog: true
-
+decringify_date: 2018-01-01t01:00:00.00-08:00
+# Lets be honest - everything before 2019 was pretty cringe
 ---
 <div class="hero-wrapper">
     <div class="curve-container">
@@ -73,7 +74,7 @@ is_blog: true
     <div class="container">
         <h2 class="section-title text-center mb-5">Other articles you might enjoy</h2>
         <div class="row">
-            {% assign recommended = site.posts | where_exp:"p", "p.img" | sample: 3  %}
+            {% assign recommended = site.posts | where_exp:"p", "p.img" | where_exp:"p", "p.date > layout.decringify_date" | sample: 3  %}
             {% for post in recommended %}
                 {% include blog_card.html post=post %}
             {% endfor %}
