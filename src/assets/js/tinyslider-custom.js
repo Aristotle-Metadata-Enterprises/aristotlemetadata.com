@@ -10,7 +10,7 @@ tnsCarousel.forEach(slider => {
         slideBy: 'page',
         nav: true,    
         autoplay: true,
-        speed: 1000,
+        speed: 2000,
         autoplayButtonOutput: false,
         mouseDrag: true,
         lazyload: true,
