@@ -11,6 +11,7 @@ build:
 	JEKYLL_ENV=production jekyll build -s ./src --future
 
 server:
+	killall ruby || true
 	jekyll serve -s ./src -H0.0.0.0 -P$(PORT) --future
 
 server-win:
