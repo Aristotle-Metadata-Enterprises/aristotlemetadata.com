@@ -18,7 +18,7 @@ layout: raw
                 {{ content }} 
 
                 <div class="contact-form-box shadow rounded p-5 mb-5">
-                    <form id="contact-form" class="contact-form" method="post" action="https://getsimpleform.com/messages?form_api_token=8912b0e723f1761a207116e5a4fea5f6">
+                    <form netlify name="contact" action="/contact/thanks" id="contact-form" class="contact-form" method="post">
                         <h3 class="text-center">
                             {{ page.form.call_to_action }}
                         </h3>
@@ -44,7 +44,6 @@ layout: raw
                                 <button type="submit" class="btn btn-block btn-gradient py-2">Submit</button>
                             </div>                           
                         </div><!--//form-row-->
-                        <input type='hidden' name='redirect_to' value='https://www.aristotlemetadata.com/contact/thanks.html' />
                     </form><!--//contact-form-->
                 </div><!--//contact-form-box-->
             </div><!--//single-col-max-->
