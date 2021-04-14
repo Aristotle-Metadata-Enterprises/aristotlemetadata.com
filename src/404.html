@@ -167,7 +167,7 @@ nosearch: true
 {% capture cta_body %}
 <div class="single-col-max mx-auto">
     <div class="contact-form-box shadow rounded p-5 my-5">
-        <form name="contact" data-netlify="true" id="contact-form" class="contact-form" method="post">
+        <form name="contact" data-netlify="true" action="/contact/thanks" id="contact-form" class="contact-form" method="post">
             <h3 class="text-center">
                 Get in contact with us to learn how we can help make your data make sense
             </h3>
@@ -189,7 +189,6 @@ nosearch: true
                     <button type="submit" class="btn btn-block btn-gradient py-2">Submit</button>
                 </div>                           
             </div><!--//form-row-->
-            <input type='hidden' name='redirect_to' value='http://www.aristotlemetadata.com/contact/thanks.html' />
         </form><!--//contact-form-->
     </div><!--//contact-form-box-->
 </div><!--//single-col-max-->
