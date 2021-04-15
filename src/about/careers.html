@@ -48,6 +48,28 @@ positions:
             - Experience with backend web-development using Python with frameworks such as Django or Flask
 
     -
+        title: Customer success officer
+        body: |
+            You will work in our team communicating with customers and leads to help them get 
+            the most value from their Aristotle Metadata Registry.
+        tasks:
+            - Regularly communicating with customers and translating their needs into actions for software developers and metadata analysts
+            - Tracking client interactions in our client database
+            - Contacting client leads and initialising trial services
+            - Translating client metadata content, such as data dictionaries and glossaries, into our platform
+            - Assisting our training and product teams to maintain our client facing knowledge base
+            - Assisting with training and marketing events
+        requirements:
+            - Strong organization and presentation skills
+            - Strong communication skills, especially when working with new people
+            - Experience with Excel producing reports and data visualisations using APIs
+            - Permission to work in Australia
+        useful_skills:
+            - A relevant Certificate, tertiary qualification (such as Business Informatics or Marketing), or equivalent experience.
+            - Experience with data and metadata standards
+            - Experience with data visualisation tools such as Tableau, PowerBI or Cliq
+
+    -
         hide: true
         title: Metadata analyst
         body: |
@@ -102,7 +124,17 @@ positions:
                         <h5 class="card-title">{{ position.title }}</h5>
                         <p class="card-text">
                             <strong>Role:</strong>
-                            {{ position.body }}                            
+                            {{ position.body }}
+                            {% if position.tasks %}
+                            <p>
+                                You will be responsible for:
+                            </p>
+                            <ul>
+                                {% for task in position.tasks %}
+                                <li>{{ task }}</li>
+                                {% endfor %}
+                            </ul>
+                            {% endif %}         
                             <div>To be successful you will need:</div>
                             <ul>
                                 {% for req in position.requirements %}
