@@ -42,7 +42,7 @@ In this Agreement, unless the context requires otherwise:
 	excluding any such information which is public knowledge other than by breach of this Agreement.
 
 * (g)	Data means information in raw or unorganised form (such as alphabets, numbers, mathematical symbols, geographic coordinates, electronic signals or other similar information used for reference or analysis) which is collected by the Client and which can be uploaded onto the Platform.
-* (h)	End Date means the date listed in Item 2 of the Schedule.
+* (h)	End Date means 90 days from the Start Date or other date as approved Aristotle.
 * (i)	Force Majeure means a circumstance beyond reasonable control of Aristotle which results in Aristotle being unable to observe or perform on the time an obligation under this Agreement. Such circumstance may include but is not limited to acts of God, natural disasters, war, cyber and physical terrorism, riots, civil commotion, malicious damage, acts or requirements of government. 
 * (j)	Host Website means http://aristotlemetadata.com/ and its associated pages.
 * (k)	Intellectual Property means any registered or unregistered rights in any existing or future copyright works, and including but not limited to computer programs, patentable inventions, designs, circuit layouts, new plant varieties, trademarks, know-how, Confidential Information or trade secrets.
@@ -53,7 +53,7 @@ In this Agreement, unless the context requires otherwise:
 * (p)	Platform means the trial version of the web based software application developed by Aristotle comprising the database and server system on computer hardware which will be accessed and used by the Subscriber for the management and organisation of Data.
 * (q)	Platform Subscription Agreement means the master Platform Subscription Agreement between Aristotle a client whereby the Aristotle provides the client with full access to the Platform and associated services in consideration for a fee.
 * (r)	Schedule means a schedule to this Agreement.
-* (s)	Start Date means the date listed in Item 2 of the Schedule.
+* (s)	Start Date means the date you first click “I agree” (or similar button or checkbox) or use or access a Cloud Product, whichever is earlier.
 * (t)	Subscriber means the Client and its Personnel who have been granted a trial to use the Platform by Aristotle.
 * (u)	Terms of Use is a reference to the Host Website’s conditions.
 * (v)	Trial Period means the agreed Start Date to the End Date (inclusive) as set out in the Schedule unless terminated earlier by either party. 

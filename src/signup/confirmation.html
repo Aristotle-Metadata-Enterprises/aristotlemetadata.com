@@ -1,0 +1,119 @@
+---
+
+title: Thanks for registering
+
+---
+{% include html_head.html %}
+
+<body class="h-100">    
+    
+    <div class="signup-section auth-section">
+
+        <div class="row m-0 h-100">
+            <div class="auth-col-main bg-white col-12 col-lg-8 order-2 h-100 align-self-stretch">
+                <div class="curve-container">
+                    <div class="curve-top"></div>
+                    <div class="curve-bottom"></div>
+                </div><!--//curve-container-->
+                <div class="over-curve">
+                    <div class="auth-col-main-inner mx-auto px-5">
+                        
+                        <div class="site-logo text-center py-5">
+                            <a class="navbar-brand" href="/index.html">
+                                <img class="logo-icon mr-2" style="max-height: 100px;" src="/aristotle/images/brand/aristotle.sm.png" alt="logo">
+                            </a>
+                        </div>   
+                        
+                        <div class="auth-wrapper mx-auto">
+                            <h2 class="auth-heading text-center mb-3">Thanks for registering!</h2>
+                            <p class="text-center">
+                                Your new registry is being prepared and you'll recieve an email shortly
+                                with a link to verify your email and details on how to finish setting up your account.
+                            </p>
+                            <div class="progress my-3">
+                                <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" style="width: 5%"></div>
+                              </div>
+                            <div class="auth-form-container text-left mx-auto">
+                                <p>
+                                    While you're waiting, here are some suggestions on how to get the most value from your registry:
+                                </p>
+                                <ul>
+                                    <li><a class="theme-link" href="https://www.youtube.com/watch?v=8_BRpvu3ah4&list=PLBVCDZHCxQER7eRS4GQbKC-TNLvOUCD40">
+                                        Watch some training videos</a></li>
+                                    <li><a class="theme-link" href="https://aristotle.cloud/steward/acsa-user-guides/references/folder/5">
+                                        See some metadata examples in our user guide registry</a></li>
+                                    <li><a class="theme-link" href="https://desk.zoho.com.au/portal/aristotlecloudservicesaustralia/en/home">
+                                        Browse our knowledge base</a></li>
+                                    <li><a class="theme-link" href="/case-studies/">
+                                        Read an Aristotle Metadata case study</a></li>
+                                    <li>Take a short coffee break!
+                                        <br><small>This won't make your registry better, but you'll thank us for it later!</small>
+                                    </li>
+                                </ul>
+                            </div><!--//auth-form-container-->
+
+                            <div class="auth-footer mt-5 text-center">
+                                <div class="copyright mb-2">
+                                    Copyright &copy; 2021 <a href="http://www.aristotlemetadata.com/" target="_blank">Aristotle Metadata</a>
+                                    <br>
+                                    Template &copy; <a href="https://themes.3rdwavemedia.com/" target="_blank">3rd Wave Media</a>
+                                </div>
+                                <div class="legal">
+                                    <ul class="list-inline">
+                                        <li class="list-inline-item"><a class="theme-link" href="/legal/pivacy-policy">Privacy Policy</a></li>
+                                        <li class="list-inline-item">|</li>
+                                        <li class="list-inline-item"><a class="theme-link" href="/legal/aristotle-cloud-hosting-trial-agreement">Terms of Service</a></li>
+                                    </ul>
+                                </div>
+                            </div><!--//auth-footer-->
+                            
+                        </div><!--//auth-wrapper-->
+                    </div><!--//auth-col-main-inner-->
+                </div><!--//over-curve-->
+            </div><!--//col-auth-->
+            
+            <div class="pt-2 auth-col-promo theme-bg-gradient pt-3 col-lg-4 d-none d-lg-block order-1 align-self-stretch">
+                <div class="auth-col-promo-inner h-100">
+                    <img style="display: block; margin: auto; filter: drop-shadow(-5px 5px 1px black); max-height: 425px"
+                        src="/aristotle/assets/home/589sam_aristotle-02-trimmed.svg" alt="">
+
+                    <div class="mx-5 auth-promo-content over-curve text-white text-center">
+                        <h4 class="autho-promo-heading text-center text-white mb-4">Thanks for registering!</h4>
+                        <div class="auth-promo-desc mx-auto d-inline-block">
+                            <p>
+                                Your registry is being prepared and will be ready for you soon.
+                            </p>
+                        </div><!--//auth-promo-desc-->
+                    </div><!--//auth-promo-content-->
+                </div><!--//auth-col-promo-inner-->
+            </div><!--//auth-col-promo-->
+        </div><!--//row-->
+    </div><!--//signup-section-->
+    
+    {% include footer_scripts.html %}
+
+    <script>
+        var progressBar = $('.progress-bar');
+
+        var progress = 10;      // initial value of your progress bar
+        var timeout = 100;      // number of milliseconds between each frame
+        var increment = .5;     // increment for each frame
+        var maxprogress = 95;   // when to stop running the animation
+
+        function animate() {
+            setTimeout(function () {
+                progress += increment;
+                if(progress < maxprogress) {
+                    progressBar.css('width', progress+"%");
+                    timeout = timeout*1.1;                    
+                    animate();
+                } else {
+                }
+            }, timeout);
+        };
+        setTimeout(animate(), 10*1000);
+    </script>
+
+    {% include ga.html %}
+</body>
+</html>
