@@ -42,7 +42,7 @@ In this Agreement, unless the context requires otherwise:
 	excluding any such information which is public knowledge other than by breach of this Agreement.
 
 * (g)	Data means information in raw or unorganised form (such as alphabets, numbers, mathematical symbols, geographic coordinates, electronic signals or other similar information used for reference or analysis) which is collected by the Client and which can be uploaded onto the Platform.
-* (h)	End Date means 90 days from the Start Date or other date as approved Aristotle.
+* (h)	End Date means 90 days from the Start Date or other date as approved by Aristotle.
 * (i)	Force Majeure means a circumstance beyond reasonable control of Aristotle which results in Aristotle being unable to observe or perform on the time an obligation under this Agreement. Such circumstance may include but is not limited to acts of God, natural disasters, war, cyber and physical terrorism, riots, civil commotion, malicious damage, acts or requirements of government. 
 * (j)	Host Website means http://aristotlemetadata.com/ and its associated pages.
 * (k)	Intellectual Property means any registered or unregistered rights in any existing or future copyright works, and including but not limited to computer programs, patentable inventions, designs, circuit layouts, new plant varieties, trademarks, know-how, Confidential Information or trade secrets.
