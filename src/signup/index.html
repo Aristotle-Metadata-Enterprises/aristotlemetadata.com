@@ -1,0 +1,168 @@
+---
+title: Sign-up
+---
+{% include html_head.html %}
+
+<body class="">    
+    
+    <div class="signup-section auth-section">
+
+        <div class="row m-0 h-100">
+            <div class="auth-col-main bg-white col-12 col-lg-8 order-2 h-100 align-self-stretch">
+                <div class="curve-container">
+                    <div class="curve-top"></div>
+                    <div class="curve-bottom"></div>
+                </div><!--//curve-container-->
+                <div class="over-curve">
+                    <div class="auth-col-main-inner mx-auto px-5">
+                        
+                        <div class="site-logo text-center py-5">
+                            <a class="navbar-brand" href="/index.html">
+                                <img class="logo-icon mr-2" style="max-height: 100px;" src="/aristotle/images/brand/aristotle.sm.png" alt="logo">
+                            </a>
+                        </div>   
+                        
+                        <div class="auth-wrapper mx-auto">
+                            <h2 class="auth-heading text-center mb-4">Create your new registry</h2>
+                            <p class="text-center">
+                                Give your team a metadata registry designed for collaboration
+                                 — a system for everyone in your team, where they can capture what your data means.
+                            </p>
+                            <div class="auth-form-container text-left mx-auto">
+                                <form netlify name="REGISTRY_SIGNUP" class="auth-form signup-form" action="/signup/confirmation" method="POST">
+                                    <div class="form-group email pt-2">
+                                        <label class="" for="signup-email"><b>What is your work email address?</b></label>
+                                        <input id="signup-email" name="signup-email" type="email" class="form-control signup-email" placeholder="Your email" required="required">
+                                    </div><!--//form-group-->
+                                    <!-- <small class="form-text text-muted">
+                                        We'll send an invitation to your email to finish setting up your administrator account on your metadata registry.
+                                    </small> -->
+                                    <div class="form-group pt-2">
+                                        <label class="" for="signup-domain"><b>What do you want to call your registry?</b></label>
+                                        <div class="input-group">
+                                            <input name="signup-domain" id="signup-domain"
+                                                data-user-touched="false"
+                                                type="text" class="form-control" placeholder="example" required="required">
+                                            <div class="input-group-append">
+                                                <span class="input-group-text">.aristotlecloud.io</span>
+                                            </div>
+                                        </div>
+                                        <small class="form-text text-muted">
+                                            This is the web address you'll go to access your registry.
+                                            It can be changed later, and after you're all set up you can even point it to your domain!
+                                        </small>
+                                    </div><!--//form-group-->
+                                    <div class="form-group pt-2">
+                                        <div>
+                                        <b>Select where you require your registry and data to be stored</b>
+                                        </div>
+                                        <div class="form-check form-check-inline">
+                                            <input class="form-check-input" type="radio" name="region" checked id="inlineCheckbox1" value="us">
+                                            <label class="form-check-label" for="inlineCheckbox1">United States</label>
+                                        </div>
+                                        <div class="form-check form-check-inline">
+                                            <input class="form-check-input" type="radio" name="region"  id="inlineCheckbox2" value="au">
+                                            <label class="form-check-label" for="inlineCheckbox2">Australia</label>
+                                        </div>
+                                        <div class="form-check form-check-inline">
+                                            <input class="form-check-input" type="radio" name="region" id="inlineCheckbox3" value="option3">
+                                            <label class="form-check-label" for="inlineCheckbox3">Europe</label>
+                                        </div>
+                                    </div>
+                                    <div class="form-group pt-4" id="self-signup-holder" style="display:table-row">
+                                        <input id="signup-self-signup" style="display: table-cell;" name="signup-self-signup" type="checkbox" checked value="allow-self-signup">
+                                        <label for="signup-self-signup" class="pl-2" style="display: table-cell;">
+                                            Do you want to allow anyone with <span id="domain-holder-indefinite-article">a</span> <span id="domain-holder">similar</span> email address to sign up to your registry?
+                                        </label>
+                                    </div><!--//form-group-->
+                                    <small class="form-text text-muted">
+                                        <b>Tip</b>: <a target="_blank" href="https://desk.zoho.com.au/portal/aristotlecloudservicesaustralia/en/kb/articles/roles-in-the-registry">new users will have limited permissions</a>, and allowing others to join makes it easier for your team to collaborate.
+                                    </small>
+                                    <div class="text-center mt-5 mb-3">
+                                        <button type="submit" class="btn btn-gradient btn-submit theme-btn mx-auto">Create your registry!</button>
+                                    </div>
+                                    <div class="text-center">
+                                    <small>By continuing you are agreeing to our <a target="_blank" href="/legal/aristotle-cloud-hosting-trial-agreement" class="theme-link">terms of service</a> and <a target="_blank" href="/legal/privacy-policy" class="theme-link">privacy policy</a>.
+                                    </small>
+                                    </div>
+                                </form><!--//auth-form-->
+                            </div><!--//auth-form-container-->
+
+                            <div class="auth-footer mt-5 text-center">
+                                <div class="copyright mb-2">
+                                    Copyright &copy; 2021 <a href="http://www.aristotlemetadata.com/" target="_blank">Aristotle Metadata</a>
+                                    <br>
+                                    Template &copy; <a href="https://themes.3rdwavemedia.com/" target="_blank">3rd Wave Media</a>
+                                </div>
+                                <div class="legal">
+                                    <ul class="list-inline">
+                                        <li class="list-inline-item"><a class="theme-link" href="/legal/privacy-policy">Privacy Policy</a></li>
+                                        <li class="list-inline-item">|</li>
+                                        <li class="list-inline-item"><a class="theme-link" href="/legal/aristotle-cloud-hosting-trial-agreement">Terms of Service</a></li>
+                                    </ul>
+                                </div>
+                            </div><!--//auth-footer-->
+                            
+                        </div><!--//auth-wrapper-->
+                    </div><!--//auth-col-main-inner-->
+                </div><!--//over-curve-->
+            </div><!--//col-auth-->
+            
+            <div class="pt-2 auth-col-promo theme-bg-gradient pt-3 col-lg-4 d-none d-lg-block order-1 align-self-stretch">
+                <div class="auth-col-promo-inner h-100">
+                    <img style="display: block; margin: auto; filter: drop-shadow(-5px 5px 1px black); max-height: 425px"
+                        src="/aristotle/assets/home/589sam_aristotle-01-trimmed.svg" alt="">
+
+                    <div class="mx-5 auth-promo-content over-curve text-white text-center">
+                        <h4 class="auth-promo-heading text-center text-white mb-4">6 Month Free Trial</h4>
+                        <div class="auth-promo-desc mx-auto d-inline-block">
+                            <p>
+                                Put us to the test with an unrestricted trial of all the features and benefits
+                                of a user-friendly enterprise metadata management platform.
+                            </p>
+                            <ul class="list-unstyled mx-auto text-left">
+                                <li class="mb-3 row"><div class="col-2"><span class="theme-check-icon icon dripicons-checkmark mr-2"></span></div> <div class="col-10">No cost, risk-free trial</div></li>
+                                <li class="mb-3 row"><div class="col-2"><span class="theme-check-icon icon dripicons-checkmark mr-2"></span></div> <div class="col-10">Non-proprietary, ISO standard design</div></li>
+                                <li class="mb-3 row"><div class="col-2"><span class="theme-check-icon icon dripicons-checkmark mr-2"></span></div> <div class="col-10">User-friendly metadata import & export functionality</div></li>
+                                <li class="mb-3 row"><div class="col-2"><span class="theme-check-icon icon dripicons-checkmark mr-2"></span></div> <div class="col-10">Dedicated trial support team</div></li>
+                            </ul>
+                        </div><!--//auth-promo-desc-->
+                    </div><!--//auth-promo-content-->
+                </div><!--//auth-col-promo-inner-->
+            </div><!--//auth-col-promo-->
+        </div><!--//row-->
+    </div><!--//signup-section-->
+    
+    {% include footer_scripts.html %}
+
+    <script>
+        function validateEmail(email) {
+            const re = /^[^@]+@[^@]+\.\w+$/;
+            return re.test(String(email).toLowerCase());
+        }
+
+        $('#signup-email').on('input',function(e){
+            if (validateEmail(e.currentTarget.value)) {
+                var domain = e.currentTarget.value.split("@",2)[1]
+                $('#self-signup-holder').show();
+                $('#self-signup-holder').css('display', 'table-row');
+                $('#domain-holder').html(domain);
+                if ("aeiou".includes(domain[0])) {
+                    $('#domain-holder-indefinite-article').html("an");
+                } else {
+                    $('#domain-holder-indefinite-article').html("a");
+                }
+                if (!$('#signup-domain').data("user-touched")) {
+                    $('#signup-domain').val(domain)
+                }
+            }
+        });
+        $('#signup-domain').on('input',function(e){
+            $('#signup-domain').data("user-touched", true)
+        });
+
+    </script>
+
+    {% include ga.html %}
+</body>
+</html>
