@@ -69,21 +69,31 @@ title: Sign-up
                                             <label class="form-check-label" for="inlineCheckbox3">Europe</label>
                                         </div>
                                     </div>
-                                    <div class="form-group pt-4" id="self-signup-holder" style="display:table-row">
-                                        <input id="signup-self-signup" style="display: table-cell;" name="signup-self-signup" type="checkbox" checked value="allow-self-signup">
-                                        <label for="signup-self-signup" class="pl-2" style="display: table-cell;">
-                                            Do you want to allow anyone with <span id="domain-holder-indefinite-article">a</span> <span id="domain-holder">similar</span> email address to sign up to your registry?
-                                        </label>
+                                    <div class="form-group" id="self-signup-holder">
+                                        <div class="row">
+                                            <input id="signup-self-signup" class="col-1 mt-1" name="signup-self-signup" type="checkbox" checked="" value="allow-self-signup">
+                                            <div class="pl-2 col-11">
+                                                <label for="signup-self-signup" class="mb-0">
+                                                    Do you want to allow anyone with <span id="domain-holder-indefinite-article">a</span> <span id="domain-holder">similar</span> email address to sign up to your registry?
+                                                </label>    
+                                                <small class="form-text text-muted">
+                                                    <b>Tip</b>: <a target="_blank" href="https://desk.zoho.com.au/portal/aristotlecloudservicesaustralia/en/kb/articles/roles-in-the-registry">new users will have limited permissions</a>, and allowing others to join makes it easier for your team to collaborate.
+                                                </small>        
+                                            </div>
+                                        </div>
                                     </div><!--//form-group-->
-                                    <small class="form-text text-muted">
-                                        <b>Tip</b>: <a target="_blank" href="https://desk.zoho.com.au/portal/aristotlecloudservicesaustralia/en/kb/articles/roles-in-the-registry">new users will have limited permissions</a>, and allowing others to join makes it easier for your team to collaborate.
-                                    </small>
-                                    <div class="text-center mt-5 mb-3">
+                                    <div class="form-group">
+                                        <div class="row">
+                                            <input class="col-1 mt-1" name="agree-to-terms" type="checkbox" required value="yes-i-agree">
+                                            <div class="pl-2 col-11">
+                                                <label for="agree-to-terms">
+                                                    Do you agree to our <a target="_blank" href="/legal/aristotle-cloud-hosting-trial-agreement" class="theme-link">terms of service</a> and <a target="_blank" href="/legal/privacy-policy" class="theme-link">privacy policy</a>.
+                                                </label>    
+                                            </div>
+                                        </div>
+                                    </div><!--//form-group-->
+                                    <div class="text-center mt-3 mb-3">
                                         <button type="submit" class="btn btn-gradient btn-submit theme-btn mx-auto">Create your registry!</button>
-                                    </div>
-                                    <div class="text-center">
-                                    <small>By continuing you are agreeing to our <a target="_blank" href="/legal/aristotle-cloud-hosting-trial-agreement" class="theme-link">terms of service</a> and <a target="_blank" href="/legal/privacy-policy" class="theme-link">privacy policy</a>.
-                                    </small>
                                     </div>
                                 </form><!--//auth-form-->
                             </div><!--//auth-form-container-->
