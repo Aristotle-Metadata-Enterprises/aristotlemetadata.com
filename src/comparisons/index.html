@@ -16,12 +16,18 @@ comparisons:
             Learn how the Aristotle Metadata Registry can integrate with 
             the Collibra data management platform
             to provide a complete enterprise data and metadata governance platform.
+    - title: Aristotle Metadata & Alex Solutions
+      url: ./alex-solutions
+      details: |
+            Learn how the Aristotle Metadata Registry can integrate with 
+            the Alex Solutions data management platform
+            to provide a complete enterprise data and metadata governance platform.
     - title: Aristotle Metadata vs Ariā Classifications Manager
       url: ./aria-classifications
       details: |
             Learn how the Aristotle Metadata Registry records
-            statistical classification in a system that rivals the
-            Ariā Classifications Manager.
+            statistical classification in a collaborative, easy-to-use system
+            that rivals the Ariā Classifications Manager.
     - title: Aristotle Metadata vs AIHW's METeOR
       url: ./aihw-meteor
       details: |
@@ -62,7 +68,7 @@ comparisons:
         <div class="row mb-3">
             {% assign comparisons = page.comparisons | where_exp:"p", "p.hide != true" %}
             {% for alt in comparisons %}
-            <div class="col-12 col-lg-8 mx-auto mb-5">
+            <div class="col-12 col-lg-6 mx-auto mb-5">
                 <div class="item shadow rounded p-4">
                     <div class="logo-holder mb-2">
                         <strong>{{ alt.title }}</strong>
