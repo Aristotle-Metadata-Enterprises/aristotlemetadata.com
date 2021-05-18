@@ -1,13 +1,13 @@
 ---
 layout: post
-title: 🚀 Free trials of the Aristotle Metadata Registry is now available as a fully self-managed Software
+title: 🚀 Free trials of the Aristotle Metadata Registry are now available as a fully self-managed Software-as-a-Service
 author: aristotle_press
 img: /aristotle/images/blog/2021-05-14-signup-launch.png
 thumbnail: /aristotle/images/blog/2021-05-14-signup-launch.png
 thumbnail-position: right
 ---
 
-# Free trials of the Aristotle Metadata Registry is now available as a fully self-managed Software-as-a-Service
+# Free trials of the Aristotle Metadata Registry are now available as a fully self-managed Software-as-a-Service
 
 On April 29th, at the Hyatt Canberra Aristotle Cloud Services launched a new self-managed version of the Aristotle Metadata Registry.
 
@@ -25,7 +25,6 @@ The Aristotle Metadata Registry is now available for the management, governance 
 
 ![Samuel Spencer and David Kalisch](/aristotle/images/blog/2021-05-14-sam-spencer-and-david-kalisch.jpg "Samuel Spencer and David Kalisch")
 <div class="text-center pt-0 mt-0"><small>Samuel Spencer (Left) and David Kalisch (Right) at the Aristotle Metadata launch</small></div>
-
 
 <div class="text-center pt-5">
 <a class="nav-btn btn btn-gradient text-white" href="https://aristotlemetadata.com/signup">Begin your metadata journey with a free trial registry now</a>
