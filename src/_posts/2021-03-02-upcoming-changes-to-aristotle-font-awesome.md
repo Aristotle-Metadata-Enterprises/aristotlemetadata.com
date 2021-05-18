@@ -4,6 +4,8 @@ title: Upcoming visual improvements to icons and visualisations in the Aristotle
 author: sam
 img: /aristotle/images/blog/2021-03-font-awesome-4-5-comparison.png
 thumbnail: /aristotle/images/blog/2021-03-font-awesome-4-5-comparison.png
+thumbnail-position: left
+img-position: top
 ---
 
 Soon the Aristotle Metadata Registry will be getting a refresh of our icons and a new visualisation tool,

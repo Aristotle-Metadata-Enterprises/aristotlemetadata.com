@@ -27,7 +27,9 @@ decringify_date: 2018-01-01t01:00:00.00-08:00
                 </div><!--//post-meta-->
                 
                 <div class="post-banner-holder">
-                    <img class="img-fluid shadow rounded" src="{{page.img}}" alt="">
+                    <img class="img-fluid shadow rounded"
+                        style="max-height: 260px; width: 100%; object-fit: cover; object-position: {% if page.img-position %}{{page.img-position}}{% else %}center{% endif %};"
+                        src="{{page.img}}" alt="">
                 </div><!--//post-banner-->
             </div><!--//single-col-max-->
         </div><!--//container-->
@@ -52,7 +54,12 @@ decringify_date: 2018-01-01t01:00:00.00-08:00
                     <div class="col-12 col-lg-10">
                         <div class="post-author-info">
                             <h5 class="author-name">About The Author</h5>
-                            <p class="author-bio">{{ site.authors[page.author].display_name }}, {{ site.authors[page.author].position }}</p>
+                            <p class="author-bio">
+                                {{ site.authors[page.author].display_name }}
+                                {% if site.authors[page.author].position %}
+                                , {{ site.authors[page.author].position }}
+                                {% endif %}
+                            </p>
                             <ul class="social-list list-unstyled mb-0">
                                 {% if site.authors[page.author].linkedin %}
                                     <li class="list-inline-item"><a href="https://www.linkedin.com/{{site.authors[page.author].linkedin}}"><i class="fab fa-linkedin-in fa-fw"></i></a></li> 

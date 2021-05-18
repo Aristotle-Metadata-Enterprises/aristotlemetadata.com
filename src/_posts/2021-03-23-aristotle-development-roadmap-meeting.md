@@ -4,6 +4,7 @@ title: Outcomes of the 2021 Aristotle Roadmap Committee meeting
 author: sam
 img: /aristotle/images/blog/2020-06-10-roadmap-banner.jpg
 thumbnail: /aristotle/images/blog/2020-06-10-roadmap-banner.jpg
+img-position: top;
 ---
 
 On March 4th, 2021, Aristotle Cloud Services clients and key invited technical experts met online to participate in the 2021 Aristotle Roadmap Committee meeting.
