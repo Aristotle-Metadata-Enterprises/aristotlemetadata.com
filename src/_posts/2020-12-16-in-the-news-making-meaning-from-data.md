@@ -4,6 +4,7 @@ title: "In the media: Canberra start-up making meaning from data"
 author: larrn
 img: /aristotle/images/blog/2020-12-christmas-party.jpg
 thumbnail: /aristotle/images/blog/2020-12-christmas-party.jpg
+img-position: 50% 40%;
 ---
 
 [Canberra Business News](https://www.canberrabusinessnews.com.au/) recently wrote about Aristotle Metadata for their series on Entrepenurs. Check out a preview below or [read the full version online](https://www.canberrabusinessnews.com.au/who/the-entrepreneurs/745-canberra-start-up-making-meaning-from-data.html).
@@ -83,5 +84,6 @@ Read the original version at: [https://www.canberrabusinessnews.com.au/who/the-e
 
 ***
 
+![Aristotle team at the bowls club](/aristotle/images/blog/2020-12-christmas-party.jpg "Aristotle team at the bowls club")
 
 Discuss this post on our community forum: [https://community.aristotlemetadata.com/](https://community.aristotlemetadata.com/)

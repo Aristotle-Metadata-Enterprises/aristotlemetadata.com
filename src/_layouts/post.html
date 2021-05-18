@@ -27,7 +27,9 @@ decringify_date: 2018-01-01t01:00:00.00-08:00
                 </div><!--//post-meta-->
                 
                 <div class="post-banner-holder">
-                    <img class="img-fluid shadow rounded" src="{{page.img}}" alt="">
+                    <img class="img-fluid shadow rounded"
+                        style="max-height: 260px; width: 100%; object-fit: cover; object-position: {% if page.img-position %}{{page.img-position}}{% else %}center{% endif %};"
+                        src="{{page.img}}" alt="">
                 </div><!--//post-banner-->
             </div><!--//single-col-max-->
         </div><!--//container-->
