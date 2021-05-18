@@ -16,7 +16,7 @@ During this event, Aristotle Cloud Services also launched a new self sign up por
 
 Of the new product launch, Samuel Spencer said "our new self-sign up process is powered by the same enterprise-grade infrastructure that supports all of our clients. By using the same AWS technology that provides self-healing, backed up services for our clients - we were able to build a new self-sign up portal that give access to Aristotle Metadata technologies faster."
 
-During the event, Mr Spencer was also quoted saying "I believe that Aristotle Metadata will be the next big technology success story for Australia, and we are proud to have launched it here in Canberra".
+During the event, Mr Spencer was also quoted saying "I believe that Aristotle Metadata will be the next big cyber & technology success story for Australia, and we are proud to have launched it here in Canberra".
 
 Similar to other self-sign up software-as-a-service products, like Jira, Confluence and Canva, the self-managed version of the Aristotle Metadata Registry provides access to enterprise metadata solutions direct to end users in the public and private sectors. "By building a new self-managed version of our software, users can quickly build business value from their data without having to engage in lengthy procurement processes", said Aristotle Cloud Services Chief Operating Officer Lauren Eickhorst.
 
