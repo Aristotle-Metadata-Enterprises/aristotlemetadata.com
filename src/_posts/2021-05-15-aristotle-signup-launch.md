@@ -4,6 +4,7 @@ title: 🚀 Free trials of the Aristotle Metadata Registry is now available as a
 author: aristotle_press
 img: /aristotle/images/blog/2021-05-14-signup-launch.png
 thumbnail: /aristotle/images/blog/2021-05-14-signup-launch.png
+thumbnail-position: right
 ---
 
 # Free trials of the Aristotle Metadata Registry is now available as a fully self-managed Software-as-a-Service
