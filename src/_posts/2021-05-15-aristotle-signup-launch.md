@@ -22,4 +22,4 @@ Similar to other self-sign up software-as-a-service products, like Jira, Conflue
 
 The Aristotle Metadata Registry is now available for the management, governance and publication of data dictionaries, data asset registries, performance frameworks and can be tried for free for up to 6 months now at: **[https://aristotlemetadata.com/signup](https://aristotlemetadata.com/signup)**.
 
-![alt text](/aristotle/images/blog/2021-05-14-david-kalisch.png "Samuel Spencer and David Kalish")
+![Samuel Spencer and David Kalisch](/aristotle/images/blog/2021-05-14-sam-spencer-and-david-kalisch.jpg "Samuel Spencer and David Kalisch")
