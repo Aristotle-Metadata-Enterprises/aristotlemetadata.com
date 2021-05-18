@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Aristotle Metadata Registry v4.6.0 released
-author: aristotle
+author: aristotle_devops
 category: releases
 releases_only: yes
 hidden: true

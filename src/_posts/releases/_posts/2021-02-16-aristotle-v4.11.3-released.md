@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Aristotle Metadata Registry v4.11.3 - Open Graph, new drop downs and more!
-author: aristotle
+author: aristotle_devops
 category: releases
 releases_only: true
 ---

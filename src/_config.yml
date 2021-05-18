@@ -77,9 +77,16 @@ authors:
     linkedin: in/francisco-gallardo-cervantes-5a55822a
     short_about: >
         Aristotle Metadata Registry Developer.
-  aristotle:
-    display_name: Aristotle Devops Team
-    short_name: Aristotle
+  aristotle_devops:
+    display_name: Aristotle DevOps Team
+    short_name: DevOps
+    headshot: /aristotle/images/people/aristotle.256.png
+    email: hello@aristotlemetadata.com
+    linkedin: /company/aristotle-metadata-registry
+    github: aristotle-metadata-enterprises
+  aristotle_press:
+    display_name: Aristotle Marketing Team
+    short_name: Marketing
     headshot: /aristotle/images/people/aristotle.256.png
     email: hello@aristotlemetadata.com
     linkedin: /company/aristotle-metadata-registry

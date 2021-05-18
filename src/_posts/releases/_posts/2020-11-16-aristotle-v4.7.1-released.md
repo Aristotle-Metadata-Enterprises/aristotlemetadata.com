@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Aristotle Metadata Registry v4.7.1 - New Reviews and Issues feature release!
-author: aristotle
+author: aristotle_devops
 category: releases
 img: /aristotle/images/blog/releases/4.7.1-issues_list.png
 ---

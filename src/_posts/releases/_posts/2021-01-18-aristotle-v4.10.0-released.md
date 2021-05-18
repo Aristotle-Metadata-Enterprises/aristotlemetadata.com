@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Aristotle Metadata Registry v4.10.0 - Deletion policies feature release!
-author: aristotle
+author: aristotle_devops
 category: releases
 img: /aristotle/images/stock/delete.png
 thumbnail: /aristotle/images/stock/delete.png
