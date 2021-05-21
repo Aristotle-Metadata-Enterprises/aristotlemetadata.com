@@ -2,7 +2,11 @@
 <html class="h-100" lang="en" prefix="og: http://ogp.me/ns#"> 
 <head>
   <title>{{ page.title | strip_html}} - Aristotle Metadata</title>
-	<meta property="og:title" content="{{ page.title | strip_html}} - Aristotle Metadata" />
+  {% if page.og.title %}
+	  <meta property="og:title" content="{{ page.og.title | strip_html}} - Aristotle Metadata" />
+  {% else %}
+	  <meta property="og:title" content="{{ page.title | strip_html}} - Aristotle Metadata" />
+  {% endif %}
   <meta property="og:url" content="{{site.url}}{{page.url}}" />
   {% if layout.is_blog %}
     <meta property="og:type" content="article" />
