@@ -290,9 +290,19 @@ og:
         </div><!--//container-->
     </section><!--//features-tabs-section-->
 
-    {% include registry/pricing-matrix.html plans=site.plans.registry %}
+    {% include pricing/registry/price-matrix.html plans=site.plans.registry %}
 
-    {% include registry/faq.html %}
+    
+    <section class="faq-section py-5 theme-bg-light position-relative">
+        <div class="curve-container">
+            <div class="curve-top"></div>
+            <div class="curve-bottom"></div>
+        </div><!--//curve-container-->
+        <div class="container py-5  over-curve">
+            <h2 class="section-title text-center mb-5">Frequently Asked Questions</h2>
+            {% include pricing/registry/faq.html %}
+        </div><!--//container-->
+    </section><!--//faq-section-->
 
     {% include boilerplate/more_than_a_registry.html %}
 

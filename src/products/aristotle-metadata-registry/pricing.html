@@ -7,9 +7,57 @@ footer_scripts: >
 
 
 ---
-    {% include registry/pricing-matrix.html plans=site.plans.registry %}
+    <div class="hero-wrapper">
+        <section class="pricing-header page-header over-curve py-3 py-md-5">
+            <div class="container text-center">    
+                <div class="single-col-max mx-auto">       
+                    <h2 class="page-headline mb-3">Clear transparent pricing to help you maxmise the return on investment in your data</h2>
+                    <div class="page-tagline mb-3">
+                    </div>
+                </div><!--//single-col-max-->
+            </div><!--//container-->
+        </section><!--//pricing-header-->
+    </div><!--//hero-wrapper-->
 
-    {% include registry/faq.html %}
+    {% include  pricing/registry/price-matrix.html plans=site.plans.registry %}
+    <div class="hero-wrapper">
+        <section class="pricing-header page-header over-curve py-3 py-md-5">
+            <div class="container text-center">    
+                <div class="single-col-max mx-auto">       
+                    <h2 class="page-headline mb-3">Reduce the cost of securing your metadata</h2>
+                    <div class="page-tagline mb-3">
+                        Our secure and protected cloud hosting is
+                        trusted by government and enterprise to provide metadata services that are
+                        stable, secure and scalable to meet the highly sensitive requirements of modern IT departments.
+                    </div>
+                </div><!--//single-col-max-->
+                
+                {% comment %}
+                <a class="news-banner shadow mb-5" href="#" >
+                    <span class="badge badge-success badge-new mr-2 mb-2 mb-md-0">NEW</span>
+                    <br class="d-block d-lg-none">
+                    <span class="news-text mr-2">Announce news using this widget lorem ipsum dolor sit amet.</span>
+                    <span class="link-arrow"><i class="fas fa-chevron-right"></i></span>
+                </a><!--//news-banner-->
+                {% endcomment %}
+                
+                {% include  pricing/cloud/price-matrix.html %}
+            </div><!--//container-->
+        </section><!--//pricing-header-->
+    </div><!--//hero-wrapper-->
+
+    <section class="faq-section py-5 theme-bg-light position-relative">
+        <div class="curve-container">
+            <div class="curve-top"></div>
+            <div class="curve-bottom"></div>
+        </div><!--//curve-container-->
+        <div class="container py-5  over-curve">
+            <h2 class="section-title text-center mb-5">Frequently Asked Questions</h2>
+
+            {% include pricing/registry/faq.html %}
+            {% include pricing/cloud/faq.html %}
+        </div><!--//container-->
+    </section><!--//faq-section-->
 
     
     {% include cta_bold.html call="Let us manage your metadata registry so you can get working faster"
