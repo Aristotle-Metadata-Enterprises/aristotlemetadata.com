@@ -245,8 +245,7 @@ The provisions of this clause 8 shall be a continuing obligation after the End D
 * (b)	This Agreement does not exclude or limit any guarantee, condition, warranty, right or liability implied into it by law (including the Competition and Consumer Act 2010 (Cth)), the exclusion of which would contravene the law or cause this Agreement to be void (‘non-excludable consumer warranties’). This Agreement is at all times to be read subject to such non-excludable consumer warranties. 
 * (c)	In the event that Aristotle is liable to the Client (or any third party), Aristotle’s total liability for loss or damage of every kind (including but not limited to any legal costs):
 	* (i)	whether arising pursuant to this Agreement; or
-	* (ii)	out of or in relation to the provision of access to the Platform under this Agreement, in tort or contract or in any other cause of action or in any way whatsoever,
-is limited to $500.
+	* (ii)	out of or in relation to the provision of access to the Platform under this Agreement, in tort or contract or in any other cause of action or in any way whatsoever, is limited to $500.
 * (d)	Aristotle’s liability under this Agreement is reduced to the extent that any default, unlawful or negligent act or omission of the Client contributed to the Claim.
 * (e)	Aristotle will not be liable to the Client (or any third party) for any loss of Data, information, any economic loss or for any special or consequential damages, such as losses or damage caused by delay, disruption, loss of product, loss of anticipated profit or revenue, loss of use of equipment or system, non-operation or increased expense of operation of other equipment or system, cost of capital, or cost of purchase or replacement equipment, services or power, or for any damage to goodwill or reputation which is suffered by the Client in any way arising from the Client’s use of the Platform.
 

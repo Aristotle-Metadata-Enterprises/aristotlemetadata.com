@@ -12,7 +12,6 @@ og:
 ---
 
     <div class="hero-wrapper">
-        
         <section class="pricing-header page-header over-curve py-3 py-md-5">
             <div class="container text-center">    
                 <div class="single-col-max mx-auto">       
@@ -33,383 +32,76 @@ og:
                 </a><!--//news-banner-->
                 {% endcomment %}
                 
-                <div class="plans-wrapper pb-5 py-lg-5 z-index-10 position-relative">
-                    <div id="pricing-tabs" class="pricing-tabs d-block d-lg-none mb-3 ">
-                        <a href="#" class="pricing-tab active mb-2 shadow-sm" data-target="pricing-1-data">Standard</a>               
-                        <a href="#" class="pricing-tab mb-2" data-target="pricing-2-data">Secure</a>
-                        <a href="#" class="pricing-tab" data-target="pricing-3-data">Protected</a>
-                    </div><!--//pricing-tabs-->
-
-                    <table id="pricing-table" class="pricing-table shadow rounded pt-5">
-                        <thead>
-                            <tr class="tr-plan">
-                                <th class="pricing-0-data mobile-is-hidden">
-                                    <th class="pricing-1-data pricing-plan-desc">
-                                        <div class="pricing-data-header">
-                                            <div class="pricing-plan-name mb-2">Standard</div>
-                                            <div class="pricing-figure">
-                                                <span class="currency">&ZeroWidthSpace;</span>
-                                                <span class="number">&ZeroWidthSpace;</span>
-                                                {% comment %}
-                                                    Given a small padding to keep the words centered
-                                                {% endcomment %}
-                                                <span class="unit"><a href="#included" style="padding-left: 23px;">Included 
-                                                    <span class="faq-icon icon dripicons-question mr-2"></span>
-                                                </a></span>
-                                            </div><!--//pricing-figure-->
-                                            <div class="pricing-desc mb-3">
-                                                Cost-effective shared autoscaling servers with application layer security.
-                                            </div><!--//pricing-desc-->
-                                        </div><!--//pricing-data-header-->
-                                    </th>
-                                    <th class="pricing-2-data pricing-plan-desc mobile-is-hidden position-relative">
-                                        <div class="pricing-data-header">
-                                            <div class="pricing-label position-absolute rounded-top d-none d-lg-block">MOST POPULAR</div>
-                                            <div class="pricing-plan-name mb-2">Secure</div>
-                                            <div class="pricing-figure">
-                                                <span class="currency">$</span>
-                                                <span class="number">2<small>,000</small></span>
-                                                <span class="unit">/ mo</span>
-                                            </div><!--//pricing-figure-->
-                                            <div class="pricing-desc mb-3">
-                                                Scalable servers with secure data layer isolation suitable for most organisations.
-                                            </div><!--//pricing-desc-->
-                                        </div><!--//pricing-data-header-->
-                                    </th>
-                                    <th class="pricing-3-data pricing-plan-desc mobile-is-hidden">
-                                        <div class="pricing-data-header">
-                                            <div class="pricing-plan-name mb-2">Protected</div>
-                                            <div class="pricing-figure">
-                                                <span class="currency">$</span>
-                                                <span class="number">3<small>,000</small></span>
-                                                <span class="unit">/ mo</span>
-                                            </div><!--//pricing-figure-->
-                                            <div class="pricing-desc mb-3">
-                                                Scalable fully-isolated hosting solution for security conscious organisations.
-                                            </div><!--//pricing-desc-->
-                                        </div><!--//pricing-data-header-->
-                                    </th>
-                                </tr><!--//tr-plan-->
-                            </thead>
-                            <tbody>
-
-                                <tr class="tr-data-type text-left">
-                                    <td colspan="4" class="pricing-0-data">
-                                        <div>
-                                            Hosting & scalability
-                                        </div>
-                                    </td>
-                                </tr><!--//tr-data-type-->
-                                <tr class="tr-data">
-                                    <th class="pricing-0-data">Elastic load balancer</th>
-                                    <td class="pricing-1-data"><div class="icon dripicons-checkmark icon-tick"></div></td>
-                                    <td class="pricing-2-data mobile-is-hidden"><div class="icon dripicons-checkmark icon-tick"></div></td>
-                                    <td class="pricing-3-data mobile-is-hidden"><div class="icon dripicons-checkmark icon-tick"></div></td>
-                                </tr><!--//tr-data-->
-                                <tr class="tr-data">
-                                    <th class="pricing-0-data">Enterprise Elasticsearch engine</th>
-                                    <td class="pricing-1-data"><div class="icon dripicons-checkmark icon-tick"></div></td>
-                                    <td class="pricing-2-data mobile-is-hidden"><div class="icon dripicons-checkmark icon-tick"></div></td>
-                                    <td class="pricing-3-data mobile-is-hidden"><div class="icon dripicons-checkmark icon-tick"></div></td>
-                                </tr><!--//tr-data-->
-                                <tr class="tr-data">
-                                    <th class="pricing-0-data">Server automatic scalability</th>
-                                    <td class="pricing-1-data"><span class="data-text">5x</span></td>
-                                    <td class="pricing-2-data mobile-is-hidden"><span class="data-text">10x</span></td>
-                                    <td class="pricing-3-data mobile-is-hidden"><span class="data-text">20x</span></td>
-                                </tr><!--//tr-data-->
-
-                                <tr class="tr-data-type text-left">
-                                    <td colspan="4" class="pricing-0-data">
-                                        <div>
-                                            Network & Storage
-                                        </div>
-                                    </td>
-                                </tr><!--//tr-data-type-->
-                                <tr class="tr-data">
-                                    <th class="pricing-0-data">Secure application-level isolation</th>
-                                    <td class="pricing-1-data"><div class="icon dripicons-checkmark icon-tick"></div></td>
-                                    <td class="pricing-2-data mobile-is-hidden"><div class="icon dripicons-checkmark icon-tick"></div></td>
-                                    <td class="pricing-3-data mobile-is-hidden"><div class="icon dripicons-checkmark icon-tick"></div></td>
-                                </tr><!--//tr-data-->
-                                <tr class="tr-data">
-                                    <th class="pricing-0-data">Network isolated cache</th>
-                                    <td class="pricing-1-data"><div class="icon dripicons-cross icon-cross"></div></td>
-                                    <td class="pricing-2-data mobile-is-hidden"><div class="icon dripicons-checkmark icon-tick"></div></td>
-                                    <td class="pricing-3-data mobile-is-hidden"><div class="icon dripicons-checkmark icon-tick"></div></td>
-                                </tr><!--//tr-data-->
-                                <tr class="tr-data">
-                                    <th class="pricing-0-data">Network isolated database</th>
-                                    <td class="pricing-1-data"><div class="icon dripicons-cross icon-cross"></div></td>
-                                    <td class="pricing-2-data mobile-is-hidden"><div class="icon dripicons-checkmark icon-tick"></div></td>
-                                    <td class="pricing-3-data mobile-is-hidden"><div class="icon dripicons-checkmark icon-tick"></div></td>
-                                </tr><!--//tr-data-->
-                                <tr class="tr-data">
-                                    <th class="pricing-0-data">Network isolated search engine</th>
-                                    <td class="pricing-1-data"><div class="icon dripicons-cross icon-cross"></div></td>
-                                    <td class="pricing-2-data mobile-is-hidden"><div class="icon dripicons-cross icon-cross"></div></td>
-                                    <td class="pricing-3-data mobile-is-hidden"><div class="icon dripicons-checkmark icon-tick"></div></td>
-                                </tr><!--//tr-data-->
-                                <tr class="tr-data">
-                                    <th class="pricing-0-data">Isolated virtual private cloud</th>
-                                    <td class="pricing-1-data"><div class="icon dripicons-cross icon-cross"></div></td>
-                                    <td class="pricing-2-data mobile-is-hidden"><div class="icon dripicons-cross icon-cross"></div></td>
-                                    <td class="pricing-3-data mobile-is-hidden"><div class="icon dripicons-checkmark icon-tick"></div></td>
-                                </tr><!--//tr-data-->
-                                <tr class="tr-data-type text-left">
-                                    <td colspan="4" class="pricing-0-data">
-                                        <div>
-                                            Security
-                                        </div>
-                                    </td>
-                                </tr><!--//tr-data-type-->
-                                <tr class="tr-data">
-                                    <th class="pricing-0-data">Multi-factor authentication (MFA)</th>
-                                    <td class="pricing-1-data"><div class="icon dripicons-checkmark icon-tick"></div></td>
-                                    <td class="pricing-2-data mobile-is-hidden"><div class="icon dripicons-checkmark icon-tick"></div></td>
-                                    <td class="pricing-3-data mobile-is-hidden"><div class="icon dripicons-checkmark icon-tick"></div></td>
-                                </tr><!--//tr-data-->
-                                <tr class="tr-data">
-                                    <th class="pricing-0-data">Single-sign on (SSO)</th>
-                                    <td class="pricing-1-data"><div class="icon dripicons-checkmark icon-tick"></div></td>
-                                    <td class="pricing-2-data mobile-is-hidden"><div class="icon dripicons-checkmark icon-tick"></div></td>
-                                    <td class="pricing-3-data mobile-is-hidden"><div class="icon dripicons-checkmark icon-tick"></div></td>
-                                </tr><!--//tr-data-->
-                                <tr class="tr-data">
-                                    <th class="pricing-0-data">Authority to operate
-                                        <div class="info-popover-trigger icon dripicons-italic ml-2" data-container="body" data-toggle="popover" data-placement="top"
-                                        data-content="Aristotle Secure Cloud & Aristotle Protected Cloud have been independently assessed by federal government agencies to hold PROTECTED content">
-                                        </div>
-                                    </th>
-                                    <td class="pricing-1-data"><div class="icon dripicons-cross icon-cross"></div></td>
-                                    <td class="pricing-2-data mobile-is-hidden"><div class="icon dripicons-checkmark icon-tick"></div></td>
-                                    <td class="pricing-3-data mobile-is-hidden"><div class="icon dripicons-checkmark icon-tick"></div></td>
-                                </tr><!--//tr-data-->
-                                <tr class="tr-data-type text-left">
-                                    <td colspan="4" class="pricing-0-data">
-                                        <div>
-                                            Location
-                                        </div>
-                                    </td>
-                                </tr><!--//tr-data-type-->
-                                <tr class="tr-data">
-                                    <th class="pricing-0-data">
-                                        General availability locations<br>
-                                        <small>Australia, United States (Coming soon: Europe)</small>
-                                    </th>
-                                    <td class="pricing-1-data"><div class="icon dripicons-checkmark icon-tick"></div></td>
-                                    <td class="pricing-2-data mobile-is-hidden"><div class="icon dripicons-checkmark icon-tick"></div></td>
-                                    <td class="pricing-3-data mobile-is-hidden"><div class="icon dripicons-checkmark icon-tick"></div></td>
-                                </tr><!--//tr-data-->
-                                <tr class="tr-data">
-                                    <th class="pricing-0-data">Global availablility
-                                        <div class="info-popover-trigger icon dripicons-italic ml-2" data-container="body" data-toggle="popover" data-placement="top"
-                                        data-content="Global hosting is available in all Amazon Web Services regions">
-                                    </div>
-                                    </th>
-                                    <td class="pricing-1-data"><div class="icon dripicons-cross icon-cross"></div></td>
-                                    <td class="pricing-2-data mobile-is-hidden"><div class="icon dripicons-checkmark icon-tick"></div></td>
-                                    <td class="pricing-3-data mobile-is-hidden"><div class="icon dripicons-checkmark icon-tick"></div></td>
-                                </tr><!--//tr-data-->
-                                <tr class="tr-data-type text-left">
-                                    <td colspan="4" class="pricing-0-data">
-                                        <div>
-                                            Support
-                                        </div>
-                                    </td>
-                                </tr><!--//tr-data-type-->
-                                <tr class="tr-data">
-                                    <th class="pricing-0-data">Regular releases & security updates</th>
-                                    <td class="pricing-1-data"><div class="icon dripicons-checkmark icon-tick"></div></td>
-                                    <td class="pricing-2-data mobile-is-hidden"><div class="icon dripicons-checkmark icon-tick"></div></td>
-                                    <td class="pricing-3-data mobile-is-hidden"><div class="icon dripicons-checkmark icon-tick"></div></td>
-                                </tr><!--//tr-data-->
-                                <tr class="tr-data">
-                                    <th class="pricing-0-data">Support response times</th>
-                                    <td class="pricing-1-data mobile-is-hidden">
-                                        <span class="data-text">5 business hours</span>
-                                    </td>
-                                    <td class="pricing-2-data mobile-is-hidden">
-                                        <span class="data-text">3 hours</span>
-                                    </td>
-                                    <td class="pricing-3-data mobile-is-hidden">
-                                        <span class="data-text">1 hour</span>
-                                    </td>
-                                </tr><!--//tr-data-->
-                                <tr class="tr-data">
-                                    <th class="pricing-0-data">Support resolution times</th>
-                                    <td class="pricing-1-data mobile-is-hidden">
-                                        <span class="data-text">2 business days</span>
-                                    </td>
-                                    <td class="pricing-2-data mobile-is-hidden">
-                                        <span class="data-text">24 hours</span>
-                                    </td>
-                                    <td class="pricing-3-data mobile-is-hidden">
-                                        <span class="data-text">12 hours</span>
-                                    </td>
-                                </tr><!--//tr-data-->
-                                <tr class="tr-data">
-                                    <th class="pricing-0-data">Training</th>
-                                    <td class="pricing-1-data"><div class="icon dripicons-cross icon-cross"></div></td>
-                                    <td class="pricing-2-data mobile-is-hidden"><span class="data-text">2 training sessions</span></td>
-                                    <td class="pricing-3-data mobile-is-hidden"><span class="data-text">2 training sessions</span></td>
-                                </tr><!--//tr-data-->
-                            </tbody>
-                        </table><!--//pricing-table-->
-                    </div><!--//plans-wrapper-->
-                </div><!--//container-->
-            </section><!--//pricing-header-->
-        </div><!--//hero-wrapper-->
-        
-        <section class="customers-section py-5">
-            <div class="container py-5">
-                <h2 class="section-title text-center mb-3">You Are In Good Company</h2>
-                <div class="section-intro text-center mb-5 single-col-max mx-auto">
-                    Government and Enterprises globally trust the security of their content to the Aristotle Metadata Registry.
-                    With our Secure and Protected cloud options, your data is never safer.
-                </div>
-                <div class="row mb-3">
-                    <div class="col-12 col-lg-6 mb-5">
-                        <div class="item shadow rounded p-4">
-                            <div class="logo-holder mb-2">
-                                <img style="height:100px; width:auto;" src="/aristotle/assets/logos/potential-x-logo.jfif" alt="">
-                            </div><!--//logo-holder-->
-                            <div class="summary mb-3">
-                                Our business relies on quality data to ensure we produce high quality,
-                                robust analytics, and insights that make a difference to the care and service
-                                our clients deliver.
-                                
-                                Having a partner and platform like Aristotle Metadata Registry ensures
-                                we can build new products and services with confidence that our approach
-                                to data management is best in class.
-                            </div><!--//summary-->
-                            <div class="mb-4"><a class="more-link" href="/blog/2020-11-01-potential-x-signs-multi-year-agreement-use-aristotle-cloud-metadata-registry">View Customer Story <span class="link-arrow">&rarr;</span></a></div>
-                            <div class="source text-lg-right">
-                                <div>Duane Attree</div>
-                                <div>Chief Executive Officer, Potential<sup>(x)</sup></div>
-                            </div>
-                            
-                        </div><!--//item-->
-                    </div><!--//col-12-->
-                    <div class="col-12 col-lg-6 mb-5">
-                        <div class="item shadow rounded p-4">
-                            <div class="logo-holder mb-2">
-                                <img style="height:100px; width:auto;" src="/aristotle/assets/logos/NSWGov_Waratah_Primary_400x293.jpg" alt="">
-                            </div><!--//logo-holder-->
-                            <div class="summary mb-3">
-                                Aristotle has provided an excellent metadata and data governance tool set
-                                to the department to enable us to better understand our data holdings.
-                            </div><!--//summary-->
-                            <div class="mb-4"><a class="more-link" href="/case-studies/nsw-government">View Customer Story <span class="link-arrow">&rarr;</span></a></div>
-                            <div class="source text-lg-right">
-                                <div>Melanie Taylor</div>
-                                <div>Advisor, NSW Department of Communities and Justice</div>
-                            </div>
-                            
-                        </div><!--//item-->
-                    </div><!--//col-12-->
-                </div><!--//row-->    
-                <div class="text-center"><a href="/case-studies/" class="btn-gradient btn">More Customer Stories</a></div>
+                {% include pricing/cloud/price-matrix.html %}
             </div><!--//container-->
-        </section><!--//customers-section-->
-        
-        <section class="faq-section py-5 theme-bg-light position-relative">
-            <div class="curve-container">
-                <div class="curve-top"></div>
-                <div class="curve-bottom"></div>
-            </div><!--//curve-container-->
-            <div class="container py-5  over-curve">
-                <h2 class="section-title text-center mb-5">Frequently Asked Questions</h2>
-                <div class="row">
-                    <div class="col-12 col-lg-12">
-                        <div class="item p-4">
-                            <h4 class="faq-q mb-3">
-                                <a id="included"></a>
-                                <span class="faq-icon icon dripicons-question mr-2"></span>What is Aristotle Standard Cloud?
-                            </h4>
-                            <div class="faq-a">
-                                <p>Aristotle Standard Cloud is our base commercially supported solution
-                                    for hosting the Aristotle Metadata Registry.
-                                    Application isolation across an amortised platform, means
-                                    Aristotle Standard Cloud is a safe and cost-effective software-as-a-service platform for 
-                                    metadata management.
-                                </p>
-                                <p>Aristotle Standard Cloud uses application isolation to ensure that all client information is securely stored
-                                    and is isolated from other client data in the unlikely event of service disruption.</p>
-                                <p>To make sure users have an optimum experience, we include Standard Hosting for free with all subscriptions to the Aristotle Metadata Registry.
-                                    For information about <a href="/products/aristotle-metadata-registry">user licencing and subscription fees see the Aristotle Metadata Registry product page.</a>
-                                </p>
-                                <p><strong>Where clients have more strict organisational information security requirements, we provide 
-                                    Aristotle Secure Cloud and Aristotle Protected Cloud. These products include additional layers of
-                                    network and infrastructure isolation to provide further guarantees of client data protection.
-                                </strong></p>
-                            </div>
-                        </div><!--//item-inner-->
-                    </div><!--//col-12-->
-                </div>
-                <div class="row">
-                    <div class="col-12 col-lg-6">
-                        <div class="item p-4">
-                            <h4 class="faq-q mb-3"><span class="faq-icon icon dripicons-question mr-2"></span>Are there setup costs?</h4>
-                            <div class="faq-a">
-                                <p>
-                                    <b>No</b> — there aren't any extra costs associated with setting up your cloud metadata registry. Once you choose your
-                                    configuration we can have your Aristotle Metadata Registry ready to go almost instantly.
-                                </p><p>
-                                    If you have large volumes of metadata to migrate or have special design requirements,
-                                    we can discuss <a href="/services">consulting options</a> to provide you with the services you need.
-                                </p>
-                            </div>
-                        </div><!--//item-inner-->
-                    </div><!--//col-12-->
-                    <div class="col-12 col-lg-6">
-                        <div class="item p-4">
-                            <h4 class="faq-q mb-3"><span class="faq-icon icon dripicons-question mr-2"></span>Can I use my own domain with Aristotle Secure/Protected Cloud?</h4>
-                            <div class="faq-a">
-                                <p>
-                                    <b>Yes</b> — as long as you have the domain registered, we can point your registry to any domain you need.
-                                     If you are looking to host on a .gov domain (or .gov.uk, .gov.au, etc...) you'll need to register that through your government domain provider.
-                                </p><p>For all other publicly accessible domains (.com, .co.uk, etc...) we can help manage domain registration on your behalf.
-                                </p><p>Once you have a domain, we can setup DNS records to point your Aristotle Metadata Registry in the right direction.
-                                </p>
-                            </div>
-                        </div><!--//item-inner-->
-                    </div><!--//col-12-->
-                    <div class="col-12 col-lg-6">
-                        <div class="item p-4">
-                            <h4 class="faq-q mb-3"><span class="faq-icon icon dripicons-question mr-2"></span>
-                                Is Aristotle Secure/Protected Cloud suitable for government agencies?</h4>
-                            <div class="faq-a">
-                                <p>
-                                    <b>Yes</b> — our Aristotle Secure and Protected Cloud options have been independently assessed by government
-                                    IT departments. We provide services to Australian federal government agencies that store 
-                                    <a href="https://www.cyber.gov.au/acsc/view-all-content/ism">ISM PROTECTED-rated</a> content.
-                                </p><p>We understand that different countries and different government departments have unique requirements,
-                                    and our team has the expertise to work with you to select the best product and can provide all
-                                    documentation to assist with any security assessments or authorisations required.
-                                </p>
-                            </div>
-                        </div><!--//item-inner-->
-                    </div><!--//col-12-->
-                    <div class="col-12 col-lg-6">
-                        <div class="item p-4">
-                            <h4 class="faq-q mb-3"><span class="faq-icon icon dripicons-question mr-2"></span>Where is my Aristotle Metadata Registry hosted?</h4>
-                            <div class="faq-a">
-                                <p><b>For clients hosted on Aristotle Secure or Protected Cloud</b> we host
-                                    <a href="https://aws.amazon.com/about-aws/global-infrastructure/">in the more than 20 regions currently supported by Amazon Web Services</a>,
-                                    including various countries across the United Kingdom, Europe, North America and the Asia-Pacific.
-                                </p>
-                                <p>
-                                    <b>For clients on Aristole Standard Cloud</b>, we have 2 hosting regions available — Australia and the USA.
-                                    In 2021, we will be expanding our Standard Cloud regions to deliver an EU-based region to support
-                                    European data requirements.
-                                </p>
-                            </div>
-                        </div><!--//item-inner-->
-                    </div><!--//col-12-->
-                </div><!--//row-->
-            </div><!--//container-->
-        </section><!--//faq-section-->
+        </section><!--//pricing-header-->
+        {% include pricing/fineprint.html %}
+    </div><!--//hero-wrapper-->
 
-        {% include cta_bold.html call="Want to learn more about how Aristotle Metadata can make your metadata more accessible <u>and</u> more secure?"
-        sub_call=page.cta.sub_call action=page.cta.action url="/contact/demo" %}
+    <section class="customers-section py-5">
+        <div class="container py-5">
+            <h2 class="section-title text-center mb-3">You Are In Good Company</h2>
+            <div class="section-intro text-center mb-5 single-col-max mx-auto">
+                Government and Enterprises globally trust the security of their content to the Aristotle Metadata Registry.
+                With our Secure and Protected cloud options, your data is never safer.
+            </div>
+            <div class="row mb-3">
+                <div class="col-12 col-lg-6 mb-5">
+                    <div class="item shadow rounded p-4">
+                        <div class="logo-holder mb-2">
+                            <img style="height:100px; width:auto;" src="/aristotle/assets/logos/potential-x-logo.jfif" alt="">
+                        </div><!--//logo-holder-->
+                        <div class="summary mb-3">
+                            Our business relies on quality data to ensure we produce high quality,
+                            robust analytics, and insights that make a difference to the care and service
+                            our clients deliver.
+                            
+                            Having a partner and platform like Aristotle Metadata Registry ensures
+                            we can build new products and services with confidence that our approach
+                            to data management is best in class.
+                        </div><!--//summary-->
+                        <div class="mb-4"><a class="more-link" href="/blog/2020-11-01-potential-x-signs-multi-year-agreement-use-aristotle-cloud-metadata-registry">View Customer Story <span class="link-arrow">&rarr;</span></a></div>
+                        <div class="source text-lg-right">
+                            <div>Duane Attree</div>
+                            <div>Chief Executive Officer, Potential<sup>(x)</sup></div>
+                        </div>
+                        
+                    </div><!--//item-->
+                </div><!--//col-12-->
+                <div class="col-12 col-lg-6 mb-5">
+                    <div class="item shadow rounded p-4">
+                        <div class="logo-holder mb-2">
+                            <img style="height:100px; width:auto;" src="/aristotle/assets/logos/NSWGov_Waratah_Primary_400x293.jpg" alt="">
+                        </div><!--//logo-holder-->
+                        <div class="summary mb-3">
+                            Aristotle has provided an excellent metadata and data governance tool set
+                            to the department to enable us to better understand our data holdings.
+                        </div><!--//summary-->
+                        <div class="mb-4"><a class="more-link" href="/case-studies/nsw-government">View Customer Story <span class="link-arrow">&rarr;</span></a></div>
+                        <div class="source text-lg-right">
+                            <div>Melanie Taylor</div>
+                            <div>Advisor, NSW Department of Communities and Justice</div>
+                        </div>
+                        
+                    </div><!--//item-->
+                </div><!--//col-12-->
+            </div><!--//row-->    
+            <div class="text-center"><a href="/case-studies/" class="btn-gradient btn">More Customer Stories</a></div>
+        </div><!--//container-->
+    </section><!--//customers-section-->
+    
+    <section class="faq-section py-5 theme-bg-light position-relative">
+        <div class="curve-container">
+            <div class="curve-top"></div>
+            <div class="curve-bottom"></div>
+        </div><!--//curve-container-->
+        <div class="container py-5  over-curve">
+            <h2 class="section-title text-center mb-5">Frequently Asked Questions</h2>
+
+            {% include pricing/cloud/faq.html %}
+
+        </div><!--//container-->
+    </section><!--//faq-section-->
+
+    {% include cta_bold.html call="Want to learn more about how Aristotle Metadata can make your metadata more accessible <u>and</u> more secure?"
+    sub_call=page.cta.sub_call action=page.cta.action url="/contact/demo" %}
