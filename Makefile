@@ -12,7 +12,7 @@ build:
 
 server:
 	killall ruby || true
-	jekyll serve -s ./src -H0.0.0.0 -P$(PORT) --future
+	bundle exec jekyll serve -s ./src -H0.0.0.0 -P$(PORT) --future
 
 server-win:
 	gem install wdm
