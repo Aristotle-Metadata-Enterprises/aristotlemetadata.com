@@ -42,7 +42,6 @@ decringify_date: 2018-01-01t01:00:00.00-08:00
             <div class="aristotle-blog-content">
                 {{ content }}
             </div><!--//aristotle-blog-content-->
-
             <div class="post-author-block text-center text-lg-left mt-5 pt-5">
                 <hr class="pt-3">
                 <div class="row">
@@ -77,6 +76,17 @@ decringify_date: 2018-01-01t01:00:00.00-08:00
     </div><!--//container-->
 </div><!--//blog-post-content-->
 
+{% if page.cta_form %}
+
+{% include cta_bold_form.html call=page.cta_form.call
+    sub_call=page.cta_form.sub_call
+    form_call=page.cta_form.form_call
+    form_sub_call=page.cta_form.form_sub_call
+    action=page.cta_form.action
+    email_only=page.cta_form.email_only
+    %}
+
+{% endif %}
 <section class="related-posts-section py-5 theme-bg-light">
     <div class="container">
         <h2 class="section-title text-center mb-5">Other articles you might enjoy</h2>
