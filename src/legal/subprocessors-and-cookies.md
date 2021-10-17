@@ -12,13 +12,14 @@ Aristotle provides a great deal of transparency regarding how we use your data, 
 
 ### Aristotle Subprocessors
 
-When we share your information with third party subprocessors, such as our vendors and service providers, we remain responsible for it. We work very hard to maintain your trust when we bring on new vendors, and we require all vendors to enter into data protection agreements with us that restrict their processing of Users' Personal Information (as defined in the [Privacy Statement](/articles/privacy-policy)).
+When we share your information with third party subprocessors, such as our vendors and service providers, we remain responsible for it. We work very hard to maintain your trust when we bring on new vendors, and we require all vendors to enter into data protection agreements with us that restrict their processing of Users' Personal Information (as defined in the [Privacy Statement](/legal/privacy-policy)).
 
 | Name of Subprocessor | Description of Processing | Location of Processing |
 |---|---|---|
 | AWS Amazon | Data hosting | United States |
 | Google Analytics | Website analytics and performance | United States |
 | LinkedIn Navigator | Marketing data enrichment service | United States |
+| HelpHero | Guided help tours | United States |
 | MailChimp | Customer ticketing mail services provider | United States |
 | Microsoft | Compute infrastructure | United States |
 | Salesforce.com | Customer relations management | United States |

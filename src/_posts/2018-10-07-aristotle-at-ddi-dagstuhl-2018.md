@@ -18,6 +18,6 @@ The workshop was a success, at the end we decided that we would try to meet for 
 
 Notes from Sam:
 
-Alongside the DDI Workshop, as well as learning about the different training methods of people in the metadata community, I had an opportunity to work with members of the [DDI Developer community](https://www.ddialliance.org/community/working-groups) to work on integrating the [Aristotle GraphQL API](/blog/2018/05/introducing-aristotle-2-0-and-other-new-features.html) with DDI.
+Alongside the DDI Workshop, as well as learning about the different training methods of people in the metadata community, I had an opportunity to work with members of the [DDI Developer community](https://www.ddialliance.org/community/working-groups) to work on integrating the [Aristotle GraphQL API](/blog/2018/05/introducing-aristotle-2-0-and-other-new-features) with DDI.
 
 During the workshop we were able to produce a prototype serverless API that outputs content from Aristotle into a number of DDI formats, as well as producing the [Genericode](http://docs.oasis-open.org/codelist/cs-genericode-1.0/doc/oasis-code-list-representation-genericode.html) outputs used by the DDI Controlled Vocabularies Workging Group. Later this year we are looking at expanding this work to produce a complete API endpoint to allow content from Aristotle to be imported and exported using DDI XML formats.
