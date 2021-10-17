@@ -23,7 +23,7 @@ The metadata toolbox is a convenient place to access some of our new tools, whic
 ![Metadata Report Builder](/aristotle/images/blog/2020-06-data-report-builder.png "Metadata Report Builder")
 *The Metadata Report Builder, listing all the metadata in the registry that has been created in the last 20 years.*
 
-Please don’t hesitate to see what kind of questions you can answer about your registry’s metadata with these new tools, and as always, for any questions or concerns we are always available at [hello@aristotlemetadata.com](hello@aristotlemetadata.com).
+Please don’t hesitate to see what kind of questions you can answer about your registry’s metadata with these new tools, and as always, for any questions or concerns we are always available at [hello@aristotlemetadata.com](mailto:hello@aristotlemetadata.com).
 
 Finally, to keep track of ACSA’s progress with the roadmap, and to hear about exciting new developments with the Aristotle Metadata Registry, make sure to follow [our LinkedIn page](https://www.linkedin.com/company/aristotle-metadata-registry).
 

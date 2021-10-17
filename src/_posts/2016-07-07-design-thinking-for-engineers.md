@@ -111,6 +111,6 @@ disruptive, before working through processes to come up with a well thought out 
 While the core architecture of the Aristotle Metadata Registry is relatively fixed,
 I don't think Aristotle is out of the wild 'uncertainty' phase yet. We've just scratched
 the surface of the user interface with much more to refine.
-As the product evolves and [our community](/community) grows I look forward to running these
+As the product evolves and our community grows I look forward to running these
 sessions again and seeing what concepts our designers come up with next
-- naturally there won't be a developer in site, but now I can say that is actually for the best.
+- naturally there won't be a developer in sight, but for now I can say that is actually for the best.
