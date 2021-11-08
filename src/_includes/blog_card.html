@@ -2,8 +2,9 @@
     <div class="post-item shadow aristotle-blog-card">
         <a class="post-link" href="{{ include.post.url }}">
             <div class="post-thumb-holder aristotle-blog-thumb"
-                style="background-image: url('{{ include.post.img | default:'/aristotle/assets/patterns/curve-top-green.svg' }}')"
-            >
+                style="background-image:
+                    url('{% if include.post.thumbnail %}{{include.post.thumbnail}}{% elsif include.post.img %}{{include.post.img}}{% else %}/aristotle/assets/patterns/curve-top-green.svg{% endif %}')"
+                >
                 <!-- <img class="img-fluid" src="" alt="" height="60px"> -->
             </div><!--//post-thumb-holder-->
             <div class="post-content-holder p-4">
