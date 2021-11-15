@@ -116,9 +116,10 @@ tablion:
     tiers:
         -   name: Standard
             range: 2
+            description: Ideal for organisations looking for improved data efficiency.
         -   name: Enterprise
             range: 1
-
+            description: Perfect for enterprise and government organisations with complex data access requirements.
     plans:
       -    
           name: Starter

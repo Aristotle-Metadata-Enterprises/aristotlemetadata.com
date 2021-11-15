@@ -14,7 +14,7 @@
                     <th class="pricing-{{forloop.index}}-data pricing-plan-desc"  style="width:15%">
                         <div class="pricing-data-header">
                             <div class="pricing-plan-name mb-2">{{plan.name}}</div>
-                            <div class="pricing-figure">
+                            <div class="pricing-figure" style="min-width:175px">
                                 <span class="currency">$</span>
                                 <span class="number">{{plan.price}}<small>,000</small></span>
                                 <span class="unit">/ mo</span>
@@ -26,19 +26,16 @@
             </tr><!--//tr-plan-->
             <tr class="tr-plan">
                 <th class="pricing-{{forloop.index}}-data mobile-is-hidden"></th>
-                <th colspan=2 class="standard-tier pricing-plan-desc">
-                    <div class="pricing-data-header">
-                        Standard
-                    <div class='pricing-desc mb-3'>
-                        Ideal for organisations starting their metadata management journey.
-                    </div>
-                    </div>
-                </th>
-                <th>Enterprise
-                    <div class='pricing-desc mb-3'>
-                        Perfect for enterprise and government of all sizes with complex metadata governance requirements.
-                    </div>
-                </th>
+                {% for tier in include.plans.tiers %}
+                    <th colspan={{tier.range}} class="standard-tier pricing-plan-desc">
+                        <div class="pricing-data-header">
+                            {{ tier.name }}
+                        <div class='pricing-desc mb-3'>
+                            {{ tier.description }}
+                        </div>
+                        </div>
+                    </th>
+                {% endfor %}
             </tr>
         </thead>
         <tbody>

@@ -233,3 +233,12 @@ h4.title a {
     height: 2em;
   }
 }
+
+.announcement-banner {
+  color:white !important;
+  background-color: #594659;
+}
+.announcement-banner a {
+  color:white;
+  text-decoration: underline;
+}

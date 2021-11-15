@@ -4,7 +4,7 @@
     <title>Path</title>
     <style>
     #Path {
-        fill: purple !important;
+        fill: #594659 !important;
     }
     #Page-1 {
         fill-opacity: 0.5 !important;
