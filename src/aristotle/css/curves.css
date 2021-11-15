@@ -31,6 +31,10 @@
   background-image: url("/aristotle/assets/patterns/curve-bottom-green-to-blue.svg") !important;
 }
 
+.curve-top.purple {
+  background-image: url("/aristotle/assets/patterns/curve-top-purple.svg") !important;
+}
+
 .home-bottom-curve {
   max-height: 260px;
 }

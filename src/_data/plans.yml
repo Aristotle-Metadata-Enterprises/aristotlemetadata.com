@@ -111,3 +111,85 @@ registry:
                       micro: no, mini: no, small: no,
                       medium: {has: yes, text: "Optional add-on"}, large: {has: yes, text: "Optional add-on"}
                   }
+
+tablion:
+    tiers:
+        -   name: Standard
+            range: 2
+        -   name: Enterprise
+            range: 1
+
+    plans:
+      -    
+          name: Starter
+          price: 3
+          description: Ideal plans for organisations starting their metadata management journey.
+      -
+          name: Premium
+          price: 6
+          description: Cost-effective shared autoscaling servers with application layer security.
+          popular: yes
+      -
+          name: Enterprise
+          price: 10
+          description: Ideal for smaller enterprises 
+    features:
+      -
+          group: "Data request management"
+          subfeatures:
+              -
+                  name: Included monthly data requests
+                  plans:
+                      starter: 500
+                      premium: 3000
+                      enterprise: Unlimited
+              -
+                  name: Email notifications
+                  plans:
+                      starter: yes
+                      premium: yes
+                      enterprise: yes
+              -
+                  name: Continuous, included feature updates
+                  plans:
+                      starter: yes
+                      premium: yes
+                      enterprise: yes
+              -
+                  name: Document storage (Coming 2022)
+                  plans:
+                      starter: no
+                      premium: {has: yes, text: "Up to 30 days retention"}
+                      enterprise: {has: yes, text: "Up to 24 months retention"}
+
+      -
+          group: "Hosting & Integrations"
+          subfeatures:
+              -
+                  name: Aristotle Metadata Registry
+                  plans: {starter: yes, premium: yes, enterprise: yes}
+              -
+                  name: Third-party API integrations
+                  plans: {starter: no, premium: yes, enterprise: yes}
+              - 
+                  name: Aristotle Cloud support
+                  plans: 
+                    starter: 'Standard or above'
+                    premium: 'Secure or above'
+                    enterprise: 'Protected only'
+      -
+          group: "Aristotle Metadata Registry perks"
+          subfeatures:
+              -
+                  name: Data search engine
+                  plans: {starter: yes, premium: yes, enterprise: yes}
+              -
+                  name: Data request analytics dashboard
+                  plans: {starter: yes, premium: yes, enterprise: yes}
+              -
+                  name: Enterprise single sign-on (SSO)
+                  plans: {starter: no, premium: yes, enterprise: yes}
+              - 
+                  name: Bundle pricing discount
+                  plans: {starter: '10%', premium: '15%', enterprise: '20%'}
+        
