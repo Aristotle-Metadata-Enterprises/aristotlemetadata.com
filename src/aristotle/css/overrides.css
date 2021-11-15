@@ -105,6 +105,10 @@
   opacity: 0.9;
 }
 
+.safe-height, .safe-height img {
+  max-height: 650px;
+}
+
 /* SEARCH */
 
 #navbarSearchDropdown {
