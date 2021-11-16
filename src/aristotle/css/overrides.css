@@ -105,6 +105,10 @@
   opacity: 0.9;
 }
 
+.safe-height, .safe-height img {
+  max-height: 650px;
+}
+
 /* SEARCH */
 
 #navbarSearchDropdown {
@@ -232,4 +236,13 @@ h4.title a {
     display: block;
     height: 2em;
   }
+}
+
+.announcement-banner {
+  color:white !important;
+  background-color: #594659;
+}
+.announcement-banner a {
+  color:white;
+  text-decoration: underline;
 }
