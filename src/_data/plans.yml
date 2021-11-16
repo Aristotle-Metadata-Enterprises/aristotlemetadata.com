@@ -157,11 +157,11 @@ tablion:
                       premium: yes
                       enterprise: yes
               -
-                  name: Document storage (Coming 2022)
+                  name: Document storage <small>(Coming 2022)</small>
                   plans:
                       starter: no
-                      premium: {has: yes, text: "Up to 30 days retention"}
-                      enterprise: {has: yes, text: "Up to 24 months retention"}
+                      premium: {has: yes, text: "Up to 90 days retention"}
+                      enterprise: {has: yes, text: "Up to 7 years retention"}
 
       -
           group: "Hosting & Integrations"
