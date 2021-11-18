@@ -91,8 +91,10 @@ registry:
                   name: Single-sign on
                   link: secure-hosting
                   plans: {
-                      micro: no, mini: no, small: no,
-                      medium: {has: yes, text: "Optional add-on"}, large: {has: yes, text: "Optional add-on"}
+                      micro: no, mini: no,
+                      small: {has: yes, text: "Optional add-on"},
+                      medium: {has: yes, text: "Optional add-on"},
+                      large: {has: yes, text: "Optional add-on"}
                   }
               - 
                   name: Standard hosting included
@@ -101,15 +103,19 @@ registry:
                   name: Aristotle Secure Hosting
                   link: secure-hosting
                   plans: {
-                      micro: no, mini: no, small: no,
-                      medium: {has: yes, text: "Optional add-on"}, large: {has: yes, text: "Optional add-on"}
+                      micro: no, mini: no,
+                      small: {has: yes, text: "Optional add-on"},
+                      medium: {has: yes, text: "Optional add-on"},
+                      large: {has: yes, text: "Optional add-on"}
                   }
               - 
                   name: Aristotle Protected Hosting
                   link: secure-hosting
                   plans: {
-                      micro: no, mini: no, small: no,
-                      medium: {has: yes, text: "Optional add-on"}, large: {has: yes, text: "Optional add-on"}
+                      micro: no, mini: no,
+                      small: {has: yes, text: "Optional add-on"},
+                      medium: {has: yes, text: "Optional add-on"},
+                      large: {has: yes, text: "Optional add-on"}
                   }
 
 tablion:
