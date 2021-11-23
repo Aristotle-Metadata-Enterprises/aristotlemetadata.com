@@ -26,13 +26,21 @@ registry:
           group: "Usage"
           subfeatures:
               -
-                  name: Included Users
+                  name: Included author users licences
                   plans:
                       micro: 25
                       mini: 50
                       small: 100
                       medium: 250
                       large: 500
+              -
+                  name: Included collaboration users licences
+                  plans:
+                      micro: 250
+                      mini: 500
+                      small: 1000
+                      medium: 2500
+                      large: 5000
               -
                   name: Metadata storage
                   plans:
