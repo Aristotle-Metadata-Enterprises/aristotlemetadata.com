@@ -36,10 +36,10 @@ registry:
               -
                   name: Included collaboration users licences
                   plans:
-                      micro: 250
-                      mini: 500
-                      small: 1000
-                      medium: 2500
+                      micro: 125
+                      mini: 250
+                      small: 500
+                      medium: 2000
                       large: 5000
               -
                   name: Metadata storage
