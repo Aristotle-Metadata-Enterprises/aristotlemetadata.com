@@ -5,7 +5,7 @@ author: sam
 curve:
     bottom: green-to-blue
 
-img: /aristotle/aristotle_logo_256.png
+img: /aristotle/assets/gartner/aristotle-gartner.png
 img-full-height: true
 
 cta_form:
