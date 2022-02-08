@@ -8,6 +8,12 @@ curve:
 img: /aristotle/aristotle_logo_256.png
 img-full-height: true
 
+cta_form:
+    email_only: true
+    call: Want to learn more about how Aristotle Metadata can revolutionise your Data Governance?
+    form_sub_call: Enter your email below to get an up to date report and case study with more information about how Aristotle Metadata data governance and data sharing platforms is help our clients achieve success.
+    action: Send me an Aristotle Metadata case study.
+
 ---
 
 Aristotle Metadata, a global provider of data management solutions announced today that it has been recognised as a Representative Vendor in Gartner Inc’s [“Market Guide for Data and Analytics Governance Platforms”](https://www.gartner.com/document/4008943) published in December 2021.
