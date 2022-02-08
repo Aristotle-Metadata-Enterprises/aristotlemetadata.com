@@ -246,3 +246,14 @@ h4.title a {
   color:white;
   text-decoration: underline;
 }
+
+.footnotes {
+  font-size: 70%;
+  margin: 2.5%;
+  padding: 2.5%;
+  border-top: 1px solid lightgray;
+}
+
+.aristotle-blog-content a {
+  text-decoration: underline;
+}
