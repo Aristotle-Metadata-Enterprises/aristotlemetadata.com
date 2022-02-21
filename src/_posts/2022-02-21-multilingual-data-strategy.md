@@ -33,12 +33,12 @@ Beyond just capturing synonyms, every metadata item can now store name and defin
 
 This new multilingual version of the Aristotle Metadata Registry will also provide safe, informative fallbacks so that when content isn’t available, they are shown information in a fallback language defined by the registry.
 
-<figure class="figure" class="text-center pt-0 my-3 mx-5 p-2" style="border: 1px solid lightgray">
+<div class="text-center pt-0 my-3 mx-5 p-2" style="border: 1px solid lightgray">
     <div class="mx-auto">
         <img src="/aristotle/images/blog/multilingual/multi-lingual-side-by-side.png">
     </div>
-    <figcaption class="figure-caption">When viewing metadata in their preferred language, users will see 'fallback' information where a given language isn't available.</figcaption>
-</figure>
+    <small>When viewing metadata in their preferred language, users will see 'fallback' information where a given language isn't available.</small>
+</div>
 
 In the coming weeks we will be expanding our [help](https://help.aristotlemetadata.com/) and [user guides](https://aristotle.cloud/steward/acsa-user-guides/references/folder/5) to provide users with high quality steps and examples on how to introduce multiple language metadata to their registry.
 
