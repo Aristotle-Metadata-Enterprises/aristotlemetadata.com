@@ -42,6 +42,6 @@ This new multilingual version of the Aristotle Metadata Registry will also provi
 
 In the coming weeks we will be expanding our [help](https://help.aristotlemetadata.com/) and [user guides](https://aristotle.cloud/steward/acsa-user-guides/references/folder/5) to provide users with high quality steps and examples on how to introduce multiple language metadata to their registry.
 
-We’re thankful for all of the feedback we received from our global beta-testers across Europe, New Zealand & Canada who help refine the amazing new addition to the Aristotle Metadata Registry - and look forward to see our users make their data make sense for even more people around the world.
+We’re thankful for all of the feedback we received from our global beta-testers across Europe, New Zealand & Canada who helped refine this amazing new addition to the Aristotle Metadata Registry - and look forward to see our users make their data make sense for even more people around the world.
 
 Stay tuned for more news about how we engineered this amazing new update using [`django-garnett` the new multilingual open-source library we've built for the Django Web Framework](https://github.com/Aristotle-Metadata-Enterprises/django-garnett).
