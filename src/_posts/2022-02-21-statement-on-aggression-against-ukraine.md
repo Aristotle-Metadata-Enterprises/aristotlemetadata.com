@@ -8,7 +8,7 @@ img-full-height: true
 
 ---
 
-As an global cloud software provider, Aristotle Metadata has clients based internationally, across the finance, health, energy, non-profit and public sectors. However, as an Australian company and as a company with a clear social responsibility we must reflect on recent unprovoked actions by the Russian Federation against the Ukraine.
+As a global cloud software provider, Aristotle Metadata has clients based internationally, across the finance, health, energy, non-profit and public sectors. However, as an Australian company and as a company with a clear social responsibility we must reflect on recent unprovoked actions by the Russian Federation against the Ukraine.
 
 Our clients use data to develop policies that assist and benefit all people in a peaceful and prosperous manner. Aristotle Metadata believes that efficient access to data in a reliable manner is integral to the peaceful advancement of our global community.
 
