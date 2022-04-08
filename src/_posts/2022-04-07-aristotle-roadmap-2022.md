@@ -14,7 +14,7 @@ By co-developing our platforms and solutions with our clients they are able to g
 Based on the feedback of our clients, we're seeing 4 major themes in the metadata development space:
 
 ### 1. Data lineage and data inventories
-Over the course of 2022, we are going to be adding enhanced data lineage support to help users describe how people use data within their organisation. We're also adding new profiling tools to help users record data inventories in a standardised way - including supporting the Office of the National Data Commisioner's Core Attributes for government data dictionaries. Throughout 2022, keep an eye out for announcements on the following features:
+Over the course of 2022, we are going to be adding enhanced data lineage support to help users describe how people use data within their organisation. We're also adding new profiling tools to help users record data inventories in a standardised way - including supporting the Office of the National Data Commissioner's Core Attributes for government data dictionaries. Throughout 2022, keep an eye out for announcements on the following features:
 * Data lineage descriptions to describe dataset, distribution and field-level data flows 
 * Geospatial metadata support and map-based data search and discovery
 * Specialised data inventory tools to aid with initial implementations
@@ -27,13 +27,13 @@ We are constantly redefining what metadata management means and looking for inno
 * Improved management and linkage of metadata collections
 
 ### 3. Metadata-driven data request administration
-Last year we announced our "click-and-collect" data sharing tool - the Tablion Data Portal - and this year we are going to enhance how data sharing is done. Our unique metadata-first approach makes data sharing faster by sharing metadata to give users insight to data, before its made available. This year we're going to be embedding of more Aristotle Metadata within the Tablion Data Portal, including:
+Last year we announced our "click-and-collect" data sharing tool - the Tablion Data Portal - and this year we are going to enhance how data sharing is done. Our unique metadata-first approach makes data sharing faster by sharing metadata to give users insight to data, before it's made available. This year we're going to be embedding of more Aristotle Metadata within the Tablion Data Portal, including:
 * Embedded summary statistics within data portals
 * Advanced filtering of data requesting using Aristotle Metadata values and reference data
 * Integrated single sign on authentication between Aristotle Metadata products
 
 ### 4. Metadata harvesting, discovery and quality control
-Our users have asked about support for initial data inventory and harvesting support to 'bootstrap' the data governance process in a controlled way that drives metadata adoption across the organisation. We're supporting this by adding new tools that assist with metadata flows into and beyond user registries to build a full-federated metadata discuovery system
+Our users have asked about support for initial data inventory and harvesting support to 'bootstrap' the data governance process in a controlled way that drives metadata adoption across the organisation. We're supporting this by adding new tools that assist with metadata flows into and beyond user registries to build a full-federated metadata discovery system, including:
 * Merge support for duplicate metadata items that 
 * Building harvester support for registries that implements the [Open Archives Initiative Protocol for Metadata Harvesting (OAI-PHM) API](https://www.openarchives.org/pmh/) format
 * Adding a fully compliant Open Archives Initiative Protocol for Metadata Harvesting (OAI-PHM) API endpoint to share metadata using common formats, including [RIF-CS](https://intranet.ands.org.au/display/DOC/About+RIF-CS), [DataCite](https://datacite.org/), Dublin Core, [DDI](https://ddialliance.org/) and more...
