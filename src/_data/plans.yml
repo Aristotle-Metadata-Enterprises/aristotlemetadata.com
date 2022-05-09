@@ -2,24 +2,24 @@ registry:
     plans:
       -    
           name: Micro
-          price: 2
+          price: 3
           description: Ideal plans for organisations starting their metadata management journey.
       -
           name: Mini
-          price: 4
+          price: 6
           description: Cost-effective shared autoscaling servers with application layer security.
       -
           name: Small
-          price: 7
+          price: 9
           description: Ideal for smaller enterprises 
       -
           name: Medium
-          price: 12
+          price: 15
           popular: yes
           description: Excellent for organisations 
       -
           name: Large
-          price: 20
+          price: 25
           description: Perfect for large organisations with complex data governance
     features:
       -
@@ -96,22 +96,14 @@ registry:
                   name: Multi-factor Authentication (MFA)
                   plans: {micro: yes, mini: yes, small: yes, medium: yes, large: yes}
               - 
-                  name: Single-sign on
-                  link: secure-hosting
-                  plans: {
-                      micro: no, mini: no,
-                      small: {has: yes, text: "Optional add-on"},
-                      medium: {has: yes, text: "Optional add-on"},
-                      large: {has: yes, text: "Optional add-on"}
-                  }
-              - 
                   name: Standard hosting included
                   plans: {micro: yes, mini: yes, small: yes, medium: yes, large: yes}
               - 
                   name: Aristotle Secure Hosting
                   link: secure-hosting
                   plans: {
-                      micro: no, mini: no,
+                      micro: {has: yes, text: "Optional add-on"},
+                      mini: {has: yes, text: "Optional add-on"},
                       small: {has: yes, text: "Optional add-on"},
                       medium: {has: yes, text: "Optional add-on"},
                       large: {has: yes, text: "Optional add-on"}
@@ -137,11 +129,11 @@ tablion:
     plans:
       -    
           name: Starter
-          price: 3
+          price: 4
           description: Ideal plans for organisations starting their metadata management journey.
       -
           name: Premium
-          price: 6
+          price: 7
           description: Cost-effective shared autoscaling servers with application layer security.
           popular: yes
       -
