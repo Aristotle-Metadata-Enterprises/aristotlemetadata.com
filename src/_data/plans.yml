@@ -157,13 +157,13 @@ tablion:
                       premium: yes
                       enterprise: yes
               -
-                  name: Continuous, included feature updates
+                  name: Regular feature updates
                   plans:
                       starter: yes
                       premium: yes
                       enterprise: yes
               -
-                  name: Document storage <small>(Coming 2022)</small>
+                  name: Document storage
                   plans:
                       starter: no
                       premium: {has: yes, text: "Up to 90 days retention"}
@@ -193,9 +193,6 @@ tablion:
               -
                   name: Data request analytics dashboard
                   plans: {starter: yes, premium: yes, enterprise: yes}
-              -
-                  name: Enterprise single sign-on (SSO)
-                  plans: {starter: no, premium: yes, enterprise: yes}
               - 
                   name: Bundle pricing discount
                   plans: {starter: '10%', premium: '15%', enterprise: '20%'}
