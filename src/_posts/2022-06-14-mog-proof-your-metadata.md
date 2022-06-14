@@ -1,6 +1,6 @@
 ---
 layout: post
-title: How does Aristotle Metadata MOG-proof data strategy?
+title: How does Aristotle Metadata MOG-proof your data strategy?
 author: aristotle_press
 img: /aristotle/images/blog/2022-06-14-cogs.jpg
 thumbnail: /aristotle/images/blog/2022-06-14-cogs.jpg
