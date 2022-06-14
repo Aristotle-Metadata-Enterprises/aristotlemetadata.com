@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Is your data strategy MOG-proof?
+title: How does Aristotle Metadata MOG-proof data strategy?
 author: aristotle_press
 img: /aristotle/images/blog/2022-06-14-cogs.jpg
 thumbnail: /aristotle/images/blog/2022-06-14-cogs.jpg
@@ -15,7 +15,7 @@ cta_form:
 ---
 
 
-**A change in government presents a range of challenges for public sector departments – but it shouldn’t change your data strategy.**
+*A change in government presents a range of challenges for public sector departments – but it shouldn’t change your data strategy. *You can MOG-proof your metadata!***
 
 Machinery-of-Government (or MOG) restructures of government departments can streamline policy delivery but requires the merger and separation of business units complicated by IT systems that need to be integrated across department lines. These changes also risk the loss of critical data assets and misalignment of data capabilities between newly merged business areas.
 To make sense of these challenges the public sector need solutions that deliver faster insights from data while future-proofing data strategy to support MOG restructures. This requires systems that make data easier to share and discover across multiple departments.
