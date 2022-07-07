@@ -257,3 +257,16 @@ h4.title a {
 .aristotle-blog-content a {
   text-decoration: underline;
 }
+
+.dropdown-header {
+  color:#5d6778;
+}
+
+.dropdown-menu.superwide > div {
+  display:table-row;
+}
+
+.dropdown-menu.superwide > div > div {
+  display:table-cell;
+  min-width: 150px;
+}
