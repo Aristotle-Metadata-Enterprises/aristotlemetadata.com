@@ -25,8 +25,8 @@
                             <a class="item-link d-block" href="{{ post.url }}">
                                 <div class="row">
                                     <div class="col-12 col-lg-6 order-lg-1">
-                                        <img class="img-fluid shadow"
-                                        style="height: 100%; width: 100%; object-fit: cover; object-position: {% if post.thumbnail-position %}{{post.thumbnail-position}}{% else %}center{% endif %};"
+                                        <img class="img-fluid shadow blog-carousel-image"
+                                        style="object-position: {% if post.thumbnail-position %}{{post.thumbnail-position}}{% else %}center{% endif %};"
                                         src="{{post.img}}" alt="">
                 
                                     </div><!--//col-12-->
