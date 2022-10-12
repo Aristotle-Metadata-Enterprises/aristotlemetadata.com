@@ -23,7 +23,7 @@ The Optus breach demonstrates the importance of managing metadata in your organi
 
 A common record stored by organisations is a person’s identity. This data, including personal details such as a person’s date of birth, contact information, identification details including license numbers and passports carries a lot of data behind it and needs to be protected. What a lot of people don’t realise is that all these details have metadata which appears complex but if managed appropriately adds a layer of protection through the way it is identified and stored.
 
-Cyber security teams using the Aristotle Metadata Registry have reported that the effective management of metadata reduces risks by increasing knowledge on the use and misuse of critical data assets. By developing data asset registers and recording access in Aristotle Cloud systems separate to data, organisations can perform independent audits of data assets to increase security.
+Cyber security teams using the [Aristotle Metadata Registry](https://www.aristotlemetadata.com/products/aristotle-metadata-registry/) have reported that the effective management of metadata reduces risks by increasing knowledge on the use and misuse of critical data assets. By developing data asset registers and recording access in [Aristotle Cloud](https://www.aristotlemetadata.com/products/aristotle-cloud-hosting/) systems separate to data, organisations can perform independent audits of data assets to increase security.
 
 Organisations also note an increase in productivity and efficiency by incorporating a metadata registry to aid faster discovery of data, prior to providing access to sensitive data systems.
 
