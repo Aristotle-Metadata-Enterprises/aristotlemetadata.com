@@ -5,7 +5,7 @@ author: aristotle_press
 
 ---
 
-This month, Artistotle Metadata’s amazing COO, Lauren, was announced as a finalist in IT Security Guru’s Most Inspiring Woman in Cyber 2022. 
+This month, Artistotle Metadata’s amazing COO, Lauren, was announced as a finalist in [IT Security Guru’s Most Inspiring Woman in Cyber 2022](https://www.itsecurityguru.org/2022/10/31/most-inspiring-women-in-cyber-awards-2022/).
 
 Shining light on the amazing women in the cyber industry, IT Security’s awards celebrate women’s achievements and contributions to the ever-expanding cyber industry.
 With this news, we thought what better time to catch up with Lauren to learn about her trajectory within the industry and what advice she has for others when looking to get into the cyber and tech space.
