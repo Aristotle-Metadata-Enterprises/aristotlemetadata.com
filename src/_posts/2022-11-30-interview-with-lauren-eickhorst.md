@@ -24,7 +24,8 @@ There is never a day the same as the last at Aristotle Metadata. As a start-up, 
 
 Prior to creating Aristotle Metadata five years ago, I was working with Sam (our CEO) at Data61 in CSIRO. Before that, I was working at a café and then odd jobs when I was at university. 
 
-Did you have prior experience in cyber and/or tech? If not, how has the learning process been?
+**Did you have prior experience in cyber and/or tech? If not, how has the learning process been?**
+
 I didn’t have experience in the industry ahead of coming to work on Aristotle. Initially, I came on to assist with marketing and communications with my role evolving as we continued to grow. 
 
 The cyber and tech industry is very fluid, and you must be ready and anticipate what’s coming next in the industry and continually upskill to accommodate this. The learning process has been challenging but extremely rewarding.
@@ -43,10 +44,11 @@ The two main challenges I’ve faced, personally, are being a young woman in a n
 
 I’ve worked hard to build on my experience and expertise and am now completing my MBA as the next step. Of course, there are still times when imposter syndrome creeps in, but I have always tried to ‘fake it until you make it’ in these situations. 
 
-What moments are you most proud of since starting Aristotle?
+**What moments are you most proud of since starting Aristotle?**
+
 I’m most proud of our company and our team’s growth, both in size and capability. I’m also proud of my personal growth since starting the company and becoming more confident in myself and my place in the company. 
 
-How do you feel about being nominated as one of the most inspiring women in cyber? And who inspires you?
+**How do you feel about being nominated as one of the most inspiring women in cyber? And who inspires you?**
 
 For me it’s not about winning awards, it’s about doing good stuff and making a difference. 
 Don’t get me wrong, it feels nice and I’m grateful to be nominated for an award, but the recognition and awards are not why I do what I do. 
@@ -55,8 +57,8 @@ I think our software is making a difference and really helping those who use it,
 
 The person who inspires me the most is my mother. She raised me and my sisters as a single parent and has always supported and encouraged me to work hard and pursue my passions, whatever they may be. 
 
+**Do you have any advice for women wanting to transition into a career in cyber or tech?**
 
-Do you have any advice for women wanting to transition into a career in cyber or tech?
 My advice for women who are interested in transitioning into a cyber or tech career is to give it a chance and take the jump, we need more women in these industries. 
 
 You don’t have to necessarily know how to program to get a job in a cyber or tech-led organisation, a lot of skills are transferrable and needed. You can also teach yourself how to code with countless free online courses and many support groups and meet-ups for women in the tech space. If you have a cyber or tech idea, go to networking events and talk to others about it.
