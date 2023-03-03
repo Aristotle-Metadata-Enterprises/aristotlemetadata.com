@@ -1,11 +1,14 @@
 PORT ?= 8000
 
 container:
-	docker run -v "$(realpath .)":/site -w /site -p $(PORT):$(PORT) -it --rm ruby:latest bash
+	docker run -v "$(realpath .)":/site -w /site -p $(PORT):$(PORT) -it --rm ruby:2.7 bash
 
 install:
-	gem install bundler -v 2.0.2
-	bundle _2.0.2_ install
+	# gem install bundler -v 2.0.2
+	# bundle _2.0.2_ install
+	# gem install "rubygems-update:~>3.3.22"
+	gem update --system
+	bundle install
 
 build:
 	JEKYLL_ENV=production jekyll build -s ./src --future
