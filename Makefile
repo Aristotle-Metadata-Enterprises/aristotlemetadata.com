@@ -11,6 +11,7 @@ install:
 	bundle install
 
 build:
+	gem update --system
 	JEKYLL_ENV=production jekyll build -s ./src --future
 
 server:
