@@ -43,7 +43,5 @@ Building a metadata team is essential for managing data effectively. By followin
 
 For more information and resources, download the files below.
 
-< FILES HERE >
-
 * [MAST Business Analyst Position Description]()(/aristotle/media/MAST Business Analyst Role Description.pdf)
 * [MAST Business Metadata Analyst Interview Questions](/aristotle/media/MAST Business Metadata Analyst Interview Questions.pdf)
