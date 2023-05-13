@@ -49,7 +49,7 @@ registry:
                   name: Separate organisations
                   link: organisations
                   plans:
-                      {micro: no, mini: no, small: 5, medium: 10, large: Unlimited}
+                      {micro: no, mini: no, small: yes, medium: yes, large: yes}
 
       -
           group: "Registry features"
