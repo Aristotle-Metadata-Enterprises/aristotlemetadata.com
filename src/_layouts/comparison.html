@@ -116,13 +116,13 @@
                                         {% if feature.them == true %}
                                             <i class="text-success fa fa-check"></i>
                                         {% elsif feature.them == false %}
-                                            {% if page.competitor%}
+                                            {% if page.competitor %}
                                                 <i class="fa fa-times text-danger"></i>
                                             {% else %}
                                                 <i class="fa fa-minus"></i>
                                             {% endif %}
-                                            
-
+                                        {% elsif feature.them == 'partial' %}
+                                            <i class="fas fa-circle text-warning"></i>
                                         {% else %}
                                             {{feature.them}}
                                         {% endif %}
