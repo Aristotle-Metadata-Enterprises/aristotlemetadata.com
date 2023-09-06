@@ -1,3 +1,7 @@
+---
+layout: nil
+---
+
 Contact: mailto:security@aristotlemetadata.com
 Expires: 2024-01-31T01:00:00.000Z
 Preferred-Languages: en
