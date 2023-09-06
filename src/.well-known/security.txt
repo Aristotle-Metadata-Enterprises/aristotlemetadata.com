@@ -1,0 +1,9 @@
+Contact: mailto:security@aristotlemetadata.com
+Expires: 2024-01-31T01:00:00.000Z
+Preferred-Languages: en
+Canonical: https://aristotlemetadata.com/.well-known/security.txt
+Policy: https://www.aristotlemetadata.com/legal/responsible-disclosure-policy
+
+# Note: You may have been redirected to this file from a production Aristotle Metadata Registry.
+# Aristotle Metadata operates this as the security.txt for all client system,
+# and vulnerabilities should be reported to the above email in accordance with the above policies
