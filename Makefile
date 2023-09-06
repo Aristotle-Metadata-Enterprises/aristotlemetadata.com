@@ -13,6 +13,7 @@ install:
 build:
 	# gem update --system
 	JEKYLL_ENV=production jekyll build -s ./src --future
+	cp ./src/.well-known ./_site
 
 server:
 	killall ruby || true
