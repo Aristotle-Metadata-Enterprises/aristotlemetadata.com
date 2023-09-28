@@ -8,3 +8,6 @@ Getting this running in docker:
 4. If you are on windows:
     * Also install `gem install wdm`
     * Run: `jekyll serve -s ./src -H0.0.0.0 -P80 --future --watch --force_polling`
+
+## How to deploy updates
+TODO
