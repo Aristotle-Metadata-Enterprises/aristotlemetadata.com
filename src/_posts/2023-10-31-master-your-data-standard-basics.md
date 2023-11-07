@@ -26,7 +26,7 @@ The standards we follow are not just made by any random person. They're created 
 
 *At the end of the day, it’s about trust and reliability.*
 
-## Should organisations and create own data standards?
+## Should organisations and create their own data standards?
 
 It's a bit of a yes and no situation. It really depends.
 
