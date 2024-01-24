@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Aristotle Metadata announces outcomes of December 2023 IRAP report"
+title: "Aristotle Metadata announces outcomes of December 2023 IRAP assessment"
 author: aristotle_press
 img: /aristotle/images/blog/irap-banner.png
 thumbnail: /aristotle/images/blog/irap-banner.png
