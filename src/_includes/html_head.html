@@ -19,7 +19,11 @@
   {% if layout.is_blog %}
     <meta property="og:type" content="article" />
     <meta property="og:description" content="{{ page.content | markdownify | strip_html | truncatewords:50}}">
+    {% if page.og.image.img %}
+    <meta property="og:image" content="{{ page.image.img }}" />
+    {% else %}
     <meta property="og:image" content="{{ page.img | default: '/aristotle/aristotle_logo_256.png' }}" />
+    {% endif %}
     <meta property="og:image" content="{{ page.og.image.width | default: '128px' }}" />
     <meta property="og:image" content="{{ page.og.image.height | default: '128px' }}" />
     <meta property="og:author" content="{{ site.authors[page.author].display_name }}" />

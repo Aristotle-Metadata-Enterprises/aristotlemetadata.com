@@ -2,9 +2,11 @@
 layout: post
 title: "Aristotle Metadata announces outcomes of December 2023 IRAP assessment"
 author: aristotle_press
-img: /aristotle/images/blog/irap-banner.png
-thumbnail: /aristotle/images/blog/irap-banner-square.png
+img: /aristotle/images/blog/irap-banner-square.png
+thumbnail: /aristotle/images/blog/irap-banner.png
 img-position: middle;
+og:
+    img: /aristotle/images/blog/irap-banner.png
 ---
 
 [Aristotle Metadata](https://www.aristotlemetadata.com/) is proud to announce three products have been IRAP assessed on 19 December 2023 against the ISM Protected level controls. A copy of the IRAP assessment is available from security@aristotlemetadata.com.
