@@ -29,7 +29,15 @@ Who is this for:
 * Users of metadata and data registries, from data stewards to academics.
 * Business owners looking to improve their data safety and processes.
 
-This initial workshop is only available to a limited number of participants. [After completing your expression of interest, our team will review your application and reach out to advice you of your acceptance in the micro-certification program.](https://us4.list-manage.com/survey?u=56ced8b0b5ff44f029d61ab78&id=012ca84d16&attribution=false)
+These initial workshops are only available to a limited number of participants. [After completing your expression of interest, our team will review your application and reach out to advice you of your acceptance in the micro-certification program.](https://us4.list-manage.com/survey?u=56ced8b0b5ff44f029d61ab78&id=012ca84d16&attribution=false)
+
+The upcoming dates for this certification program are:
+
+* Canberra - Friday 3 May, 2024
+* New Zealand - Thursday 9 May, 2024 (Must be a registered attendee of NZ Data Summit - https://nzgovdata.co/agenda/)
+* Nova Scotia, Canada - Tuesday 28 May, 2024 (Must be a registered attendee of IASSIST)
+* Sydney - Friday 12 July, 2024
+* Canberra - Friday 19 July, 2024
 
 [To register for the Expression of Interest, click here](https://us4.list-manage.com/survey?u=56ced8b0b5ff44f029d61ab78&id=012ca84d16&attribution=false) and if you'd like to learn more about the MAST/IDEAL Methodology, see the video below or visit [mastmethodology.com](http://www.mastmethodology.com).
 
