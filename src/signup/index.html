@@ -39,7 +39,15 @@ og:
                                  — a system for everyone in your team, where they can capture what your data means.
                             </p>
                             <div class="auth-form-container text-left mx-auto">
-                                <form netlify name="REGISTRY_SIGNUP" class="auth-form signup-form" action="/signup/confirmation" method="POST">
+                                <form netlify name="REGISTRY_SIGNUP" 
+                                    netlify-honeypot="i-am-bender-please-insert-girder"
+                                    data-netlify="true"
+                                    class="auth-form signup-form" action="/signup/confirmation" method="POST">
+                                    <p class="hidden">
+                                        <label>
+                                          Don’t fill this out if you’re human: <input name="i-am-bender-please-insert-girder" />
+                                        </label>
+                                      </p>                                    
                                     <div class="form-group email pt-2">
                                         <label class="" for="signup-email"><b>What is your work email address?</b></label>
                                         <input id="signup-email" name="signup-email" type="email" class="form-control signup-email" placeholder="Your email" required="required">
@@ -138,7 +146,7 @@ og:
                         src="/aristotle/assets/home/589sam_aristotle-01-trimmed.svg" alt="">
 
                     <div class="mx-5 auth-promo-content over-curve text-white text-center">
-                        <h4 class="auth-promo-heading text-center text-white mb-4">6 Month Free Trial</h4>
+                        <h4 class="auth-promo-heading text-center text-white mb-4">Register for a free trial</h4>
                         <div class="auth-promo-desc mx-auto d-inline-block">
                             <p>
                                 Put us to the test with an unrestricted trial of all the features and benefits
