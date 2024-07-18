@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Building a Data-Conscious Culture: The Role of Metadata in Cybersecurity and Data Management
+title: "Building a Data-Conscious Culture: The Role of Metadata in Cybersecurity and Data Management"
 author: aristotle_press
 ---
 
