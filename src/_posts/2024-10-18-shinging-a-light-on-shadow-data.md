@@ -1,11 +1,11 @@
 ---
 layout: post
-title: Shining a Light on Shadow Data: What It Is and How to Manage It
+title: "Shining a Light on Shadow Data: What It Is and How to Manage It"
 author: aristotle_press
 
 ---
 
-Every organisation has lots of data—whether it’s in well-organised databases or scattered across spreadsheets and old systems. But what about the data you don’t even realise you have? Aptly named Shadow Data, this data exists outside of formal processes, hiding in the shadows, out of view, ungoverned and unmanaged. Not only can it lead to operational inefficiencies and duplicate costs, it can pose serious security risks to your organisation.
+Every organisation has lots of data — whether it’s in well-organised databases or scattered across spreadsheets and old systems. But what about the data you don’t even realise you have? Aptly named Shadow Data, this data exists outside of formal processes, hiding in the shadows, out of view, ungoverned and unmanaged. Not only can it lead to operational inefficiencies and duplicate costs, it can pose serious security risks to your organisation.
 To help you shine a light in your shadow data, we explore what shadow data is, why it’s a problem, and how you can begin to manage it effectively.
 
 ## What is Shadow Data?
