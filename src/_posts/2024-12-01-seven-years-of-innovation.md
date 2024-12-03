@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Aristotle Metadata Featured in the 2024 Gartner® Market Guide for Data and Analytics Governance Platforms"
+title: "Seven Years of Innovation: Celebrating Aristotle Metadata’s 2024 Milestones"
 author: aristotle_press
 ---
 
