@@ -22,7 +22,9 @@ Being part of these conversations on sustainable growth and data innovation was 
 
 In June, we were honored to win the [Technology Platform award at the 2024 iAwards](https://aiia.com.au/iaward/2024-act-winners-and-merit-recipients/) for our collaboration with [Metadata.NSW](https://metadata.nsw.gov.au/home/) on the [NSW Data Passport platform](https://publicspectrum.co/revolutionising-data-governance-the-role-of-metadata-nsw-in-nsw-government-cyber-security-compliance/). This solution has transformed the way government data is shared, reducing turnaround times from months to minutes while maintaining the highest standards of security and governance.
 
-Winning this award was a powerful reminder of what we can achieve when innovation, teamwork, and a commitment to excellence come together. It also serves as a great case study in one of our driving beliefs: that data security and data sharing are not mutually exclusive.**A Commitment to Inclusion**
+Winning this award was a powerful reminder of what we can achieve when innovation, teamwork, and a commitment to excellence come together. It also serves as a great case study in one of our driving beliefs: that data security and data sharing are not mutually exclusive.
+
+## A Commitment to Inclusion
 
 Aristotle Metadata is proud to be a women-founded company, an important distinction within the tech industry that has shaped our DNA from the start. With recent equal pay initiatives announced by the [Workplace Gender Equality Agency (WGEA),](https://www.wgea.gov.au/) we’re proud to be ahead of the curve. 
 
